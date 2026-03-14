@@ -1,0 +1,4 @@
+H2H_COLS=['team_a', 'team_b', 'total_matches', 'team_a_wins', 'team_b_wins', 'no_result']
+DIM_COLS=['match_id', 'match_file', 'match_date', 'season', 'venue', 'city', 'team1', 'team2', 'toss_winner', 'toss_decision', 'winner', 'win_by_runs', 'win_by_wickets', 'player_of_match', 'balls_per_over']
+H2H_SAMPLE=('Australia', 'England', 26, 12, 12, 2)
+DIM_SAMPLE=(1, '1001349.json', datetime.date(2017, 2, 17), '2016/17', 'Melbourne Cricket Ground', None, 'Australia', 'Sri Lanka', 'Sri Lanka', 'field', 'Sri Lanka', None, 5, 'DAS Gunaratne', 6)

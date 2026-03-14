@@ -1,0 +1,35 @@
+DIM_MATCH COLS:
+  match_id
+  match_file
+  match_date
+  season
+  venue
+  city
+  team1
+  team2
+  toss_winner
+  toss_decision
+  winner
+  win_by_runs
+  win_by_wickets
+  player_of_match
+  balls_per_over
+
+SAMPLE ROW:
+  match_id: 1
+  match_file: 1001349.json
+  match_date: 2017-02-17
+  season: 2016/17
+  venue: Melbourne Cricket Ground
+  city: None
+  team1: Australia
+  team2: Sri Lanka
+  toss_winner: Sri Lanka
+  toss_decision: field
+  winner: Sri Lanka
+  win_by_runs: None
+  win_by_wickets: 5
+  player_of_match: DAS Gunaratne
+  balls_per_over: 6
+
+TABLES: ['dim_match', 'dim_player', 'dim_squad_2026', 'dim_team', 'fact_delivery', 'player_name_map']

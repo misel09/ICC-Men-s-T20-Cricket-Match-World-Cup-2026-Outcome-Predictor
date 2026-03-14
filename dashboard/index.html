@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T20 World Cup 2026 - Master Analytics</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="back-blob blob-1"></div>
+    <div class="back-blob blob-2"></div>
+    <div class="back-blob blob-3"></div>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <nav class="sidebar glass-panel">
+            <div class="brand">
+                <i class="fa-solid fa-trophy brand-icon"></i>
+                <h1>T20 WC '26<br><span>Gold Analytics</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-tab="overview"><i class="fa-solid fa-chart-pie"></i> Overview</li>
+                <li data-tab="players"><i class="fa-solid fa-user-astronaut"></i> Player Stats</li>
+                <li data-tab="teams"><i class="fa-solid fa-people-group"></i> Team Matchups</li>
+                <li data-tab="venues"><i class="fa-solid fa-map-location-dot"></i> Venue Insights</li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="topbar glass-panel">
+                <div class="search-bar">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search players, teams, or venues...">
+                </div>
+                <div class="user-profile">
+                    <div class="status-dot"></div>
+                    <span>Data Live: Gold Layer</span>
+                </div>
+            </header>
+
+            <div class="content-area">
+                <!-- Overview Tab -->
+                <div id="overview" class="tab-content active">
+                    <div class="kpi-cards">
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div class="kpi-details">
+                                <h3>Total Matches Loaded</h3>
+                                <p>1,717 <span class="trend up"><i class="fa-solid fa-arrow-up"></i> Fast Smart Skip ETL</span></p>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-icon"><i class="fa-solid fa-id-card-clip"></i></div>
+                            <div class="kpi-details">
+                                <h3>Players Mapped</h3>
+                                <p>292 / 300 <span class="trend up"><i class="fa-solid fa-arrow-up"></i> 97.3% Match Rate</span></p>
+                            </div>
+                        </div>
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <div class="kpi-details">
+                                <h3>Gold Views Active</h3>
+                                <p>9 <span class="trend netural"><i class="fa-solid fa-check"></i> Fully Optimized</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="charts-grid">
+                        <div class="chart-container glass-panel span-2">
+                            <h2><i class="fa-solid fa-chart-line"></i> Total Runs & Wickets Growth</h2>
+                            <p class="subtitle">Historical T20 Data leading into 2026 World Cup</p>
+                            <div class="chart-wrapper">
+                                <canvas id="overviewChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-container glass-panel">
+                            <h2><i class="fa-solid fa-location-crosshairs"></i> Venue Quick View</h2>
+                            <p class="subtitle">Avg 2nd Innings Score (Unified Stadium Names)</p>
+                            <div class="chart-wrapper">
+                                <canvas id="venueOverviewChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Players Tab -->
+                <div id="players" class="tab-content">
+                    <div class="charts-grid">
+                        <div class="chart-container glass-panel">
+                            <h2><i class="fa-solid fa-baseball-bat-ball"></i> Batter Impact Profile</h2>
+                            <p class="subtitle">Aggregated Full-Name Stats (`vw_batter_stats`)</p>
+                            <div class="chart-wrapper">
+                                <canvas id="batterRadarChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-container glass-panel">
+                            <h2><i class="fa-solid fa-bowling-ball"></i> Bowler Efficiency Matrix</h2>
+                            <p class="subtitle">Economy vs Strike Rate (`vw_bowler_stats`)</p>
+                            <div class="chart-wrapper">
+                                <canvas id="bowlerScatterChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Teams Tab -->
+                <div id="teams" class="tab-content">
+                    <div class="charts-grid single-col">
+                        <div class="chart-container glass-panel flex-grow">
+                            <h2><i class="fa-solid fa-handshake-angle"></i> Head-to-Head Consistency</h2>
+                            <p class="subtitle">Consolidated View: Filtered strictly to historical matches between 2026 Squads (`vw_team_head_to_head`)</p>
+                            <div class="chart-wrapper">
+                                <canvas id="h2hBarChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venues Tab -->
+                <div id="venues" class="tab-content">
+                     <div class="charts-grid single-col">
+                        <div class="chart-container glass-panel flex-grow">
+                            <h2><i class="fa-solid fa-stadium"></i> Unified Stadium Analytics</h2>
+                            <p class="subtitle">Suffixes Removed: Comparing 1st vs 2nd Innings Avg Scores (`vw_venue_stats`)</p>
+                            <div class="chart-wrapper">
+                                <canvas id="venueLineChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
