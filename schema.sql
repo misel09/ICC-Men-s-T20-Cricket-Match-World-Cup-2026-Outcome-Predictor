@@ -20,7 +20,7 @@ DROP TABLE IF EXISTS dim_squad_2026 CASCADE;
 DROP TABLE IF EXISTS player_name_map CASCADE;
 
 -- ────────────────────────────────────────────────────────────
--- BRONZE/DIMENSION LAYER
+-- BRONZE LAYER
 -- ────────────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS dim_match (
     match_id        SERIAL PRIMARY KEY,
@@ -78,8 +78,8 @@ CREATE TABLE IF NOT EXISTS fact_delivery (
     inning          INT,
     over_number     INT,
     ball_number     INT,
-    batter          TEXT,  -- Stored as Cricsheet Name directly
-    bowler          TEXT,  -- Stored as Cricsheet Name directly
+    batter          TEXT,  
+    bowler          TEXT, 
     non_striker     TEXT,
     runs_batter     INT DEFAULT 0,
     runs_extras     INT DEFAULT 0,
@@ -186,17 +186,36 @@ GROUP BY sq.player_name, sq.team;
 
 -- 6. TEAM HEAD TO HEAD (SQUAD TEAMS ONLY)
 CREATE OR REPLACE VIEW vw_team_head_to_head AS
+WITH mapped_teams AS (
+    SELECT 
+        CASE 
+            WHEN team1 = 'United States of America' THEN 'USA'
+            WHEN team1 = 'United Arab Emirates' THEN 'UAE'
+            ELSE team1 
+        END AS m_team1,
+        CASE 
+            WHEN team2 = 'United States of America' THEN 'USA'
+            WHEN team2 = 'United Arab Emirates' THEN 'UAE'
+            ELSE team2 
+        END AS m_team2,
+        CASE 
+            WHEN winner = 'United States of America' THEN 'USA'
+            WHEN winner = 'United Arab Emirates' THEN 'UAE'
+            ELSE winner 
+        END AS m_winner
+    FROM dim_match
+)
 SELECT
-    LEAST(team1, team2) AS team_a,
-    GREATEST(team1, team2) AS team_b,
+    LEAST(m_team1, m_team2) AS team_a,
+    GREATEST(m_team1, m_team2) AS team_b,
     COUNT(*) AS total_matches,
-    SUM(CASE WHEN winner = LEAST(team1, team2) THEN 1 ELSE 0 END) AS team_a_wins,
-    SUM(CASE WHEN winner = GREATEST(team1, team2) THEN 1 ELSE 0 END) AS team_b_wins,
-    SUM(CASE WHEN winner IS NULL THEN 1 ELSE 0 END) AS no_result
-FROM dim_match
-WHERE team1 IN (SELECT DISTINCT team FROM dim_squad_2026)
-  AND team2 IN (SELECT DISTINCT team FROM dim_squad_2026)
-GROUP BY LEAST(team1, team2), GREATEST(team1, team2);
+    SUM(CASE WHEN m_winner = LEAST(m_team1, m_team2) THEN 1 ELSE 0 END) AS team_a_wins,
+    SUM(CASE WHEN m_winner = GREATEST(m_team1, m_team2) THEN 1 ELSE 0 END) AS team_b_wins,
+    SUM(CASE WHEN m_winner IS NULL THEN 1 ELSE 0 END) AS no_result
+FROM mapped_teams
+WHERE m_team1 IN (SELECT DISTINCT team FROM dim_squad_2026)
+  AND m_team2 IN (SELECT DISTINCT team FROM dim_squad_2026)
+GROUP BY LEAST(m_team1, m_team2), GREATEST(m_team1, m_team2);
 
 -- 7. VENUE STATS (1ST & 2ND INNINGS AVG)
 CREATE OR REPLACE VIEW vw_venue_stats AS
