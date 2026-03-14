@@ -1,0 +1,10 @@
+# ── Data I/O ──────────────────────────────────────────────────────────────────
+pandas>=2.2.3          # In-memory data manipulation & flattening JSON
+# ── PostgreSQL Driver ─────────────────────────────────────────────────────────
+psycopg2-binary>=2.9.10 # Low-level adapter – lets Python talk to Postgres
+# ── ORM / SQL abstraction ─────────────────────────────────────────────────────
+sqlalchemy>=2.0.36     # Maps Python objects → SQL tables (handles connection pooling)
+# ── Env variable management ───────────────────────────────────────────────────
+python-dotenv>=1.0.1   # Loads DB credentials from a .env file (security best practice)
+# ── Fuzzy name matching ───────────────────────────────────────────────────────
+rapidfuzz>=3.0.0       # Fast fuzzy string matching to bridge name differences across datasets
