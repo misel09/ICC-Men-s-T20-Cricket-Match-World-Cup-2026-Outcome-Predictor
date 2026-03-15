@@ -103,35 +103,52 @@ COLORS = ["#00f2fe","#f59e0b","#10b981","#ef4444","#8b5cf6",
 _GRID  = "rgba(255,255,255,0.05)"
 
 def _base():
-    return dict(
-        plot_bgcolor  = "rgba(0,0,0,0)",
-        paper_bgcolor = "rgba(0,0,0,0)",
-        font          = dict(color="#e2e8f0", family="Outfit", size=12),
-        legend        = dict(bgcolor="rgba(11,13,23,.85)",
-                             bordercolor="rgba(0,242,254,.2)", borderwidth=1),
-        hoverlabel    = dict(bgcolor="rgba(11,13,23,.95)", bordercolor="#00f2fe",
-                             font_size=13, font_family="Outfit"),
-        margin        = dict(l=10, r=10, t=50, b=10),
-    )
+    return {
+        "plot_bgcolor": "rgba(0,0,0,0)",
+        "paper_bgcolor": "rgba(0,0,0,0)",
+        "font": {"color": "#e2e8f0", "family": "Outfit", "size": 12},
+        "legend": {
+            "bgcolor": "rgba(11,13,23,.85)",
+            "bordercolor": "rgba(0,242,254,.2)",
+            "borderwidth": 1
+        },
+        "hoverlabel": {
+            "bgcolor": "rgba(11,13,23,.95)",
+            "bordercolor": "#00f2fe",
+            "font_size": 13,
+            "font_family": "Outfit"
+        },
+        "margin": {"l": 10, "r": 10, "t": 50, "b": 10}
+    }
 
 def theme(fig, grid=True, **kw):
     """Apply dark theme. grid=False for Pie/Treemap/Heatmap."""
-    fig.update_layout(**_base(), **kw)
+    layout_cfg = _base()
+    layout_cfg.update(kw)
+    fig.update_layout(**layout_cfg)
     if grid:
         fig.update_xaxes(gridcolor=_GRID, zeroline=False, tickfont_size=11)
         fig.update_yaxes(gridcolor=_GRID, zeroline=False, tickfont_size=11)
     return fig
 
-# ── DB LAYER ─────────────────────────────────────────────────
 @st.cache_resource
 def get_conn():
     try:
+        host = os.getenv("DB_HOST", "").strip()
+        port = os.getenv("DB_PORT", "").strip()
+        user = os.getenv("DB_USER", "").strip()
+        password = os.getenv("DB_PASSWORD", "").strip()
+        dbname = os.getenv("DB_NAME", "").strip()
+        
+        if not all([host, port, user, dbname]):
+            return None
+            
         return psycopg2.connect(
-            host     = os.getenv("DB_HOST","127.0.0.1"),
-            port     = int(os.getenv("DB_PORT","5432")),
-            user     = os.getenv("DB_USER","postgres"),
-            password = os.getenv("DB_PASSWORD","").strip(),
-            dbname   = os.getenv("DB_NAME","t20_world_cup").strip()
+            host     = host,
+            port     = int(port),
+            user     = user,
+            password = password,
+            dbname   = dbname
         )
     except Exception:
         return None
@@ -274,8 +291,10 @@ def get_venue_custom_kpis(venue: str):
               AND winner IS NOT NULL AND winner != 'No result'
         """
         bf_df = pd.read_sql(sql_bf, conn, params={'v': venue})
-        if not bf_df.empty and bf_df['total'].iloc[0] > 0:
-            bf_pct = round(bf_df['bf_wins'].iloc[0] / bf_df['total'].iloc[0] * 100, 1)
+        if not bf_df.empty and int(bf_df['total'].iloc[0]) > 0:
+            total_m = int(bf_df['total'].iloc[0])
+            bf_w = int(bf_df['bf_wins'].iloc[0])
+            bf_pct = float(f"{bf_w / total_m * 100:.1f}")
 
         # 3. Avg Innings (calculated from fact_delivery directly)
         sql_inn = """
@@ -393,6 +412,66 @@ def get_team_phase_stats(team_name):
     except Exception:
         return pd.DataFrame()
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_all_phase_stats():
+    """Aggregated stats for all teams across phases."""
+    conn = get_conn()
+    if conn is None: return pd.DataFrame()
+    try:
+        sql = """
+            WITH match_teams AS (
+                SELECT match_id, team1 as team, 
+                       CASE WHEN (toss_decision = 'bat' AND toss_winner = team1) OR (toss_decision = 'field' AND toss_winner = team2) THEN 1 ELSE 2 END as batting_inn
+                FROM dim_match
+                UNION ALL
+                SELECT match_id, team2 as team, 
+                       CASE WHEN (toss_decision = 'bat' AND toss_winner = team2) OR (toss_decision = 'field' AND toss_winner = team1) THEN 1 ELSE 2 END as batting_inn
+                FROM dim_match
+            )
+            SELECT 
+                mt.team,
+                v.match_phase,
+                AVG(v.runs_scored) as avg_runs
+            FROM vw_phase_analysis v
+            JOIN match_teams mt ON v.match_id = mt.match_id AND v.inning = mt.batting_inn
+            GROUP BY mt.team, v.match_phase
+        """
+        return pd.read_sql(sql, conn)
+    except Exception:
+        return pd.DataFrame()
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_team_over_progression(team_name):
+    """Average runs per over (1-20) for the selected team."""
+    conn = get_conn()
+    if conn is None: return pd.DataFrame()
+    try:
+        sql = """
+            WITH team_innings AS (
+                SELECT 
+                    match_id,
+                    CASE 
+                        WHEN (team1 = %(t)s AND ((toss_winner = team1 AND toss_decision = 'bat') OR (toss_winner = team2 AND toss_decision = 'field')))
+                          OR (team2 = %(t)s AND ((toss_winner = team2 AND toss_decision = 'bat') OR (toss_winner = team1 AND toss_decision = 'field')))
+                        THEN 1
+                        ELSE 2
+                    END as inn
+                FROM dim_match
+                WHERE team1 = %(t)s OR team2 = %(t)s
+            )
+            SELECT f.over_number + 1 as over, AVG(over_runs) as avg_runs
+            FROM (
+                SELECT f.match_id, f.over_number, SUM(f.runs_total) as over_runs
+                FROM fact_delivery f
+                JOIN team_innings ti ON f.match_id = ti.match_id AND f.inning = ti.inn
+                GROUP BY f.match_id, f.over_number
+            ) d
+            GROUP BY 1 ORDER BY 1
+        """
+        return pd.read_sql(sql, conn, params={'t': team_name})
+    except Exception:
+        return pd.DataFrame()
+
 
 
 # ── LOAD DATA ────────────────────────────────────────────────
@@ -431,10 +510,7 @@ sel_venues = st.sidebar.multiselect("🏟️ Filter Venues", all_venues, placeho
 st.sidebar.markdown("---")
 pn = C(df_bat, "player_name","batter","name")
 bn = C(df_bowl,"player_name","bowler","name")
-if pn: st.sidebar.metric("Batters", f"{df_bat[pn].nunique():,}")
-if bn: st.sidebar.metric("Bowlers", f"{df_bowl[bn].nunique():,}")
-if vc: st.sidebar.metric("Venues",  f"{df_ven[vc].nunique()}")
-st.sidebar.markdown("<div style='font-size:.65rem;color:#334155;text-align:center;margin-top:12px'>Refreshes every 60 min · PostgreSQL Gold Layer</div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='font-size:.65rem;color:#334155;text-align:center;margin-top:12px'>Refreshes every 60 min · cricket_userQL Gold Layer</div>", unsafe_allow_html=True)
 
 # ── FILTERED FRAMES ──────────────────────────────────────────
 bf  = df_bat[df_bat[tbc].isin(sel_teams)]  if (sel_teams and tbc) else df_bat.copy()
@@ -450,7 +526,7 @@ st.markdown("""
     🏏 T20 WC '26 Master Analytics
   </h1>
   <p style='color:#ffffff;font-size:1.1rem;margin:4px 0 0 2px;font-weight:500'>
-    Live Intelligence · PostgreSQL Gold Layer · ICC Men's T20 World Cup 2026
+    Live Intelligence · cricket_userQL Gold Layer · ICC Men's T20 World Cup 2026
   </p>
 </div>
 <div style='height:4px;background:linear-gradient(90deg,#00f2fe,#4facfe,transparent);
@@ -500,7 +576,7 @@ with T[0]:
                     for col_obj, (lbl, val) in zip(
                         st.columns(4),
                         [(f"🔵 {ta} Wins", wa),
-                         (f"{round(wa/tot*100,1) if tot else 0}% Win Rate", ta),
+                         (f"{float(wa/tot*100) if tot else 0:.1f}% Win Rate", ta),
                          (f"🔴 {tb} Wins", wb),
                          ("Total Games", tot)]
                     ):
@@ -518,11 +594,11 @@ with T[0]:
                         fig = go.Figure(go.Pie(
                             labels=[ta, tb], values=[wa, wb], hole=0.6,
                             pull=[0.04, 0],
-                            marker=dict(colors=["#00f2fe","#ef4444"],
-                                        line=dict(color="#0b0d17", width=3))
+                            marker={"colors": ["#00f2fe","#ef4444"],
+                                    "line": {"color": "#0b0d17", "width": 3}}
                         ))
                         theme(fig, grid=False,
-                              title=dict(text="Win Distribution", x=0.5, font_size=14))
+                              title={"text": "Win Distribution", "x": 0.5, "font_size": 14})
                         fig.update_traces(textfont_size=13)
                         st.plotly_chart(fig, use_container_width=True)
 
@@ -541,10 +617,10 @@ with T[0]:
                                 values=[bf_wins, bs_wins],
                                 hole=0.62,
                                 pull=[0.04, 0],
-                                marker=dict(
-                                    colors=["#00f2fe", "#f59e0b"],
-                                    line=dict(color="#0b0d17", width=3)
-                                ),
+                                marker={
+                                    "colors": ["#00f2fe", "#f59e0b"],
+                                    "line": {"color": "#0b0d17", "width": 3}
+                                },
                                 textinfo="label+value",
                                 textfont_size=12,
                                 hovertemplate=(
@@ -559,13 +635,13 @@ with T[0]:
                                     f"<span style='font-size:10px'>Total<br>Matches</span>"
                                 ),
                                 x=0.5, y=0.5, showarrow=False,
-                                font=dict(size=15, color="#e2e8f0", family="Outfit")
+                                font={"size": 15, "color": "#e2e8f0", "family": "Outfit"}
                             )
                             theme(fig2, grid=False,
-                                  title=dict(
-                                      text=f"Chase vs Defend — {ta} vs {tb}",
-                                      x=0.5, font_size=13
-                                  ))
+                                  title={
+                                      "text": f"Chase vs Defend — {ta} vs {tb}",
+                                      "x": 0.5, "font_size": 13
+                                  })
                             st.plotly_chart(fig2, use_container_width=True)
                             # Mini stat line below the chart
                             st.markdown(
@@ -609,7 +685,7 @@ with T[0]:
                                 marker_line_width=0,
                                 text=piv[ta],
                                 textposition="outside",
-                                textfont=dict(size=11, color="#00f2fe"),
+                                textfont={"size": 11, "color": "#00f2fe"},
                                 hovertemplate=(
                                     f"<b>{ta}</b><br>"
                                     "Year: <b>%{x}</b><br>"
@@ -625,7 +701,7 @@ with T[0]:
                                 marker_line_width=0,
                                 text=piv[tb],
                                 textposition="outside",
-                                textfont=dict(size=11, color="#ef4444"),
+                                textfont={"size": 11, "color": "#ef4444"},
                                 hovertemplate=(
                                     f"<b>{tb}</b><br>"
                                     "Year: <b>%{x}</b><br>"
@@ -641,12 +717,12 @@ with T[0]:
                             xaxis_title="Year",
                             yaxis_title="Matches Won",
                             height=400,
-                            xaxis=dict(
-                                type="category",
-                                tickangle=-30,
-                                tickfont=dict(size=11)
-                            ),
-                            yaxis=dict(dtick=1)
+                            xaxis={
+                                "type": "category",
+                                "tickangle": -30,
+                                "tickfont": {"size": 11}
+                            },
+                            yaxis={"dtick": 1}
                         )
                         st.plotly_chart(fig_yr, use_container_width=True)
 
@@ -962,7 +1038,7 @@ with T[3]:
                         marker_line_width=0,
                         text=t_inn1,
                         textposition="outside",
-                        textfont=dict(size=12, color="#00e5d1"),
+                        textfont={"size": 12, "color": "#00e5d1"},
                         hovertemplate="<b>1st Innings</b><br>Phase: %{x}<br>Avg Runs: <b>%{y}</b><extra></extra>"
                     ))
                     fig_ph.add_trace(go.Bar(
@@ -973,7 +1049,7 @@ with T[3]:
                         marker_line_width=0,
                         text=t_inn2,
                         textposition="outside",
-                        textfont=dict(size=12, color="#f5c518"),
+                        textfont={"size": 12, "color": "#f5c518"},
                         hovertemplate="<b>2nd Innings</b><br>Phase: %{x}<br>Avg Runs: <b>%{y}</b><extra></extra>"
                     ))
 
@@ -1270,6 +1346,92 @@ with T[5]:
                             </div>
                         """, unsafe_allow_html=True)
             st.markdown("<div style='height:20px'></div>", unsafe_allow_html=True)
+
+            # --- 📈 Run Rate Progression Section ---
+            st.markdown(f"""
+                <div style="margin-top:20px; margin-bottom:16px;">
+                    <div style="font-size:1.5rem; font-weight:700; color:#ffffff;">📈 Run Rate Progression — Over by Over</div>
+                    <div style="font-size:0.85rem; color:#9ca3af; margin-top:4px;">Average runs scored per over for {sel_pha_team}</div>
+                </div>
+            """, unsafe_allow_html=True)
+            
+            df_prog = get_team_over_progression(sel_pha_team)
+            if not df_prog.empty:
+                fig_prog = px.line(df_prog, x="over", y="avg_runs",
+                                   labels={"over": "Over", "avg_runs": "Avg Runs"},
+                                   markers=True)
+                fig_prog.update_traces(line_color="#00f2fe", line_width=3, 
+                                     marker=dict(size=8, color="#0b0d17", 
+                                     line=dict(width=2, color="#00f2fe")))
+                theme(fig_prog, xaxis={"dtick": 1, "range": [0.5, 20.5]}, 
+                      yaxis={"gridcolor": "rgba(255,255,255,0.05)"})
+                st.plotly_chart(fig_prog, use_container_width=True)
+            else:
+                st.info("No over-by-over data available.")
+
+            st.markdown("<div style='height:40px'></div>", unsafe_allow_html=True)
+
+            # --- Phase-wise Team Comparison Section ---
+            st.markdown("""
+                <div style="margin-top:20px; margin-bottom:16px;">
+                    <div style="font-size:1.5rem; font-weight:700; color:#ffffff;">📊 Phase-wise Team Comparison</div>
+                    <div style="font-size:0.85rem; color:#9ca3af; margin-top:4px;">Runs per phase across all teams</div>
+                </div>
+            """, unsafe_allow_html=True)
+
+            df_all_pha = get_all_phase_stats()
+            if not df_all_pha.empty:
+                # Normalise phase names (consistent with Venue phase chart)
+                pm = {
+                    "Powerplay (0-5)": "Powerplay (1-6)", "Powerplay (1-6)": "Powerplay (1-6)",
+                    "Middle Overs (6-14)": "Middle (7-15)", "Middle Overs (6-15)": "Middle (7-15)",
+                    "Death Overs (15-19)": "Death (16-20)", "Death Overs (16-20)": "Death (16-20)"
+                }
+                df_all_pha["phase_label"] = df_all_pha["match_phase"].map(lambda x: next((v for k,v in pm.items() if k in x), x))
+                
+                # Filter strictly to requested teams & aggregate
+                target_teams = ['Afghanistan', 'Australia', 'Canada', 'England', 'India', 'Ireland', 'Italy', 'Namibia', 'Nepal', 'Netherlands']
+                df_c = df_all_pha[df_all_pha['team'].isin(target_teams)].copy()
+                
+                if not df_c.empty:
+                    # Pivot to get phases as columns
+                    piv = df_c.groupby(['team', 'phase_label'])['avg_runs'].mean().unstack().reset_index()
+                    piv = piv.fillna(0)
+                    
+                    # Ensure requested teams are all present (even with 0)
+                    for t in target_teams:
+                        if t not in piv['team'].values:
+                            piv = pd.concat([piv, pd.DataFrame([{'team': t}])], ignore_index=True)
+                    piv = piv[piv['team'].isin(target_teams)].sort_values('team').fillna(0)
+
+                    fig_comp = go.Figure()
+                    
+                    # Exact specs: orientation="h", specific hex colors
+                    fig_comp.add_trace(go.Bar(
+                        name="Powerplay", y=piv['team'], x=piv.get('Powerplay (1-6)', [0]*len(piv)),
+                        orientation='h', marker_color="#00e5d1"
+                    ))
+                    fig_comp.add_trace(go.Bar(
+                        name="Middle Overs", y=piv['team'], x=piv.get('Middle (7-15)', [0]*len(piv)),
+                        orientation='h', marker_color="#f5c518"
+                    ))
+                    fig_comp.add_trace(go.Bar(
+                        name="Death Overs", y=piv['team'], x=piv.get('Death (16-20)', [0]*len(piv)),
+                        orientation='h', marker_color="#ff6b6b"
+                    ))
+
+                    theme(fig_comp, 
+                          barmode='group',
+                          height=600,
+                          xaxis={"title": "Avg Runs", "range": [0, 90], "gridcolor": "rgba(255,255,255,0.05)"},
+                          yaxis={"title": "", "autorange": "reversed"},
+                          margin={"l": 10, "r": 10, "t": 10, "b": 10})
+                    
+                    st.plotly_chart(fig_comp, use_container_width=True)
+                else:
+                    st.info("No data found for the selected team list.")
+            else:
+                st.info("Phase comparison data unavailable.")
 
 
 

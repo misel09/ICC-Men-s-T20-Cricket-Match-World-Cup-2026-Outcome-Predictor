@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 conn = psycopg2.connect(
     host=os.getenv('192.168.12.168'), port=os.getenv('5433'),
-    user=os.getenv('DB_USER'), password=os.getenv('DB_PASSWORD').strip(),
+    user=os.getenv(' cricket_user'), password=os.getenv('cricket_pass').strip(),
     dbname=os.getenv('DB_NAME').strip()
 )
 cur = conn.cursor()

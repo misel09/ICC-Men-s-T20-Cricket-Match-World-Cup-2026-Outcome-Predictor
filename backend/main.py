@@ -21,17 +21,23 @@ app.add_middleware(
 
 def get_db_connection():
     try:
+        host = os.getenv("DB_HOST", "192.168.12.168").strip()
+        port = os.getenv("DB_PORT", "5433").strip()
+        user = os.getenv("DB_USER", "cricket_user").strip()
+        password = os.getenv("DB_PASSWORD", "cricket_pass").strip()
+        dbname = os.getenv("DB_NAME", "cricket_db").strip()
+        
         conn = psycopg2.connect(
-            host=os.getenv("DB_HOST", "127.0.0.1"),
-            port=os.getenv("DB_PORT", "5432"),
-            user=os.getenv("DB_USER", "postgres"),
-            password=os.getenv("DB_PASSWORD", ""),
-            dbname=os.getenv("DB_NAME", "t20_world_cup")
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            dbname=dbname
         )
         return conn
     except Exception as e:
         print(f"Error connecting to database: {e}")
-        raise HTTPException(status_code=500, detail="Database connection failed")
+        return None
 
 @app.get("/api/overview")
 def get_overview_data():
@@ -44,9 +50,9 @@ def get_overview_data():
 @app.get("/api/venues/overview")
 def get_venues_overview():
     conn = get_db_connection()
+    if conn is None: return {"labels": [], "data": []}
     try:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            # Querying the Gold view: vw_venue_stats
             cur.execute("""
                 SELECT unified_venue_name as venue, 
                        avg_second_innings_score as score
@@ -63,9 +69,9 @@ def get_venues_overview():
 @app.get("/api/batters/radar")
 def get_batters_radar():
     conn = get_db_connection()
+    if conn is None: return []
     try:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            # Querying vw_batter_stats for top 2 batters to compare
             cur.execute("""
                 SELECT standard_full_name, strike_rate, average, boundary_percentage 
                 FROM vw_batter_stats 
@@ -74,20 +80,15 @@ def get_batters_radar():
                 LIMIT 2;
             """)
             data = cur.fetchall()
-            
-            # Since standard stats don't perfectly map to 6 properties on the radar, 
-            # we will augment them slightly or map them to close approximations for the dashboard mockup
             result = []
             for row in data:
                 result.append({
                     "name": row["standard_full_name"],
                     "stats": [
-                        float(row["strike_rate"] or 0) / 2, # normalized
-                        float(row["average"] or 0) * 2,     # normalized
+                        float(row["strike_rate"] or 0) / 2,
+                        float(row["average"] or 0) * 2,
                         float(row["boundary_percentage"] or 0), 
-                        75, # Mock value for consistency
-                        80, # Mock value for pace
-                        85  # Mock value for spin
+                        75, 80, 85
                     ]
                 })
             return result
@@ -97,9 +98,9 @@ def get_batters_radar():
 @app.get("/api/bowlers/scatter")
 def get_bowlers_scatter():
     conn = get_db_connection()
+    if conn is None: return {"spinners": [], "pacers": []}
     try:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            # Querying vw_bowler_stats
             cur.execute("""
                 SELECT standard_full_name, economy_rate, bowling_strike_rate 
                 FROM vw_bowler_stats 
@@ -108,8 +109,6 @@ def get_bowlers_scatter():
                 LIMIT 10;
             """)
             data = cur.fetchall()
-            
-            # Split into two generic categories for the chart
             spinners = []
             pacers = []
             for i, row in enumerate(data):
@@ -118,24 +117,18 @@ def get_bowlers_scatter():
                     "y": float(row["bowling_strike_rate"] or 0), 
                     "name": row["standard_full_name"]
                 }
-                if i % 2 == 0:
-                    spinners.append(point)
-                else:
-                    pacers.append(point)
-            
-            return {
-                "spinners": spinners,
-                "pacers": pacers
-            }
+                if i % 2 == 0: spinners.append(point)
+                else: pacers.append(point)
+            return {"spinners": spinners, "pacers": pacers}
     finally:
         conn.close()
 
 @app.get("/api/teams/h2h")
 def get_teams_h2h():
     conn = get_db_connection()
+    if conn is None: return {"labels": [], "team1_wins": [], "team2_wins": []}
     try:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            # Querying vw_team_head_to_head
             cur.execute("""
                 SELECT team1, team2, team1_wins, team2_wins 
                 FROM vw_team_head_to_head
@@ -143,27 +136,21 @@ def get_teams_h2h():
                 LIMIT 5;
             """)
             data = cur.fetchall()
-            
             labels = []
             t1_wins = []
             t2_wins = []
-            
             for row in data:
                 labels.append(f"{row['team1']} vs {row['team2']}")
                 t1_wins.append(row['team1_wins'])
                 t2_wins.append(row['team2_wins'])
-                
-            return {
-                "labels": labels,
-                "team1_wins": t1_wins,
-                "team2_wins": t2_wins
-            }
+            return {"labels": labels, "team1_wins": t1_wins, "team2_wins": t2_wins}
     finally:
         conn.close()
 
 @app.get("/api/venues/deepdive")
 def get_venues_deepdive():
     conn = get_db_connection()
+    if conn is None: return {"labels": [], "first_inn": [], "second_inn": []}
     try:
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             cur.execute("""
@@ -177,7 +164,6 @@ def get_venues_deepdive():
                 LIMIT 8;
             """)
             data = cur.fetchall()
-            
             return {
                 "labels": [row["venue"] for row in data],
                 "first_inn": [float(row["first_inn"]) for row in data],
@@ -188,4 +174,4 @@ def get_venues_deepdive():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.1", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
