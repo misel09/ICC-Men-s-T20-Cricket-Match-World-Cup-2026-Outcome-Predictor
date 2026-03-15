@@ -1,0 +1,31 @@
+---
+title: Cricket Match Prediction API
+emoji: 🏏
+colorFrom: blue
+colorTo: green
+sdk: docker
+sdk_version: python3.11
+app_file: app.py
+pinned: false
+---
+
+# Cricket Match Prediction API
+
+A FastAPI-based cricket prediction system for T20 World Cup matches.
+
+## Features
+
+- Match winner prediction
+- Playing 11 selection
+- Score prediction across different innings phases
+
+## API Endpoints
+
+- `GET /` - Health check
+- `POST /predict_match` - Predict match winner
+- `POST /predict_playing11` - Predict optimal playing 11
+- `POST /predict_score` - Predict scores and wickets
+
+## Usage
+
+The API accepts JSON requests with cricket match features and returns predictions.

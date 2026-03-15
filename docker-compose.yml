@@ -1,7 +1,6 @@
-version: "3.9"
-
 services:
-  postgres:
+  # ── USER'S EXISTING CRICKET DB ──
+  cricket_db:
     image: postgres:15
     container_name: cricket_db
     restart: always
@@ -13,12 +12,27 @@ services:
       - "5433:5432"
     volumes:
       - cricket_pgdata:/var/lib/postgresql/data
-      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql   # Auto-runs schema on first start
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U cricket_user -d cricket_db"]
       interval: 10s
       timeout: 5s
       retries: 5
+
+  # ── CRICKET PREDICTION API ──
+  cricket_api:
+    build: .
+    container_name: cricket_api
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models:ro
+    depends_on:
+      cricket_db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://cricket_user:cricket_pass@cricket_db:5432/cricket_db
 
 volumes:
   cricket_pgdata:

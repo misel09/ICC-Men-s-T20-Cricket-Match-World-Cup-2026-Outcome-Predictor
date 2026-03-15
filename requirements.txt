@@ -8,3 +8,13 @@ sqlalchemy>=2.0.36     # Maps Python objects → SQL tables (handles connection 
 python-dotenv>=1.0.1   # Loads DB credentials from a .env file (security best practice)
 # ── Fuzzy name matching ───────────────────────────────────────────────────────
 rapidfuzz>=3.0.0       # Fast fuzzy string matching to bridge name differences across datasets
+# ── File watching ─────────────────────────────────────────────────────────────
+watchdog>=4.0.0        # Watches the data folder for new JSON files (auto-ETL trigger)
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi>=0.104.1       # Modern web framework for building APIs
+uvicorn>=0.24.0        # ASGI server for running FastAPI
+gradio>=4.0.0          # Web UI for machine learning models
+# ── Machine Learning ──────────────────────────────────────────────────────────
+catboost>=1.2.0         # Gradient boosting library for loading .cbm models
+scikit-learn>=1.3.0     # For preprocessing and utilities
+
