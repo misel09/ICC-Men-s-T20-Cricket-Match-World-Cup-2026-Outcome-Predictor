@@ -1,14 +1,3 @@
----
-title: Cricket Match Prediction System
-emoji: 🏏
-colorFrom: blue
-colorTo: green
-sdk: gradio
-sdk_version: 4.0.0
-app_file: gradio_app.py
-pinned: false
----
-
 # Cricket Match Prediction System
 
 An interactive web application for predicting cricket match outcomes, playing 11 selections, and score predictions using machine learning models.
