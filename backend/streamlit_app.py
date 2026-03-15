@@ -1059,10 +1059,10 @@ with T[3]:
                         xaxis_title="Match Phase",
                         yaxis_title="Average Runs",
                         height=400,
-                        xaxis=dict(categoryorder="array", categoryarray=phase_order)
+                        xaxis={"categoryorder": "array", "categoryarray": phase_order}
                     )
                     # We handle title in HTML/Markdown above, so remove the builtin title string to save space
-                    fig_ph.update_layout(title=None, margin=dict(t=10))
+                    fig_ph.update_layout(title=None, margin={"t": 10})
                     
                     st.plotly_chart(fig_ph, use_container_width=True)
 
@@ -1146,20 +1146,20 @@ with T[3]:
                                 hole=0.6,
                                 marker_colors=["#00e5d1", "#f5c518"],
                                 textinfo="percent+value",
-                                textfont=dict(color="#ffffff", size=14)
+                                textfont={"color": "#ffffff", "size": 14}
                             ))
                             fig_donut.update_layout(
-                                margin=dict(t=10, b=10, l=10, r=10),
+                                margin={"t": 10, "b": 10, "l": 10, "r": 10},
                                 paper_bgcolor="#0d1117",
                                 plot_bgcolor="#1a2332",
-                                legend=dict(
-                                    orientation="h",
-                                    yanchor="top",
-                                    y=-0.1,
-                                    xanchor="center",
-                                    x=0.5,
-                                    font=dict(color="#ffffff")
-                                )
+                                legend={
+                                    "orientation": "h",
+                                    "yanchor": "top",
+                                    "y": -0.1,
+                                    "xanchor": "center",
+                                    "x": 0.5,
+                                    "font": {"color": "#ffffff"}
+                                }
                             )
                             st.plotly_chart(fig_donut, use_container_width=True)
                             
@@ -1199,16 +1199,16 @@ with T[3]:
                             ))
                             
                         fig_vio.update_layout(
-                            margin=dict(t=10, b=10, l=10, r=10),
+                            margin={"t": 10, "b": 10, "l": 10, "r": 10},
                             paper_bgcolor="rgba(0,0,0,0)",
                             plot_bgcolor="#1a2332",
-                            yaxis=dict(
-                                title="Runs",
-                                showgrid=True,
-                                gridcolor="rgba(255,255,255,0.1)",
-                                zeroline=False
-                            ),
-                            xaxis=dict(showgrid=False),
+                            yaxis={
+                                "title": "Runs",
+                                "showgrid": True,
+                                "gridcolor": "rgba(255,255,255,0.1)",
+                                "zeroline": False
+                            },
+                            xaxis={"showgrid": False},
                             showlegend=False
                         )
                         st.plotly_chart(fig_vio, use_container_width=True)
@@ -1275,9 +1275,9 @@ with T[4]:
                     labels=top25[nm5].head(10),
                     values=top25["impact"].head(10),
                     hole=0.4,
-                    marker=dict(colors=COLORS, line=dict(color="#0b0d17", width=1))
+                    marker={"colors": COLORS, "line": {"color": "#0b0d17", "width": 1}}
                 ))
-                theme(fig2, grid=False, title=dict(text="Impact Share Top 10", font_size=13))
+                theme(fig2, grid=False, title={"text": "Impact Share Top 10", "font_size": 13})
                 st.plotly_chart(fig2, use_container_width=True)
 
         dcols5 = [nm5] + ([tc5] if (tc5 and tc5 in top25.columns) else []) + [rc5, "impact"]
