@@ -15,10 +15,10 @@ echo ========================================== >> %LOG_FILE%
 
 cd /d %PROJECT_DIR%
 
-echo [1/4] Running ETL (JSON to Postgres)... >> %LOG_FILE%
+echo [1/2] Running ETL (JSON to Postgres)... >> %LOG_FILE%
 py etl.py >> %LOG_FILE% 2>&1
 
-echo [2/4] Matching player names... >> %LOG_FILE%
+echo [2/2] Matching player names... >> %LOG_FILE%
 py match_names.py >> %LOG_FILE% 2>&1
 
 echo Pipeline finished at %DATE% %TIME% >> %LOG_FILE%

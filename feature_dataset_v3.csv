@@ -1,0 +1,1206 @@
+match_id,team1,team2,venue,first_innings_team,is_team1_batting_first,home_advantage,h2h_win_rate,recent_form_t1,recent_form_t2,team1_overall_win_rate,team2_overall_win_rate,avg_score_venue,toss_venue_win_rate,venue_win_rate_t1,venue_win_rate_t2,t1_top_batsmen_avg,t2_top_batsmen_avg,t1_top_bowler_econ,t2_top_bowler_econ,team1_won
+1243,New Zealand,Australia,Eden Park,Australia,0,0,0.5,0.5,0.5,0.5,0.5,160.9,0.52,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1242,England,Australia,The Rose Bowl,England,1,0,0.5,0.5,1,0.5,1,160.9,1,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1244,South Africa,New Zealand,New Wanderers Stadium,South Africa,1,0,0.5,0.5,0.5,0.5,0.5,160.9,1,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1247,Australia,South Africa,Brisbane Cricket Ground,Australia,1,1,0.5,0.5,0.5,0.5,0.5,156.9,0.667,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1249,South Africa,Australia,New Wanderers Stadium,South Africa,1,0,0,0.5,0.667,0.5,0.667,160.9,0.6,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1246,England,Sri Lanka,The Rose Bowl,Sri Lanka,0,0,0.5,1,0.5,1,0.5,160.9,0.667,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1245,England,Pakistan,County Ground,England,1,0,0.5,0.5,0.5,0.5,0.5,160.9,0.714,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1253,South Africa,India,New Wanderers Stadium,South Africa,1,0,0.5,0.333,0.5,0.333,0.5,160.9,0.625,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1251,New Zealand,Sri Lanka,Westpac Stadium,New Zealand,1,0,0.5,0.333,1,0.333,1,160.9,0.556,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1252,New Zealand,Sri Lanka,Eden Park,Sri Lanka,0,0,0,0.25,1,0.25,1,160.9,0.5,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1250,Australia,England,Sydney Cricket Ground,Australia,1,1,0,0.5,0.333,0.5,0.333,156.9,0.455,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1254,England,West Indies,Kennington Oval,West Indies,0,0,0.5,0.25,0.5,0.25,0.5,160.9,0.5,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1255,England,West Indies,Kennington Oval,West Indies,0,0,0,0.2,0.5,0.2,0.5,160.9,0.538,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1256,South Africa,West Indies,New Wanderers Stadium,West Indies,0,0,0.5,0.25,0.333,0.25,0.333,160.9,0.5,0.333,0.5,25.1,24.5,6.94,6.98,1
+1259,Australia,Zimbabwe,Newlands,Australia,1,0,0.5,0.6,0.5,0.6,0.5,160.9,0.471,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1258,Pakistan,Scotland,Kingsmead,Pakistan,1,0,0.5,1,0.5,1,0.5,160.9,0.471,0.5285,0.5,30,24.5,7,6.98,1
+1261,England,Zimbabwe,Newlands,England,1,0,0.5,0.333,1,0.333,1,160.9,0.45,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1263,Australia,England,Newlands,England,0,0,0.5,0.5,0.429,0.5,0.429,160.9,0.455,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1265,New Zealand,Sri Lanka,New Wanderers Stadium,New Zealand,1,0,0.5,0.5,0.75,0.5,0.75,181.5,0.333,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1269,South Africa,England,Newlands,South Africa,1,0,0.5,0.5,0.375,0.5,0.375,160.9,0.407,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1267,India,New Zealand,New Wanderers Stadium,New Zealand,0,0,0.5,0.5,0.429,0.5,0.429,179,0.286,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1270,Pakistan,Sri Lanka,New Wanderers Stadium,Pakistan,1,0,0.5,0.8,0.8,0.8,0.8,180.4,0.375,0.5285,0.5,22.25,24.5,7.38,6.98,1
+1272,Australia,Pakistan,New Wanderers Stadium,Australia,1,0,0.5,0.625,0.833,0.625,0.833,181.3,0.444,0.5285,0.5,25.1,21.2,6.94,6.85,0
+1271,England,New Zealand,Kingsmead,New Zealand,0,0,0.5,0.333,0.5,0.333,0.5,160.9,0.452,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1275,England,India,Kingsmead,India,0,0,0.5,0.3,0.333,0.3,0.333,160.9,0.471,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1274,South Africa,New Zealand,Kingsmead,New Zealand,0,0,0,0.571,0.556,0.571,0.556,160.9,0.471,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1278,South Africa,India,Kingsmead,India,0,0,0,0.625,0.5,0.625,0.5,153.3,0.5,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1276,Australia,Sri Lanka,Newlands,Sri Lanka,0,0,0.5,0.556,0.714,0.556,0.714,147,0.333,0.667,0.5,25.1,24.5,6.94,6.98,1
+1279,New Zealand,Pakistan,Newlands,New Zealand,1,0,0.5,0.5,0.875,0.5,0.875,140.4,0.25,0.5285,0.5,25.1,24.17,6.94,7.07,0
+1280,Australia,India,Kingsmead,India,0,0,0.5,0.6,0.6,0.6,0.6,153.3,0.571,0.5285,0.667,25.1,24.5,6.94,6.98,0
+1281,India,Pakistan,New Wanderers Stadium,India,1,0,0,0.667,0.889,0.667,0.889,176.6,0.455,0.5285,0.5,25.1,21.57,6.94,6.97,1
+1285,India,Australia,Brabourne Stadium,Australia,0,0,1,0.714,0.5,0.714,0.545,160.9,0.476,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1286,South Africa,New Zealand,New Wanderers Stadium,New Zealand,0,0,0.5,0.556,0.5,0.556,0.455,175,0.5,0.5,0.667,25.1,24.5,6.94,6.98,1
+1282,Australia,New Zealand,Western Australia Cricket Association Ground,Australia,1,0,1,0.5,0.4,0.5,0.417,160.9,0.455,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1292,South Africa,West Indies,St George's Park,South Africa,1,0,1,0.6,0.2,0.6,0.2,160.9,0.467,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1287,South Africa,West Indies,New Wanderers Stadium,West Indies,0,0,0.5,0.6,0.333,0.545,0.333,171.5,0.462,0.6,0.5,25.1,24.5,6.94,6.98,1
+1283,Australia,India,Melbourne Cricket Ground,India,0,1,0,0.5,0.75,0.538,0.75,156.9,0.447,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1288,New Zealand,England,Eden Park,England,0,0,1,0.4,0.2,0.385,0.273,160.9,0.438,0.333,0.5,25.1,24.5,6.94,6.98,0
+1289,New Zealand,England,Jade Stadium,England,0,0,0.5,0.4,0.3,0.357,0.333,160.9,0.449,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1284,England,New Zealand,Old Trafford,New Zealand,0,0,0.667,0.4,0.3,0.385,0.333,160.9,0.471,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1293,West Indies,Australia,Kensington Oval,Australia,0,0,0.5,0.286,0.6,0.286,0.571,160.9,0.462,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1332,Netherlands,Scotland,Civil Service Cricket Club,Scotland,0,0,0.5,0.5,0.5,0.5,0.5,160.9,0.444,0.5285,0.5,25.1,24.5,6.94,4,1
+1333,Pakistan,Sri Lanka,Maple Leaf North-West Ground,Sri Lanka,0,0,1,0.8,0.625,0.818,0.625,160.9,0.429,0.5285,0.5,17.89,24.5,6.85,6.98,1
+1334,Pakistan,Sri Lanka,Maple Leaf North-West Ground,Pakistan,1,0,1,0.8,0.556,0.833,0.556,160.9,0.421,0.5285,0.5,16.2,24.5,6.5,6.98,0
+1337,New Zealand,West Indies,Seddon Park,New Zealand,1,0,0,0.2,0.333,0.294,0.333,160.9,0.417,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1299,Australia,South Africa,Melbourne Cricket Ground,Australia,1,1,0.5,0.5,0.7,0.533,0.615,156.9,0.426,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1300,Australia,South Africa,Brisbane Cricket Ground,South Africa,0,1,0.667,0.6,0.7,0.562,0.571,156.9,0.435,0.5285,0.5,89,24.5,6.94,6.98,1
+1339,Sri Lanka,India,R Premadasa Stadium,Sri Lanka,1,0,0.5,0.6,0.667,0.6,0.667,160.9,0.429,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1301,Australia,New Zealand,Sydney Cricket Ground,Australia,1,1,1,0.6,0.2,0.588,0.333,156.9,0.422,0.5285,0.5,48,24.5,6.94,6.98,1
+1338,New Zealand,India,AMI Stadium,India,0,0,1,0.1,0.7,0.316,0.7,160.9,0.431,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1335,New Zealand,India,Westpac Stadium,India,0,0,1,0.2,0.6,0.35,0.636,160.9,0.424,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1302,West Indies,England,Queen's Park Oval,England,0,0,0.5,0.3,0.5,0.3,0.429,160.9,0.418,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1297,South Africa,Australia,New Wanderers Stadium,Australia,0,0,0.25,0.6,0.6,0.533,0.611,165.2,0.467,0.714,0.5,25.1,39.67,6.94,6.98,1
+1298,South Africa,Australia,SuperSport Park,South Africa,1,0,0.4,0.6,0.6,0.562,0.579,160.9,0.406,0.5285,0.5,25.1,39.25,6.94,6.98,1
+1342,Australia,Pakistan,Dubai International Cricket Stadium,Australia,1,0,0,0.5,0.7,0.55,0.769,150.1,0.414,0.5285,0.5,35.4,16.2,6.94,6.5,0
+1304,England,Netherlands,Lord's,England,1,0,0.5,0.5,1,0.4,1,160.9,0.408,0.5285,0.5,25.1,48,6.94,7.75,0
+1306,Australia,West Indies,Kennington Oval,Australia,1,0,0,0.5,0.4,0.524,0.364,160.9,0.403,0.5285,0.5,35.4,24.5,6.94,6.98,0
+1305,New Zealand,Scotland,Kennington Oval,Scotland,0,0,0.5,0.3,0.333,0.381,0.333,160.9,0.403,0.5285,0.5,25.1,2,6.94,4.86,1
+1308,Scotland,South Africa,Kennington Oval,South Africa,0,0,0.5,0.25,0.6,0.25,0.588,160.9,0.4,0.5285,0.5,2,24.5,11.93,6.98,0
+1309,England,Pakistan,Kennington Oval,England,1,0,0,0.4,0.7,0.375,0.786,160.9,0.4,0.5285,0.5,25.1,16.2,9,6.22,1
+1311,Australia,Sri Lanka,Trent Bridge,Australia,1,0,1,0.5,0.5,0.5,0.545,160.9,0.416,0.5285,0.5,40,24.5,6.94,6.98,0
+1312,Netherlands,Pakistan,Lord's,Pakistan,0,0,0.5,1,0.7,1,0.733,160.9,0.405,0.5285,0.5,48,16.1,6,8.55,0
+1313,New Zealand,South Africa,Lord's,South Africa,0,0,0.333,0.4,0.6,0.409,0.611,160.9,0.405,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1315,Sri Lanka,West Indies,Trent Bridge,Sri Lanka,1,0,0.5,0.5,0.4,0.583,0.417,160.9,0.42,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1314,India,Ireland,Trent Bridge,Ireland,0,0,0.5,0.7,1,0.615,1,160.9,0.42,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1316,Ireland,New Zealand,Trent Bridge,New Zealand,0,0,0.5,0.667,0.4,0.667,0.391,156,0.4,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1317,England,South Africa,Trent Bridge,England,1,0,0,0.4,0.7,0.412,0.632,156,0.4,0.5285,0.5,25.1,24.5,7.62,6.98,0
+1319,India,West Indies,Lord's,India,1,0,0.5,0.7,0.4,0.643,0.385,160.9,0.424,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1318,Pakistan,Sri Lanka,Lord's,Sri Lanka,0,0,0.667,0.7,0.6,0.75,0.615,160.9,0.424,0.5285,0.5,15.2,24.5,7.91,6.98,0
+1321,New Zealand,Pakistan,Kennington Oval,New Zealand,1,0,0,0.5,0.6,0.417,0.706,171.8,0.5,0.5285,0.5,25.1,15.2,6.94,7.49,0
+1320,South Africa,West Indies,Kennington Oval,South Africa,1,0,0.667,0.7,0.5,0.65,0.429,171.8,0.5,0.5285,0.667,25.1,24.5,6.94,6.98,1
+1323,England,India,Lord's,England,1,0,0,0.4,0.6,0.389,0.6,153.6,0.6,0.5285,0.5,9,24.5,7.08,6.98,1
+1322,Ireland,Sri Lanka,Lord's,Sri Lanka,0,0,0.5,0.5,0.6,0.5,0.643,153.6,0.6,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1324,England,West Indies,Kennington Oval,England,1,0,0.333,0.5,0.5,0.421,0.4,164.1,0.5,0.667,0.5,9,24.5,7.08,6.98,0
+1325,Ireland,Pakistan,Kennington Oval,Pakistan,0,0,0.5,0.4,0.6,0.4,0.722,164.1,0.5,0.5285,0.5,25.1,15.2,6.94,7.38,0
+1326,New Zealand,Sri Lanka,Trent Bridge,Sri Lanka,0,0,0.333,0.5,0.6,0.4,0.667,155.6,0.429,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1327,India,South Africa,Trent Bridge,South Africa,0,0,1,0.5,0.8,0.562,0.667,155.6,0.429,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1328,Pakistan,South Africa,Trent Bridge,Pakistan,1,0,0.5,0.6,0.8,0.737,0.682,153,0.556,0.5285,0.5,16.3,24.5,7.22,6.98,1
+1329,Sri Lanka,West Indies,Kennington Oval,Sri Lanka,1,0,1,0.7,0.5,0.688,0.438,163.3,0.5,0.5285,0.6,25.1,24.5,6.94,6.98,1
+1330,Pakistan,Sri Lanka,Lord's,Sri Lanka,0,0,0.5,0.7,0.7,0.75,0.706,152.1,0.714,0.5285,0.5,16.3,24.5,7.21,6.98,1
+1344,Sri Lanka,Pakistan,R Premadasa Stadium,Pakistan,0,0,0.4,0.7,0.7,0.667,0.762,160.9,0.455,0.5285,0.5,25.1,19.3,6.94,7.13,0
+1345,Sri Lanka,New Zealand,R Premadasa Stadium,New Zealand,0,0,0.75,0.7,0.5,0.632,0.385,160.9,0.455,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1346,Sri Lanka,New Zealand,R Premadasa Stadium,New Zealand,0,0,0.6,0.6,0.6,0.6,0.407,160.9,0.461,0,0.5,25.1,24.5,6.94,6.98,0
+1382,New Zealand,Pakistan,Dubai International Cricket Stadium,Pakistan,0,0,0,0.6,0.7,0.429,0.773,150.1,0.466,0.5285,0.5,25.1,19.3,6.94,7.15,0
+1383,New Zealand,Pakistan,Dubai International Cricket Stadium,Pakistan,0,0,0,0.6,0.8,0.414,0.783,150.1,0.471,0.5285,0.5,25.1,10.65,6.94,7.14,0
+1340,South Africa,England,New Wanderers Stadium,England,0,0,1,0.7,0.5,0.652,0.381,165.2,0.438,0.75,0.5,25.1,9,6.94,7.38,0
+1341,South Africa,England,SuperSport Park,South Africa,1,0,0.667,0.7,0.5,0.625,0.409,160.9,0.481,0.5285,0.5,25.1,9,6.94,7.38,1
+1384,India,Sri Lanka,Vidarbha Cricket Association Stadium,Sri Lanka,0,0,1,0.4,0.6,0.529,0.571,160.9,0.486,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1385,India,Sri Lanka,Punjab Cricket Association Stadium,Sri Lanka,0,0,0.5,0.3,0.6,0.5,0.591,160.9,0.491,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1349,Australia,Pakistan,Melbourne Cricket Ground,Australia,1,1,0,0.3,0.8,0.458,0.792,156.9,0.482,0.5285,0.5,34.12,10.35,6.94,7.2,1
+1388,Canada,Netherlands,Dubai International Cricket Stadium,Canada,1,0,0.5,0.5,0.667,0.5,0.667,150.1,0.486,0.5285,0.5,25.1,16.33,6.94,6.71,0
+1390,Ireland,Scotland,Dubai International Cricket Stadium,Ireland,1,0,0.5,0.333,0.2,0.333,0.2,140.4,0.4,0.5285,0.5,17,1,6.94,8.03,1
+1391,Ireland,Netherlands,Dubai International Cricket Stadium,Ireland,1,0,0.5,0.429,0.75,0.429,0.75,139.7,0.5,0.5285,0.5,17,16.33,4.5,6.71,1
+1392,England,Pakistan,Dubai International Cricket Stadium,Pakistan,0,0,0.5,0.4,0.8,0.391,0.76,141.3,0.571,0.5285,1,5,10.35,8.64,7.2,1
+1393,England,Pakistan,Dubai International Cricket Stadium,England,1,0,0.667,0.4,0.7,0.417,0.731,139.8,0.5,0.5285,0.75,5,10.35,8.64,7.2,0
+1347,Australia,West Indies,Bellerive Oval,Australia,1,0,0,0.4,0.5,0.48,0.444,160.9,0.479,0.5285,0.5,33,24.5,6.94,6.98,1
+1348,Australia,West Indies,Sydney Cricket Ground,West Indies,0,1,0.333,0.4,0.5,0.5,0.421,156.9,0.483,0.5285,0.5,34.6,24.5,6.94,6.98,1
+1376,New Zealand,Australia,Westpac Stadium,New Zealand,1,0,0,0.5,0.4,0.419,0.519,160.9,0.479,0.5285,0.5,25.1,38.9,6.94,6.98,0
+1386,West Indies,Zimbabwe,Queen's Park Oval,Zimbabwe,0,0,0.5,0.5,0.5,0.4,0.5,160.9,0.475,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1350,West Indies,Ireland,Providence Stadium,West Indies,1,1,0.5,0.4,0.5,0.381,0.5,133.9,0.475,0.5285,0.5,25.1,17,6.94,5.27,1
+1351,New Zealand,Sri Lanka,Providence Stadium,Sri Lanka,0,0,0.5,0.4,0.5,0.394,0.565,133.9,0.475,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1355,Australia,Pakistan,Beausejour Stadium,Australia,1,0,0.333,0.4,0.8,0.517,0.75,160.9,0.48,0.5285,0.5,37.9,10.4,6.94,6.87,1
+1354,India,South Africa,Beausejour Stadium,India,1,0,0.667,0.4,0.8,0.526,0.64,160.9,0.48,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1358,Sri Lanka,Zimbabwe,Providence Stadium,Sri Lanka,1,0,0.5,0.4,0.667,0.542,0.667,133.9,0.488,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1357,West Indies,England,Providence Stadium,England,0,1,0.75,0.4,0.4,0.409,0.4,133.9,0.488,0.5285,0.5,25.1,5,6.94,8.64,1
+1356,New Zealand,Zimbabwe,Providence Stadium,Zimbabwe,0,0,0.5,0.4,0.5,0.412,0.5,133.9,0.488,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1360,England,Pakistan,Kensington Oval,Pakistan,0,0,0.5,0.3,0.7,0.37,0.724,160.9,0.485,0.5285,0.5,5,10.4,8.64,6.88,1
+1361,New Zealand,South Africa,Kensington Oval,South Africa,0,0,0.25,0.5,0.7,0.429,0.615,160.9,0.485,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1362,Australia,India,Kensington Oval,Australia,1,0,0.333,0.6,0.4,0.548,0.55,160.9,0.485,0.5285,0.5,32.5,24.5,6.94,6.98,1
+1363,West Indies,Sri Lanka,Kensington Oval,Sri Lanka,0,0,0,0.5,0.4,0.435,0.56,160.9,0.485,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1365,England,South Africa,Kensington Oval,England,1,0,0.25,0.4,0.7,0.393,0.63,155.7,0.667,0.5285,0.5,5,24.5,8.64,6.98,1
+1364,New Zealand,Pakistan,Kensington Oval,New Zealand,1,0,0,0.5,0.6,0.417,0.7,155.7,0.667,0.5285,0.5,25.1,10.57,6.94,6.82,1
+1367,Australia,Sri Lanka,Kensington Oval,Australia,1,0,0.5,0.7,0.4,0.562,0.577,154.4,0.75,0.667,0.5,32.5,24.5,6.94,6.98,1
+1366,West Indies,India,Kensington Oval,West Indies,1,0,1,0.4,0.4,0.417,0.524,154.4,0.75,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1368,Pakistan,South Africa,Beausejour Stadium,Pakistan,1,0,1,0.5,0.6,0.677,0.607,160.9,0.507,0.5285,0.5,10.57,24.5,6.77,6.98,1
+1369,England,New Zealand,Beausejour Stadium,New Zealand,0,0,0.75,0.4,0.5,0.414,0.432,160.9,0.507,0.5285,0.5,5,24.5,8.64,6.98,1
+1370,India,Sri Lanka,Beausejour Stadium,India,1,0,0.667,0.4,0.3,0.5,0.556,169.2,0.8,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1371,West Indies,Australia,Beausejour Stadium,West Indies,1,0,0.5,0.5,0.8,0.44,0.576,169.2,0.8,0.5285,0.5,25.1,32.5,6.94,6.98,0
+1372,England,Sri Lanka,Beausejour Stadium,Sri Lanka,0,0,0,0.5,0.4,0.433,0.571,159.1,0.571,0.5285,0.5,5,24.5,8.64,6.98,1
+1373,Australia,Pakistan,Beausejour Stadium,Pakistan,0,0,0.5,0.9,0.5,0.588,0.688,155.2,0.5,0.5285,0.667,32.5,10.57,6.94,6.81,1
+1374,Australia,England,Kensington Oval,Australia,1,0,0.5,0.9,0.6,0.6,0.452,157.2,0.8,0.75,0.5,32.5,5,6.94,8.64,0
+1387,West Indies,South Africa,Sir Vivian Richards Stadium,South Africa,0,0,0.25,0.4,0.5,0.423,0.586,160.9,0.49,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1397,West Indies,South Africa,Sir Vivian Richards Stadium,South Africa,0,0,0.2,0.4,0.5,0.407,0.6,160.9,0.493,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1400,New Zealand,Sri Lanka,Central Broward Regional Park Stadium Turf Ground,New Zealand,1,0,0.571,0.4,0.4,0.421,0.552,160.9,0.497,0.5285,0.5,25.1,24.5,6.94,6.98,1
+1401,New Zealand,Sri Lanka,Central Broward Regional Park Stadium Turf Ground,New Zealand,1,0,0.625,0.5,0.4,0.436,0.533,160.9,0.5,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1398,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0.5,0.4,0.3,0.4,0.478,160.9,0.497,0.5285,0.5,1,24.5,6.94,6.98,0
+1399,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0,0.333,0.3,0.333,0.5,160.9,0.493,0.5285,0.5,15.5,24.5,6.94,6.98,0
+1378,Australia,Pakistan,Edgbaston,Pakistan,0,0,0.6,0.8,0.4,0.583,0.667,160.9,0.49,0.5285,0.5,32.5,10.57,6.94,6.81,0
+1379,Australia,Pakistan,Edgbaston,Pakistan,0,0,0.5,0.7,0.4,0.568,0.676,160.9,0.494,0.5285,0.5,32.8,10.55,6.94,6.78,0
+1380,England,Pakistan,Sophia Gardens,Pakistan,0,0,0.6,0.6,0.5,0.469,0.686,160.9,0.497,0.5285,0.5,5,12.2,8.64,6.79,1
+1381,England,Pakistan,Sophia Gardens,Pakistan,0,0,0.667,0.7,0.5,0.485,0.667,160.9,0.494,0.5285,0.5,5,13,8.64,6.81,1
+1403,South Africa,Zimbabwe,OUTsurance Oval,Zimbabwe,0,0,0.5,0.5,0.286,0.613,0.286,160.9,0.49,0.5285,0.5,33,15.5,6.94,7.25,1
+1404,South Africa,Zimbabwe,De Beers Diamond Oval,South Africa,1,0,1,0.5,0.25,0.625,0.25,160.9,0.487,0.5285,0.5,34.5,15.5,6.94,7.25,1
+1411,Pakistan,South Africa,Sheikh Zayed Stadium,Pakistan,1,0,1,0.4,0.6,0.649,0.636,160.9,0.491,0.5285,0.5,13,31.33,6.81,6.98,0
+1402,Pakistan,South Africa,Sheikh Zayed Stadium,Pakistan,1,0,0.667,0.3,0.7,0.632,0.647,160.9,0.488,0.5285,0.5,13,26.75,6.81,6.98,0
+1394,Australia,Sri Lanka,Western Australia Cricket Association Ground,Australia,1,0,0.667,0.6,0.5,0.553,0.548,160.9,0.484,0.5285,0.5,26.2,24.5,6.94,6.98,0
+1406,New Zealand,Pakistan,Eden Park,Pakistan,0,0,0.2,0.5,0.3,0.425,0.615,158.8,0.4,0.2,0.5,25.1,13.15,6.94,6.59,1
+1407,New Zealand,Pakistan,Seddon Park,New Zealand,1,0,0.333,0.5,0.3,0.439,0.6,160.9,0.479,0.5285,0.5,25.1,13.75,6.94,6.57,1
+1408,New Zealand,Pakistan,AMI Stadium,Pakistan,0,0,0.429,0.6,0.3,0.452,0.585,160.9,0.482,0.5285,0.5,25.1,13.75,6.94,6.57,0
+1405,South Africa,India,Moses Mabhida Stadium,India,0,0,0.25,0.7,0.4,0.657,0.52,160.9,0.485,0.5285,0.5,22.6,24.5,6.94,6.98,0
+1395,Australia,England,Adelaide Oval,Australia,1,1,0.4,0.6,0.7,0.538,0.5,156.9,0.488,0.5285,0.5,25.7,5,6.94,8.64,0
+1396,Australia,England,Melbourne Cricket Ground,Australia,1,1,0.333,0.5,0.8,0.525,0.514,156.9,0.485,1,0.5,24.6,5,6.94,8.64,1
+1412,West Indies,Pakistan,Beausejour Stadium,West Indies,1,0,0.5,0.3,0.3,0.393,0.595,159.2,0.444,0.5285,0.5,25.1,14.2,6.94,6.37,1
+1413,West Indies,India,Queen's Park Oval,India,0,0,1,0.4,0.5,0.414,0.538,160.9,0.491,0.5285,0.5,0,24.5,7.25,6.98,0
+1409,England,Sri Lanka,County Ground,England,1,0,0.5,0.8,0.5,0.5,0.562,160.9,0.494,0.5285,0.5,5,24.5,8.64,6.98,0
+1416,Sri Lanka,Australia,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.5,0.6,0.5,0.576,0.537,160.9,0.491,0.5285,0.5,25.1,24.6,6.94,6.98,1
+1417,Sri Lanka,Australia,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.6,0.7,0.4,0.588,0.524,160.9,0.494,0.5285,0.5,25.1,24.6,6.94,6.98,1
+1410,England,India,Old Trafford,India,0,0,0.5,0.8,0.6,0.486,0.556,160.9,0.497,0.5285,0.5,5,24.5,8.64,6.98,1
+1426,Zimbabwe,Pakistan,Harare Sports Club,Pakistan,0,0,0.5,0.222,0.3,0.222,0.581,160.9,0.494,0.5285,0.5,15.5,14.75,7.25,6.55,0
+1427,Zimbabwe,Pakistan,Harare Sports Club,Pakistan,0,0,0,0.2,0.3,0.2,0.591,160.9,0.497,0,0.5,15.5,14.75,7.25,6.55,0
+1428,England,West Indies,Kennington Oval,West Indies,0,0,0.2,0.8,0.4,0.5,0.4,162.8,0.545,0.5,0.5,5,0,8.64,9.17,1
+1429,England,West Indies,Kennington Oval,West Indies,0,0,0.333,0.8,0.4,0.513,0.387,159.7,0.5,0.6,0.429,5,19.5,8.64,9.5,0
+1414,South Africa,Australia,Newlands,South Africa,1,0,0.5,0.7,0.3,0.639,0.512,140.7,0.222,0.5285,0.75,20.5,24.6,6.94,6.98,0
+1430,Zimbabwe,New Zealand,Harare Sports Club,Zimbabwe,1,0,0,0.1,0.6,0.182,0.442,160.9,0.494,0,0.5,15.5,24.5,7.25,6.98,0
+1415,South Africa,Australia,New Wanderers Stadium,Australia,0,0,0.429,0.6,0.3,0.622,0.523,167.4,0.471,0.667,0,20.43,12.8,6.94,6.98,1
+1431,Zimbabwe,New Zealand,Harare Sports Club,New Zealand,0,0,0,0.1,0.6,0.167,0.455,142.6,0.4,0,0.5,7.75,24.5,7.25,6.98,0
+1425,India,England,Eden Gardens,India,1,0,0.333,0.6,0.7,0.536,0.5,160.9,0.492,0.5285,0.5,25.1,9,6.94,8.64,0
+1432,Pakistan,Sri Lanka,Sheikh Zayed Stadium,Sri Lanka,0,0,0.667,0.3,0.7,0.6,0.6,160.9,0.489,0.5285,0.5,14.75,24.5,6.55,6.98,1
+1418,Australia,India,Stadium Australia,Australia,1,0,0.5,0.2,0.5,0.511,0.517,160.9,0.489,0.5285,0.5,22.03,24.5,11,6.98,1
+1419,Australia,India,Melbourne Cricket Ground,Australia,1,1,0.6,0.3,0.4,0.522,0.5,156.9,0.492,1,0.5,23.42,24.5,11,6.98,0
+1420,New Zealand,Zimbabwe,Eden Park,Zimbabwe,0,0,1,0.6,0.154,0.467,0.154,156.2,0.333,0.333,0.5,25.1,7.75,6.94,7.25,1
+1421,New Zealand,Zimbabwe,Seddon Park,Zimbabwe,0,0,1,0.7,0.143,0.478,0.143,160.9,0.487,1,0.5,25.1,7.75,6.94,7.25,1
+1422,New Zealand,South Africa,Westpac Stadium,South Africa,0,0,0.2,0.7,0.7,0.489,0.632,160.9,0.484,0.333,0.5,25.1,19.12,6.94,6.98,1
+1423,New Zealand,South Africa,Seddon Park,New Zealand,1,0,0.333,0.8,0.7,0.5,0.615,160.9,0.482,1,0.5,25.1,19.12,6.94,6.98,0
+1424,New Zealand,South Africa,Eden Park,South Africa,0,0,0.286,0.7,0.7,0.49,0.625,156.6,0.286,0.429,0.5,25.1,19.12,6.94,6.98,0
+1433,England,Pakistan,Dubai International Cricket Stadium,Pakistan,0,0,0.714,0.7,0.5,0.512,0.617,140.7,0.444,0.5285,0.8,9,12.85,8.64,6.54,0
+1434,England,Pakistan,Dubai International Cricket Stadium,England,1,0,0.625,0.6,0.6,0.5,0.625,141,0.5,0.333,0.833,6.5,12.85,8.64,6.54,1
+1435,England,Pakistan,Sheikh Zayed Stadium,England,1,0,0.667,0.6,0.6,0.512,0.612,160.9,0.485,0.5285,0.333,6.33,13.3,8.64,6.65,1
+1472,Canada,Netherlands,Dubai International Cricket Stadium,Netherlands,0,0,0,0.5,0.6,0.5,0.6,141.8,0.545,0.5285,0.5,25.1,11,6.94,7.65,0
+1474,Ireland,Scotland,Dubai International Cricket Stadium,Ireland,1,0,1,0.6,0.167,0.571,0.167,135.8,0.538,1,0.5,9.58,0.5,5.11,8.25,1
+1475,Canada,Ireland,Dubai International Cricket Stadium,Canada,1,0,0.5,0.5,0.7,0.5,0.6,137.5,0.571,0,1,25.1,8.29,6.94,5.43,0
+1476,Ireland,Netherlands,Dubai International Cricket Stadium,Netherlands,0,0,1,0.8,0.667,0.625,0.667,135.4,0.533,1,0.667,11.12,11,5.53,7.65,1
+1477,Canada,Scotland,Dubai International Cricket Stadium,Canada,1,0,0.5,0.5,0.143,0.5,0.143,135.4,0.533,0,0.5,25.1,1.58,6.94,8.59,0
+1467,West Indies,Australia,Beausejour Stadium,West Indies,1,0,0.4,0.3,0.3,0.394,0.511,158.3,0.5,0.5285,1,17.12,22.86,8.92,8.2,0
+1468,West Indies,Australia,Kensington Oval,West Indies,1,0,0.333,0.3,0.4,0.382,0.521,156.3,0.727,0.667,0.6,16.38,22.86,8.92,8.2,1
+1478,South Africa,India,New Wanderers Stadium,South Africa,1,0,0.2,0.7,0.5,0.634,0.516,166.3,0.444,0.7,0.667,19.12,24.5,6.94,6.98,1
+1481,Sri Lanka,Pakistan,Mahinda Rajapaksa International Cricket Stadium,Sri Lanka,1,0,0.286,0.6,0.6,0.583,0.6,160.9,0.486,0.5285,0.5,25.1,12.95,6.94,6.63,1
+1482,Sri Lanka,Pakistan,Mahinda Rajapaksa International Cricket Stadium,Pakistan,0,0,0.375,0.7,0.6,0.595,0.588,160.9,0.488,0.5285,0.5,25.1,12.95,6.94,6.63,0
+1462,England,West Indies,Trent Bridge,West Indies,0,0,0.286,0.6,0.3,0.523,0.4,152.6,0.6,0.5285,0.5,6.25,17.62,8.64,8.92,1
+1479,New Zealand,West Indies,Central Broward Regional Park Stadium Turf Ground,West Indies,0,0,0.333,0.7,0.3,0.48,0.389,160.9,0.488,0.5285,0.5,25.1,17.62,6.94,8.92,0
+1480,New Zealand,West Indies,Central Broward Regional Park Stadium Turf Ground,West Indies,0,0,0.25,0.6,0.4,0.471,0.405,160.9,0.491,0.333,0.5,25.1,17.08,6.94,8.92,0
+1483,Sri Lanka,India,Pallekele International Cricket Stadium,India,0,0,0.5,0.6,0.5,0.579,0.5,160.9,0.491,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1500,Australia,Pakistan,Dubai International Cricket Stadium,Australia,1,0,0.429,0.4,0.6,0.51,0.596,134.1,0.471,0.5285,0.714,22.08,12.95,8.2,6.63,0
+1463,England,South Africa,Riverside Ground,England,1,0,0.4,0.6,0.7,0.533,0.643,160.9,0.489,0.5285,0.5,6.25,19.12,8.64,6.98,0
+1502,Australia,Pakistan,Dubai International Cricket Stadium,Australia,1,0,0.333,0.3,0.6,0.49,0.593,132.6,0.421,0,0.667,20.13,12.95,8.32,6.63,1
+1486,India,New Zealand,MA Chidambaram Stadium,New Zealand,0,0,0,0.6,0.5,0.515,0.462,160.9,0.486,0.5285,0.5,25.1,24.5,6.94,6.98,0
+1465,England,South Africa,Edgbaston,England,1,0,0.286,0.6,0.6,0.511,0.636,160.9,0.489,0.5285,0.5,6.1,19.12,8.64,6.98,1
+1437,Sri Lanka,Zimbabwe,Mahinda Rajapaksa International Cricket Stadium,Sri Lanka,1,0,1,0.6,0.133,0.564,0.133,160.9,0.491,0.5285,0.5,25.1,7.75,6.94,7.25,1
+1438,Australia,Ireland,R Premadasa Stadium,Ireland,0,0,0.5,0.4,0.7,0.5,0.611,160.9,0.493,0.5285,0.5,19.53,10.85,6.31,5.83,1
+1439,South Africa,Zimbabwe,Mahinda Rajapaksa International Cricket Stadium,Zimbabwe,0,0,1,0.5,0.125,0.622,0.125,160.9,0.491,0.5285,0.5,19.12,6.83,6.94,7.25,1
+1442,Australia,West Indies,R Premadasa Stadium,West Indies,0,0,0.571,0.5,0.5,0.509,0.421,155.4,0.6,0.5285,0.5,19.63,17.71,6.43,8.92,1
+1441,Sri Lanka,South Africa,Mahinda Rajapaksa International Cricket Stadium,South Africa,0,0,0.5,0.7,0.6,0.575,0.63,160.9,0.491,0.667,0.5,25.1,19.12,6.94,6.98,0
+1444,England,India,R Premadasa Stadium,India,0,0,0.75,0.6,0.5,0.521,0.5,161.3,0.5,0.5285,0.5,8.17,24.5,8.64,6.98,0
+1443,New Zealand,Pakistan,Pallekele International Cricket Stadium,Pakistan,0,0,0.375,0.6,0.5,0.481,0.582,160.9,0.491,0.5285,0.5,25.1,12.95,6.94,6.63,0
+1448,England,West Indies,Pallekele International Cricket Stadium,West Indies,0,0,0.375,0.5,0.4,0.51,0.4,175.5,0.833,0.5285,0.5,8.14,16.73,8.64,9,0
+1450,Australia,India,R Premadasa Stadium,India,0,0,0.5,0.5,0.5,0.519,0.514,158.4,0.5,0.5285,0.5,19.63,24.5,7.3,6.98,1
+1449,Pakistan,South Africa,R Premadasa Stadium,South Africa,0,0,0.5,0.5,0.7,0.596,0.638,158.4,0.5,0.5285,0.5,12.7,19.12,6.78,6.98,1
+1451,England,New Zealand,Pallekele International Cricket Stadium,New Zealand,0,0,0.8,0.5,0.4,0.5,0.464,175.8,0.75,0.5285,0.333,7.5,24.5,8.64,6.98,1
+1452,Sri Lanka,West Indies,Pallekele International Cricket Stadium,West Indies,0,0,1,0.5,0.5,0.548,0.415,175.8,0.75,0.5,0.5,25.1,20.68,6.94,9,1
+1454,India,Pakistan,R Premadasa Stadium,Pakistan,0,0,0.5,0.4,0.5,0.5,0.603,154,0.4,0.667,0.5,25.1,12.7,6.94,6.78,1
+1453,Australia,South Africa,R Premadasa Stadium,South Africa,0,0,0.5,0.6,0.6,0.527,0.625,154,0.4,1,0.5,19.63,19.12,7.27,6.98,1
+1456,Sri Lanka,England,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.667,0.5,0.5,0.558,0.51,168.3,0.6,0.6,0.5,25.1,7.22,6.94,8.64,1
+1457,Australia,Pakistan,R Premadasa Stadium,Pakistan,0,0,0.4,0.6,0.5,0.536,0.593,151.2,0.333,1,0.667,19.63,13.25,7.35,6.98,0
+1458,India,South Africa,R Premadasa Stadium,India,1,0,0.667,0.4,0.6,0.514,0.612,151.2,0.333,0.75,0.5,25.1,19.12,6.94,6.98,1
+1459,Sri Lanka,Pakistan,R Premadasa Stadium,Sri Lanka,1,0,0.333,0.5,0.6,0.568,0.6,151.1,0.429,0,0.75,25.1,13.25,6.94,6.98,1
+1460,Australia,West Indies,R Premadasa Stadium,West Indies,0,0,0.625,0.6,0.4,0.526,0.395,150.3,0.467,0.8,0.5,19.41,19.04,7.26,9.13,0
+1461,Sri Lanka,West Indies,R Premadasa Stadium,West Indies,0,0,1,0.5,0.5,0.578,0.409,153.7,0.5,0.2,0.333,25.1,17.74,6.94,10.12,0
+1484,India,England,Subrata Roy Sahara Stadium,England,0,0,0.4,0.5,0.5,0.526,0.5,160.9,0.49,0.5285,0.5,25.1,7.15,6.94,8.64,1
+1493,South Africa,New Zealand,Kingsmead,New Zealand,0,0,0.75,0.5,0.2,0.6,0.441,157.6,0.625,0.5285,0.667,19.12,24.5,6.94,6.98,1
+1485,India,England,Wankhede Stadium,India,1,1,0.5,0.6,0.4,0.538,0.491,170.2,0.486,0.5285,0.5,25.1,8.65,6.94,8.64,0
+1494,South Africa,New Zealand,Buffalo Park,South Africa,1,0,0.778,0.5,0.2,0.608,0.433,160.9,0.484,0.5285,0.5,23.56,10,6.94,12,0
+1509,India,Pakistan,M Chinnaswamy Stadium,India,1,1,0.667,0.6,0.6,0.525,0.59,170.2,0.482,0.5285,0.5,25.1,13.25,6.94,6.98,0
+1495,South Africa,New Zealand,St George's Park,South Africa,1,0,0.7,0.4,0.3,0.596,0.443,160.9,0.48,0.5285,0.5,24.33,10,6.94,12,1
+1510,India,Pakistan,Sardar Patel Stadium,India,1,0,0.5,0.5,0.6,0.512,0.597,160.9,0.482,0.5285,0.5,25.1,13.25,6.94,6.98,1
+1503,Australia,Sri Lanka,Stadium Australia,Australia,1,0,0.333,0.5,0.4,0.517,0.553,160.9,0.484,0.5285,0.5,18.84,24.5,7.33,6.98,0
+1504,Australia,Sri Lanka,Melbourne Cricket Ground,Sri Lanka,0,1,0.286,0.5,0.5,0.508,0.562,132.2,0.6,0.8,0.5,18.84,24.5,7.13,6.98,0
+1497,New Zealand,England,Eden Park,England,0,0,0.167,0.3,0.4,0.435,0.5,157.6,0.375,0.375,0.5,11,8.65,12,8.64,0
+1498,New Zealand,England,Seddon Park,New Zealand,1,0,0.143,0.2,0.4,0.429,0.509,165.4,0.4,0.8,0.5,11,9.85,12,8.64,1
+1505,Australia,West Indies,Brisbane Cricket Ground,West Indies,0,1,0.556,0.5,0.6,0.5,0.435,156.9,0.489,0.5285,0.5,16.11,15.38,7.19,10.53,0
+1499,New Zealand,England,Westpac Stadium,New Zealand,1,0,0.25,0.2,0.4,0.438,0.5,160.9,0.49,0.5,0.5,11,12.2,12,8.64,0
+1514,West Indies,Zimbabwe,Sir Vivian Richards Stadium,Zimbabwe,0,0,0,0.6,0.118,0.447,0.118,160.9,0.489,0.5285,0.5,17.3,9.75,10.44,7.25,1
+1496,South Africa,Pakistan,SuperSport Park,Pakistan,0,0,0.4,0.4,0.5,0.604,0.587,160.9,0.487,0.5285,0.5,18.2,13.25,6.94,6.98,0
+1515,West Indies,Zimbabwe,Sir Vivian Richards Stadium,West Indies,1,0,0.5,0.6,0.111,0.458,0.111,160.9,0.487,0.333,0.5,18.2,11.2,10.18,7.25,1
+1487,England,New Zealand,Kennington Oval,New Zealand,0,0,0.778,0.5,0.2,0.509,0.431,156.1,0.538,0.5,0.5,12.2,11,8.64,12,0
+1529,West Indies,Pakistan,Arnos Vale Ground,West Indies,1,0,1,0.7,0.6,0.469,0.594,160.9,0.493,0.5285,0.5,17.65,13.1,11,6.98,0
+1530,West Indies,Pakistan,Arnos Vale Ground,Pakistan,0,0,0.5,0.7,0.7,0.46,0.6,160.9,0.491,0.5285,0.5,17.65,13.1,11,6.98,0
+1520,Sri Lanka,South Africa,R Premadasa Stadium,South Africa,0,0,0,0.6,0.4,0.58,0.593,152.7,0.529,0.167,0,25.1,18.35,6.94,6.98,0
+1521,Sri Lanka,South Africa,Mahinda Rajapaksa International Cricket Stadium,South Africa,0,0,0,0.6,0.5,0.569,0.6,121.4,0.8,0.5,0.5,25.1,16.68,6.94,6.98,0
+1522,Sri Lanka,South Africa,Mahinda Rajapaksa International Cricket Stadium,South Africa,0,0,0,0.6,0.5,0.558,0.607,125.3,0.833,0.4,1,25.1,18.95,6.94,6.98,1
+1538,Zimbabwe,Pakistan,Harare Sports Club,Pakistan,0,0,0,0.1,0.7,0.143,0.606,150,0.5,0,0.5,18.22,13.1,8.82,6.98,0
+1539,Zimbabwe,Pakistan,Harare Sports Club,Pakistan,0,0,0,0.1,0.7,0.136,0.612,151.6,0.571,0,1,18,13.1,8.95,6.98,0
+1489,England,Australia,The Rose Bowl,Australia,0,0,0.429,0.4,0.5,0.492,0.492,160.9,0.498,0.5285,0.5,12.7,16.11,8.64,7.19,0
+1490,England,Australia,Riverside Ground,England,1,0,0.375,0.4,0.5,0.483,0.5,160.9,0.5,0.5285,0.5,12.7,16.18,8.64,7.19,1
+1531,India,Australia,Saurashtra Cricket Association Stadium,Australia,0,0,0.429,0.6,0.4,0.524,0.492,160.9,0.502,0.5285,0.5,25.1,17.04,6.94,7.36,1
+1534,Pakistan,South Africa,Dubai International Cricket Stadium,Pakistan,1,0,0.667,0.7,0.4,0.618,0.596,134.4,0.45,0.6,0.5,13.1,19.2,6.98,6.98,0
+1535,Pakistan,South Africa,Dubai International Cricket Stadium,South Africa,0,0,0.571,0.7,0.5,0.609,0.603,132.7,0.429,0.545,0.5,13.1,22.03,6.98,6.98,0
+1540,Canada,Ireland,Sheikh Zayed Stadium,Ireland,0,0,0,0.143,0.7,0.143,0.55,160.9,0.502,0.5285,0.5,25.1,11.3,6.94,6.16,0
+1583,South Africa,Pakistan,New Wanderers Stadium,South Africa,1,0,0.5,0.6,0.6,0.61,0.6,169.1,0.474,0.727,0.667,21.72,13.1,6.94,6.98,1
+1551,Sri Lanka,New Zealand,Pallekele International Cricket Stadium,New Zealand,0,0,0.364,0.6,0.4,0.566,0.441,161.6,0.571,0.625,0.167,25.1,11,6.94,12,1
+1542,Netherlands,Scotland,ICC Academy,Scotland,0,0,1,0.4,0.222,0.455,0.222,160.9,0.505,0.5285,0.5,7,5.2,9.49,8.43,0
+1584,South Africa,Pakistan,Newlands,Pakistan,0,0,0.556,0.7,0.6,0.617,0.592,141.2,0.2,0.667,0.5,22.39,13.1,6.94,6.98,0
+1545,Netherlands,Scotland,Sheikh Zayed Stadium,Scotland,0,0,0.5,0.4,0.3,0.462,0.3,135.4,0.4,0.5285,0.5,7,7.96,8.68,8.6,1
+1536,Pakistan,Sri Lanka,Dubai International Cricket Stadium,Sri Lanka,0,0,0.6,0.6,0.6,0.597,0.574,133.5,0.455,0.5,0.5,13.1,24.5,6.98,6.98,1
+1537,Pakistan,Sri Lanka,Dubai International Cricket Stadium,Sri Lanka,0,0,0.636,0.7,0.5,0.603,0.564,134,0.435,0.538,0.5,20.07,24.5,6.98,6.98,0
+1546,New Zealand,West Indies,Eden Park,New Zealand,1,0,0.167,0.4,0.6,0.435,0.451,163.9,0.444,0.333,0.5,11,16.6,12,11,1
+1547,New Zealand,West Indies,Westpac Stadium,West Indies,0,0,0.286,0.5,0.6,0.443,0.442,143,0,0.4,0.5,11,14.25,7.53,12.21,1
+1523,Australia,England,Bellerive Oval,Australia,1,0,0.444,0.3,0.4,0.484,0.492,160.9,0.51,0.5285,0.5,17.04,12.7,7.36,8.64,1
+1524,Australia,England,Melbourne Cricket Ground,England,0,1,0.5,0.3,0.4,0.492,0.484,137,0.667,0.667,0.5,17.04,12.1,7.51,8.64,1
+1525,Australia,England,Stadium Australia,Australia,1,0,0.545,0.3,0.4,0.5,0.476,160.9,0.51,0.5285,0.5,17.04,11.55,7.56,8.64,1
+1587,West Indies,Ireland,Sabina Park,West Indies,1,0,0.5,0.6,0.7,0.434,0.571,160.9,0.511,0.5285,0.5,14.6,9.05,12.21,6.35,0
+1588,West Indies,Ireland,Sabina Park,West Indies,1,0,0.333,0.5,0.7,0.426,0.591,160.9,0.51,0.5285,0.5,15.35,8.3,12.21,6.36,1
+1526,West Indies,England,Kensington Oval,West Indies,1,0,0.667,0.5,0.3,0.436,0.469,156.6,0.75,0.75,1,15.25,10.35,12.21,8.64,1
+1527,West Indies,England,Kensington Oval,England,0,0,0.7,0.5,0.2,0.446,0.462,157.6,0.769,0.8,0.75,15.95,10.3,12.21,8.64,1
+1532,South Africa,Australia,Kingsmead,South Africa,1,0,0.444,0.6,0.4,0.607,0.507,149.7,0.556,0.667,0.5,22.21,17.64,6.94,7.66,0
+1528,West Indies,England,Kensington Oval,England,0,0,0.727,0.5,0.2,0.456,0.455,157.2,0.714,0.833,0.6,15.3,10.3,11.64,8.64,0
+1533,South Africa,Australia,SuperSport Park,South Africa,1,0,0.4,0.6,0.5,0.597,0.515,160.9,0.511,0.667,0.5,23.05,17.64,6.94,7.66,0
+1554,Netherlands,UAE,Sylhet Stadium,UAE,0,0,0.5,0.4,0.5,0.5,0.5,153.9,0.511,0.5285,0.5,7,11.36,8.68,6,1
+1553,Ireland,Zimbabwe,Sylhet Stadium,Zimbabwe,0,0,0.5,0.6,0.1,0.565,0.13,153.9,0.511,0.5285,0.5,5.15,19.22,6.17,8.78,1
+1556,Netherlands,Zimbabwe,Sylhet Stadium,Netherlands,1,0,0.5,0.5,0.1,0.533,0.125,153.9,0.506,0.5285,0.5,7,17.97,9.23,8.16,0
+1557,Ireland,UAE,Sylhet Stadium,UAE,0,0,0.5,0.6,0.5,0.583,0.5,153.9,0.506,0.5285,0.5,7.2,14.24,6.01,7.59,1
+1558,UAE,Zimbabwe,Sylhet Stadium,UAE,1,0,0.5,0.5,0.2,0.5,0.16,153.9,0.503,0.5285,0.5,13.07,18.17,5.85,7.59,0
+1559,Ireland,Netherlands,Sylhet Stadium,Ireland,1,0,1,0.6,0.4,0.6,0.5,153.9,0.503,0.5285,0.5,7.4,7,5.92,9.29,0
+1560,India,Pakistan,Shere Bangla National Stadium,Pakistan,0,0,0.6,0.6,0.6,0.535,0.595,160.9,0.503,0.5285,0.5,25.1,22.73,6.94,6.98,1
+1561,South Africa,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Sri Lanka,0,0,0.75,0.5,0.7,0.587,0.586,160.9,0.498,0.5285,0.5,22.85,24.5,6.94,6.98,0
+1562,England,New Zealand,Zahur Ahmed Chowdhury Stadium,England,1,0,0.636,0.2,0.5,0.463,0.451,160.9,0.498,0.5285,0.5,8.53,12.5,8.64,8.33,0
+1564,India,West Indies,Shere Bangla National Stadium,West Indies,0,0,0.333,0.7,0.4,0.545,0.448,159.6,0.6,0.5285,0.5,25.1,15.05,6.94,11.38,1
+1563,Australia,Pakistan,Shere Bangla National Stadium,Pakistan,0,0,0.364,0.6,0.5,0.522,0.587,159.6,0.6,0.5285,0.5,17.64,22.33,7.38,7.1,0
+1566,Netherlands,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Netherlands,1,0,0.5,0.5,0.7,0.529,0.593,150,0.5,0.5285,1,5,24.5,9.64,6.98,0
+1565,New Zealand,South Africa,Zahur Ahmed Chowdhury Stadium,South Africa,0,0,0.273,0.6,0.5,0.458,0.578,150,0.5,0.5285,0.5,12.5,22.55,8.33,6.98,0
+1569,England,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Sri Lanka,0,0,0.25,0.2,0.7,0.456,0.6,138.6,0.5,0.5285,1,8.53,24.5,8.64,6.98,1
+1568,Netherlands,South Africa,Zahur Ahmed Chowdhury Stadium,South Africa,0,0,0.5,0.5,0.5,0.5,0.585,138.6,0.5,0.5285,0.5,5,22.55,9.64,6.98,0
+1570,Australia,West Indies,Shere Bangla National Stadium,Australia,1,0,0.5,0.6,0.4,0.514,0.45,161.1,0.625,0.5285,0.5,17.17,15.05,7.38,11.38,0
+1572,Netherlands,New Zealand,Zahur Ahmed Chowdhury Stadium,Netherlands,1,0,0.5,0.4,0.6,0.474,0.452,144.3,0.5,0.5285,0.5,5,12.5,9.31,8.33,0
+1573,England,South Africa,Zahur Ahmed Chowdhury Stadium,South Africa,0,0,0.375,0.3,0.5,0.464,0.591,144.3,0.5,0.5285,0.667,8.53,22.55,8.64,6.98,0
+1575,Australia,India,Shere Bangla National Stadium,India,0,0,0.5,0.6,0.8,0.507,0.565,160.5,0.5,0.5285,1,17.77,24.5,7.6,6.98,0
+1576,England,Netherlands,Zahur Ahmed Chowdhury Stadium,Netherlands,0,0,0,0.3,0.4,0.457,0.45,149.2,0.5,0.333,0,8.53,5,8.64,9.09,0
+1577,New Zealand,Sri Lanka,Zahur Ahmed Chowdhury Stadium,Sri Lanka,0,0,0.417,0.6,0.7,0.459,0.59,149.2,0.5,0.667,0.8,11.88,24.5,7.75,6.98,0
+1579,Pakistan,West Indies,Shere Bangla National Stadium,West Indies,0,0,0.667,0.5,0.5,0.597,0.459,162.8,0.583,0.75,0.6,22.33,15.05,7.1,11.38,0
+1580,Sri Lanka,West Indies,Shere Bangla National Stadium,Sri Lanka,1,0,0.8,0.8,0.6,0.597,0.468,162.4,0.571,0.5285,0.667,25.1,15.05,6.94,10.47,1
+1581,India,South Africa,Shere Bangla National Stadium,South Africa,0,0,0.714,0.8,0.6,0.574,0.597,162.2,0.6,1,0.5,25.1,23.05,6.94,6.98,1
+1582,India,Sri Lanka,Shere Bangla National Stadium,India,1,0,0.6,0.8,0.8,0.583,0.603,162.8,0.562,1,0.5,25.1,24.5,6.94,6.98,0
+1549,England,Sri Lanka,Kennington Oval,Sri Lanka,0,0,0.4,0.2,0.8,0.451,0.609,148.8,0.533,0.375,0.5,8.53,24.5,8.64,6.98,0
+1592,West Indies,New Zealand,Windsor Park,West Indies,1,0,0.25,0.6,0.6,0.46,0.453,160.9,0.503,0.5285,0.5,15.05,10.8,10.88,8,0
+1593,West Indies,New Zealand,Windsor Park,West Indies,1,0,0.222,0.6,0.6,0.453,0.461,160.9,0.501,0.5285,0.5,15.05,11,10.88,9.59,1
+1548,England,India,Edgbaston,England,1,0,0.571,0.2,0.7,0.444,0.571,160.9,0.501,0.5285,0.5,8.53,24.5,8.64,6.98,1
+1591,Australia,Pakistan,Dubai International Cricket Stadium,Pakistan,0,0,0.333,0.6,0.4,0.507,0.59,137.2,0.458,0.25,0.5,17.9,22.33,7.59,7.1,1
+1600,Australia,South Africa,Adelaide Oval,Australia,1,1,0.636,0.7,0.5,0.514,0.588,156.9,0.501,0.5285,0.5,17.9,22.55,7.59,6.98,0
+1601,Australia,South Africa,Melbourne Cricket Ground,South Africa,0,1,0.583,0.6,0.5,0.507,0.594,136,0.571,0.714,0.5,17.9,22.05,7.59,9.33,1
+1602,Australia,South Africa,Stadium Australia,South Africa,0,0,0.615,0.6,0.4,0.513,0.586,160.9,0.499,0.667,0.5,17.87,19.55,7.4,8.83,1
+1596,New Zealand,Pakistan,Dubai International Cricket Stadium,New Zealand,1,0,0.333,0.6,0.4,0.455,0.582,135.5,0.44,0.5285,0.467,10.86,22.33,8.88,7.1,0
+1599,New Zealand,Pakistan,Dubai International Cricket Stadium,New Zealand,1,0,0.3,0.5,0.5,0.449,0.588,135.5,0.423,0,0.5,10.69,22.33,8.65,7.1,1
+1589,South Africa,West Indies,Newlands,South Africa,1,0,0.833,0.4,0.5,0.577,0.455,144.4,0.273,0.5,0.5,19.8,14.55,8.83,10.76,0
+1590,South Africa,West Indies,New Wanderers Stadium,South Africa,1,0,0.714,0.4,0.5,0.569,0.463,168.2,0.5,0.75,0,20.35,14.55,9.6,10.76,0
+1595,South Africa,West Indies,Kingsmead,South Africa,1,0,0.625,0.4,0.6,0.562,0.471,142.7,0.5,0.5,0.5,22.25,14.55,9.6,10.76,1
+1613,Pakistan,Zimbabwe,Gaddafi Stadium,Zimbabwe,0,0,1,0.4,0.3,0.573,0.192,160.9,0.493,0.5285,0.5,22.33,16.86,7.1,6.35,1
+1614,Pakistan,Zimbabwe,Gaddafi Stadium,Zimbabwe,0,0,1,0.4,0.3,0.578,0.185,160.9,0.492,0.5285,0.5,22.33,17.03,7.1,7.33,1
+1632,Ireland,Scotland,Bready Cricket Club,Ireland,1,0,1,0.5,0.3,0.577,0.273,160.9,0.49,0.5285,0.5,7.75,15.99,6.43,8.81,0
+1597,England,New Zealand,Old Trafford,England,1,0,0.583,0.3,0.6,0.452,0.456,160.9,0.489,0.5,0.5,7.53,10.61,8.64,8.58,1
+1625,Netherlands,Nepal,VRA Ground,Netherlands,1,0,0.5,0.5,0.333,0.476,0.333,160.9,0.49,0.5285,0.5,5,40,8.81,5.78,1
+1626,Netherlands,Nepal,Hazelaarweg,Netherlands,1,0,1,0.6,0.25,0.5,0.25,160.9,0.492,0.5285,0.5,5,14.5,6.48,8.17,1
+1615,Scotland,UAE,Grange Cricket Club Ground,UAE,0,0,0.5,0.3,0.5,0.333,0.5,160.9,0.496,0.5285,0.5,21.75,15.18,7.72,4.43,1
+1616,Scotland,Netherlands,Grange Cricket Club Ground,Netherlands,0,0,0.333,0.4,0.6,0.385,0.522,160.9,0.495,0.5285,0.5,26.83,5.67,7.15,6.28,0
+1617,Netherlands,UAE,Grange Cricket Club Ground,UAE,0,0,1,0.6,0.5,0.542,0.5,160.9,0.496,0.5285,0.5,6.39,15.18,6.33,4.43,1
+1618,Nepal,Ireland,Civil Service Cricket Club,Nepal,1,0,0.5,0.2,0.4,0.2,0.556,160.9,0.495,0.5285,0.5,10.25,16.5,7.92,7.62,0
+1630,Zimbabwe,India,Harare Sports Club,India,0,0,0,0.3,0.7,0.179,0.56,155,0.625,0,0.5,18.65,24.5,7.57,6.98,0
+1631,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0,0.3,0.8,0.172,0.569,157.6,0.667,0,1,17.47,24.5,7.48,4.5,1
+1624,Ireland,Netherlands,The Village,Ireland,1,0,0.667,0.5,0.6,0.533,0.56,160.9,0.493,0.5285,0.5,12.21,6.39,6.59,6.34,0
+1611,Sri Lanka,Pakistan,R Premadasa Stadium,Pakistan,0,0,0.417,0.9,0.5,0.615,0.583,150.6,0.556,0.143,0.6,25.1,22.47,6.94,7.33,0
+1612,Sri Lanka,Pakistan,R Premadasa Stadium,Sri Lanka,1,0,0.385,0.8,0.6,0.606,0.588,151.9,0.579,0.125,0.667,25.1,22.47,6.94,7.23,0
+1633,Zimbabwe,New Zealand,Harare Sports Club,New Zealand,0,0,0,0.3,0.5,0.2,0.45,156.3,0.7,0.1,0.5,16.63,12.07,7.29,7.59,0
+1608,South Africa,New Zealand,Kingsmead,New Zealand,0,0,0.75,0.5,0.5,0.579,0.457,147.5,0.545,0.6,0.5,23.2,12.07,9.54,7.36,1
+1609,South Africa,New Zealand,SuperSport Park,New Zealand,0,0,0.769,0.5,0.4,0.584,0.451,160.9,0.491,0.5,0.5,22.1,12.07,9,7.36,0
+1598,England,Australia,Sophia Gardens,England,1,0,0.333,0.4,0.6,0.459,0.519,160.9,0.492,0.5285,0.5,8.01,18.5,8.61,7.36,1
+1651,Zimbabwe,Pakistan,Harare Sports Club,Pakistan,0,0,0,0.3,0.6,0.194,0.593,160.1,0.727,0.091,1,17.34,24.53,7.56,7.27,0
+1652,Zimbabwe,Pakistan,Harare Sports Club,Pakistan,0,0,0,0.3,0.6,0.188,0.598,158.1,0.75,0.083,1,17.03,25.09,6.56,6.66,0
+1640,India,South Africa,Himachal Pradesh Cricket Association Stadium,India,1,0,0.75,0.7,0.5,0.558,0.577,160.9,0.496,0.5285,0.5,16,16.4,5.62,8.71,0
+1641,India,South Africa,Barabati Stadium,India,1,0,0.667,0.6,0.5,0.547,0.582,160.9,0.495,0.5285,0.5,13.25,16.4,7.5,8.64,0
+1649,Sri Lanka,West Indies,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.833,0.7,0.6,0.597,0.464,160.3,0.533,0.667,0.333,7,14.75,6.94,12,1
+1650,Sri Lanka,West Indies,R Premadasa Stadium,West Indies,0,0,0.857,0.7,0.5,0.603,0.457,152.9,0.55,0.111,0.5,7,15.55,10,12,0
+1653,UAE,Oman,Sheikh Zayed Stadium,Oman,0,0,0.5,0.5,1,0.5,1,132.9,0.286,0.5285,0.5,15.9,24.5,5.37,6.25,1
+1637,England,Pakistan,Dubai International Cricket Stadium,England,1,0,0.7,0.5,0.7,0.467,0.602,135.8,0.444,0.5,0.471,8.01,24.87,8.76,6.47,1
+1638,England,Pakistan,Dubai International Cricket Stadium,England,1,0,0.727,0.6,0.7,0.474,0.596,136.7,0.464,0.6,0.444,8.01,24.87,8.76,6.47,1
+1644,New Zealand,Sri Lanka,Bay Oval,New Zealand,1,0,0.385,0.5,0.6,0.458,0.594,160.9,0.493,0.5285,0.5,14.83,5,7.11,11.67,1
+1645,New Zealand,Sri Lanka,Eden Park,Sri Lanka,0,0,0.429,0.5,0.5,0.464,0.586,166.4,0.5,0.4,0.5,14.83,5,7.19,11.67,1
+1646,New Zealand,Pakistan,Eden Park,Pakistan,0,0,0.364,0.6,0.6,0.471,0.582,164.2,0.455,0.455,0.5,14.83,24.87,7.02,6.47,0
+1647,New Zealand,Pakistan,Seddon Park,Pakistan,0,0,0.333,0.5,0.7,0.465,0.587,169.8,0.5,0.833,0.5,15.16,25.07,6.69,6.44,1
+1648,New Zealand,Pakistan,Westpac Stadium,New Zealand,1,0,0.385,0.6,0.6,0.471,0.581,145.7,0,0.5,0.5,15.16,24.64,6.97,6.78,1
+1634,Australia,India,Adelaide Oval,India,0,1,0.444,0.5,0.5,0.513,0.537,156.9,0.496,0.5285,0.5,19.77,13.5,7.57,7.2,0
+1635,Australia,India,Melbourne Cricket Ground,India,0,1,0.4,0.4,0.5,0.506,0.545,131.6,0.5,0.75,0.5,19.67,13.5,7.57,8.81,0
+1636,Australia,India,Sydney Cricket Ground,Australia,1,1,0.364,0.4,0.5,0.5,0.554,156.9,0.498,1,0.5,19.67,13.5,7.57,8.78,0
+1715,UAE,Netherlands,ICC Academy,Netherlands,0,0,0,0.167,0.7,0.167,0.577,160.9,0.498,0.5285,0.5,18.61,8.72,5.1,6.04,0
+1702,UAE,Scotland,ICC Academy,UAE,1,0,0,0.143,0.6,0.143,0.412,160.9,0.499,0.5285,0.5,17.38,20.11,5.33,7.55,1
+1699,India,Sri Lanka,Maharashtra Cricket Association Stadium,India,1,0,0.5,0.5,0.5,0.561,0.577,160.9,0.501,0.5285,0.5,13.5,5,9.23,12.89,0
+1700,India,Sri Lanka,JSCA International Stadium Complex,India,1,0,0.429,0.4,0.5,0.552,0.583,160.9,0.501,0.5285,0.5,9.67,4,8.39,7.81,1
+1693,UAE,Ireland,Sheikh Zayed Stadium,Ireland,0,0,0,0.25,0.4,0.25,0.515,134.3,0.3,0.5285,0.5,17.17,12.22,5.68,6.52,0
+1701,India,Sri Lanka,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Sri Lanka,0,0,0.5,0.5,0.4,0.559,0.575,160.9,0.502,0.5285,0.5,13.83,6.92,8.11,8.55,1
+1694,UAE,Ireland,Sheikh Zayed Stadium,UAE,1,0,0,0.222,0.4,0.222,0.529,134.3,0.364,0.5285,0.5,16.78,12.22,5.86,6.45,1
+1603,South Africa,England,Newlands,England,0,0,0.556,0.6,0.6,0.588,0.474,146.1,0.25,0.4,0.333,16.4,8.48,8.07,8.35,1
+1604,South Africa,England,New Wanderers Stadium,England,0,0,0.6,0.7,0.5,0.593,0.468,171.2,0.476,0.692,0.5,16.77,8.28,7.97,8.23,1
+1704,Oman,UAE,Shere Bangla National Stadium,UAE,0,0,0,0.6,0.3,0.6,0.3,157.2,0.5,0.5285,0.5,19.25,17.08,7.7,6.14,0
+1706,Sri Lanka,UAE,Shere Bangla National Stadium,Sri Lanka,1,0,0.5,0.3,0.4,0.568,0.364,158.2,0.542,0.5285,0.5,9,16.72,8.44,6.14,1
+1707,India,Pakistan,Shere Bangla National Stadium,Pakistan,0,0,0.667,0.6,0.5,0.574,0.574,157,0.56,0.857,0.5,15.67,23.76,7.45,7.35,1
+1709,Pakistan,UAE,Shere Bangla National Stadium,UAE,0,0,0.5,0.4,0.4,0.568,0.333,153.9,0.556,0.429,0.5,19.87,16.26,7.35,6.12,1
+1710,India,Sri Lanka,Shere Bangla National Stadium,Sri Lanka,0,0,0.556,0.7,0.3,0.581,0.566,153,0.536,0.875,0.75,14,7.65,7.01,8.09,1
+1712,India,UAE,Shere Bangla National Stadium,UAE,0,0,0.5,0.8,0.4,0.587,0.308,151.7,0.5,0.889,0.333,13.13,16.06,6.98,6.14,1
+1627,South Africa,Australia,Kingsmead,Australia,0,0,0.357,0.8,0.4,0.598,0.494,147.8,0.5,0.667,0.5,16.77,19.67,7.99,7.57,1
+1713,Pakistan,Sri Lanka,Shere Bangla National Stadium,Sri Lanka,0,0,0.643,0.3,0.3,0.567,0.558,149.5,0.484,0.444,0.6,16.76,6.76,7.15,7.93,1
+1628,South Africa,Australia,New Wanderers Stadium,South Africa,1,0,0.4,0.9,0.4,0.602,0.488,171.2,0.455,0.714,0,16.77,20.97,7.73,6.79,0
+1664,Ireland,Oman,Himachal Pradesh Cricket Association Stadium,Ireland,1,0,0.5,0.3,0.5,0.514,0.5,160.9,0.498,0.5285,0.5,12.07,17.78,6.4,6.98,0
+1629,South Africa,Australia,Newlands,South Africa,1,0,0.375,0.8,0.4,0.595,0.494,145.2,0.231,0.5,0.8,16.67,21.73,7.91,6.9,0
+1665,Scotland,Zimbabwe,Vidarbha Cricket Association Stadium,Zimbabwe,0,0,0.5,0.5,0.4,0.389,0.25,160.9,0.497,0.5285,0.5,19.05,14.1,7.63,7.61,0
+1668,Ireland,Netherlands,Himachal Pradesh Cricket Association Stadium,Netherlands,0,0,0.5,0.3,0.7,0.486,0.571,160.9,0.496,0.5285,0.5,12.07,7.7,6.41,6.32,0
+1670,India,New Zealand,Vidarbha Cricket Association Stadium,New Zealand,0,0,0,0.9,0.7,0.6,0.477,160.9,0.498,0.5285,0.5,13.13,14.7,6.95,6.98,0
+1671,England,West Indies,Wankhede Stadium,England,1,0,0.333,0.5,0.5,0.462,0.465,170.2,0.499,0.5285,0.5,10.41,15.55,8.11,12,0
+1674,England,South Africa,Wankhede Stadium,South Africa,0,0,0.273,0.5,0.7,0.457,0.588,170.2,0.499,0.5285,0.5,10.41,17.33,8.27,8.28,1
+1673,Australia,New Zealand,Himachal Pradesh Cricket Association Stadium,New Zealand,0,0,0.8,0.4,0.7,0.5,0.483,139.8,0.5,0.5285,0.5,21.67,14.7,6.78,6.55,0
+1675,India,Pakistan,Eden Gardens,Pakistan,0,0,0.714,0.8,0.4,0.591,0.576,160.9,0.499,0.5285,0.5,12.5,17.1,7.11,7.16,1
+1676,Sri Lanka,West Indies,M Chinnaswamy Stadium,Sri Lanka,1,0,0.75,0.2,0.5,0.551,0.472,170.2,0.498,0.5285,0.5,6.08,15.55,7.85,12,0
+1678,New Zealand,Pakistan,Punjab Cricket Association IS Bindra Stadium,New Zealand,1,0,0.429,0.8,0.4,0.489,0.57,160.9,0.496,0.5285,0.5,14.7,16.92,6.47,7.07,1
+1681,South Africa,West Indies,Vidarbha Cricket Association Stadium,South Africa,1,0,0.667,0.6,0.6,0.581,0.479,154.6,0.8,0.5285,0.5,17.7,15.4,8.47,11.33,0
+1680,Australia,Pakistan,Punjab Cricket Association IS Bindra Stadium,Australia,1,0,0.385,0.4,0.4,0.5,0.564,160.9,0.498,0.5285,0.5,21.86,17.87,6.68,7.23,1
+1683,England,Sri Lanka,Feroz Shah Kotla,England,1,0,0.333,0.6,0.2,0.463,0.544,160.9,0.498,0.5285,0.5,10.38,6.08,8.32,7.4,1
+1684,India,Australia,Punjab Cricket Association IS Bindra Stadium,Australia,0,0,0.667,0.9,0.4,0.603,0.506,160.9,0.5,0.5285,0.5,12.71,21.86,7.65,6.85,1
+1685,South Africa,Sri Lanka,Feroz Shah Kotla,Sri Lanka,0,0,0.6,0.5,0.2,0.575,0.538,160.9,0.499,0.5285,0.5,17.7,6.39,8.25,8.07,1
+1686,England,New Zealand,Feroz Shah Kotla,New Zealand,0,0,0.615,0.6,0.9,0.47,0.5,160.9,0.498,0.5285,0.5,10.38,14.7,8.5,6.52,1
+1687,India,West Indies,Wankhede Stadium,India,1,1,0.5,0.9,0.7,0.609,0.486,170.2,0.497,0.5285,0.5,12.71,15.6,7.74,11.33,0
+1688,England,West Indies,Eden Gardens,England,1,0,0.308,0.6,0.7,0.476,0.493,160.9,0.496,0.5285,0.5,10.38,17.95,8.45,10.86,0
+5,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0.25,0.5,0.8,0.268,0.6,156.4,0.769,0.077,0.75,14.1,12.71,7.81,7.78,1
+6,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0.4,0.6,0.7,0.286,0.592,157.4,0.786,0.143,0.6,14.5,13.55,7.72,7.59,0
+7,Zimbabwe,India,Harare Sports Club,India,0,0,0.333,0.6,0.7,0.279,0.597,153.5,0.733,0.133,0.667,14.4,13.55,7.63,7.54,0
+1642,England,Sri Lanka,The Rose Bowl,Sri Lanka,0,0,0.429,0.5,0.2,0.471,0.531,160.9,0.496,0.333,0.5,11.31,6.88,8.45,8.12,1
+19,India,West Indies,Central Broward Regional Park Stadium Turf Ground,West Indies,0,0,0.4,0.7,0.8,0.603,0.5,160.9,0.495,0.5285,0.5,14.18,17.95,7.45,10.86,0
+1716,Sri Lanka,Australia,Pallekele International Cricket Stadium,Australia,0,0,0.75,0.1,0.4,0.524,0.5,163.8,0.562,0.7,0.5,11.12,22.43,8.12,6.83,0
+1643,England,Pakistan,Old Trafford,England,1,0,0.692,0.5,0.3,0.477,0.559,140.2,0.2,0.6,0.5,11.31,17.55,7.69,7.28,0
+1717,Sri Lanka,Australia,R Premadasa Stadium,Sri Lanka,1,0,0.667,0.1,0.5,0.518,0.506,153.3,0.571,0.1,0.667,11.29,25.61,8.12,6.85,0
+21,Pakistan,West Indies,Dubai International Cricket Stadium,West Indies,0,0,0.5,0.4,0.7,0.563,0.5,137.9,0.483,0.421,0.5,19.37,19.3,7.31,10.86,1
+22,Pakistan,West Indies,Dubai International Cricket Stadium,Pakistan,1,0,0.6,0.5,0.7,0.567,0.494,137.1,0.467,0.45,0.5,26.63,14.53,7.26,10.86,1
+23,Pakistan,West Indies,Sheikh Zayed Stadium,West Indies,0,0,0.667,0.6,0.7,0.571,0.488,134.2,0.417,0.25,0.5,24.36,14.47,6.89,10.86,1
+32,Netherlands,Oman,Sheikh Zayed Stadium,Oman,0,0,0.5,0.8,0.5,0.586,0.5,135.9,0.429,0.5285,0.5,7.31,15.53,6.34,6.94,1
+34,Netherlands,Scotland,Sheikh Zayed Stadium,Scotland,0,0,0.75,0.9,0.6,0.6,0.429,133.4,0.375,0.5285,0.5,8.25,20.94,6.54,7.39,0
+35,UAE,Ireland,Dubai International Cricket Stadium,Ireland,0,1,0.333,0.4,0.2,0.286,0.462,137.9,0.484,0.5285,1,13.9,11.88,6.11,6.13,0
+37,Oman,Scotland,Dubai International Cricket Stadium,Oman,1,0,0.5,0.5,0.6,0.5,0.455,139.9,0.515,0.5285,0.333,26.37,19.66,6.66,7.3,0
+1659,South Africa,Sri Lanka,SuperSport Park,South Africa,1,0,0.667,0.6,0.1,0.58,0.512,179.4,0.8,0.4,0.5,17.7,9.46,8.25,8.12,1
+38,Ireland,Scotland,Dubai International Cricket Stadium,Ireland,1,0,0.667,0.3,0.6,0.475,0.478,139.7,0.5,1,0.5,11.97,21.12,6.18,7.16,1
+1660,South Africa,Sri Lanka,New Wanderers Stadium,South Africa,1,0,0.714,0.6,0.506,0.584,0.506,172.7,0.435,0.667,0.75,17.7,8.21,7.38,8.12,0
+1661,South Africa,Sri Lanka,Newlands,South Africa,1,0,0.625,0.5,0.1,0.578,0.512,147.5,0.214,0.429,0.5,17.7,7.66,6.79,8.12,0
+16,India,England,Green Park,India,1,0,0.375,0.5,0.4,0.587,0.471,160.9,0.496,0.5285,0.5,14.18,10.04,7.45,7.69,0
+17,India,England,Vidarbha Cricket Association Stadium,India,1,0,0.333,0.5,0.5,0.579,0.477,149.2,0.667,0.5285,0.5,14.09,10.04,7.26,7.69,1
+18,India,England,M Chinnaswamy Stadium,India,1,1,0.4,0.5,0.5,0.584,0.472,170.2,0.496,0.5285,0.5,13.76,10.04,7.07,8.05,1
+1,Australia,Sri Lanka,Melbourne Cricket Ground,Australia,1,1,0.4,0.6,0.2,0.511,0.517,137.4,0.556,0.667,0.5,25.07,7.18,6.87,8.12,0
+11,New Zealand,South Africa,Eden Park,South Africa,0,0,0.286,0.9,0.4,0.51,0.571,164.8,0.5,0.417,0.5,14.97,16.73,6.72,7.06,0
+2,Australia,Sri Lanka,Simonds Stadium,Australia,1,0,0.364,0.6,0.3,0.505,0.523,160.9,0.497,0.5285,0.5,25.77,7.18,6.89,8.12,0
+3,Australia,Sri Lanka,Adelaide Oval,Australia,1,1,0.333,0.6,0.4,0.5,0.528,156.9,0.496,0,0.5,24.73,6.98,6.89,8.12,1
+41,West Indies,Pakistan,Kensington Oval,West Indies,1,0,0.286,0.6,0.6,0.481,0.575,157.7,0.733,0.714,0.5,15.11,23.5,10.86,6.66,0
+42,West Indies,Pakistan,Queen's Park Oval,Pakistan,0,0,0.25,0.5,0.7,0.476,0.579,160.9,0.496,0.333,0.5,15.11,23.5,10.86,6.65,0
+45,West Indies,Pakistan,Queen's Park Oval,Pakistan,0,0,0.222,0.4,0.7,0.47,0.583,160.9,0.497,0.25,0.5,15.11,23.39,10.86,6.61,1
+46,West Indies,Pakistan,Queen's Park Oval,West Indies,1,0,0.3,0.4,0.6,0.476,0.578,130.8,0.6,0.4,0.5,15.11,24.07,10.86,6.61,0
+12,England,South Africa,The Rose Bowl,South Africa,0,0,0.333,0.5,0.4,0.467,0.576,160.9,0.495,0.5,0.5,10.04,16.2,8.05,7.06,1
+13,England,South Africa,County Ground,South Africa,0,0,0.385,0.6,0.3,0.473,0.57,160.9,0.494,0.5285,0.5,10.04,16.2,7.64,7.26,0
+14,England,South Africa,Sophia Gardens,England,1,0,0.357,0.5,0.4,0.467,0.574,160.9,0.495,1,0.5,11.04,15.7,7.93,7.32,1
+47,West Indies,India,Sabina Park,India,0,0,0.571,0.3,0.5,0.471,0.59,160.9,0.496,0.5285,0.5,15.11,13.8,10.86,7.06,1
+48,Sri Lanka,India,R.Premadasa Stadium,Sri Lanka,1,0,0.4,0.5,0.4,0.522,0.582,160.9,0.495,0.5285,0.5,7.04,13.8,7.95,7.06,0
+15,West Indies,England,Riverside Ground,West Indies,1,0,0.714,0.3,0.5,0.477,0.473,160.9,0.495,0.5285,0.5,15.11,11.04,10.86,7.93,1
+58,Australia,India,JSCA International Stadium Complex,Australia,1,0,0.308,0.6,0.5,0.505,0.588,160.9,0.496,0.5285,0.5,25.23,13.8,6.9,7.24,0
+59,India,Australia,Barsapara Cricket Stadium,India,1,0,0.714,0.6,0.5,0.593,0.5,160.9,0.495,0.5285,0.5,13.8,24.73,7.08,6.82,0
+67,Sri Lanka,Pakistan,Sheikh Zayed Stadium,Sri Lanka,1,0,0.333,0.5,0.8,0.516,0.584,134.3,0.412,0.5285,0.4,6.41,25.37,7.95,6.61,0
+68,Sri Lanka,Pakistan,Sheikh Zayed Stadium,Sri Lanka,1,0,0.312,0.5,0.8,0.511,0.588,132.5,0.389,0.5285,0.5,6.37,25.37,7.97,5.88,0
+69,Pakistan,Sri Lanka,Gaddafi Stadium,Pakistan,1,0,0.706,0.8,0.5,0.591,0.505,180.2,0.4,0.8,0.5,24.77,5.74,5.97,7.98,1
+64,India,New Zealand,Arun Jaitley Stadium,India,1,0,0,0.5,0.8,0.585,0.505,160.9,0.495,0.5285,0.5,14.57,14.97,7.09,6.94,1
+65,New Zealand,India,Saurashtra Cricket Association Stadium,New Zealand,1,0,0.833,0.7,0.5,0.5,0.59,160.9,0.496,0.5285,0.5,15.3,13.67,6.95,7.33,1
+66,India,New Zealand,Greenfield International Stadium,India,1,0,0.143,0.5,0.7,0.583,0.505,160.9,0.497,0.5285,0.5,13.26,15.3,7.53,6.97,1
+73,India,Sri Lanka,Barabati Stadium,India,1,0,0.636,0.6,0.4,0.588,0.5,160.9,0.498,0.5285,0.5,13.42,7.51,7.43,8.14,1
+74,India,Sri Lanka,Holkar Cricket Stadium,India,1,0,0.667,0.7,0.3,0.593,0.495,160.9,0.499,0.5285,0.5,13.42,7.95,7.48,8.14,1
+75,Sri Lanka,India,Wankhede Stadium,Sri Lanka,1,-1,0.308,0.2,0.7,0.49,0.598,170.2,0.5,0.5285,0.5,7.91,13.69,8.26,7.48,0
+49,New Zealand,West Indies,Saxton Oval,New Zealand,1,0,0.4,0.6,0.3,0.5,0.483,160.9,0.499,0.5285,0.5,15.3,16,7.01,10.86,1
+51,New Zealand,West Indies,Bay Oval,New Zealand,1,0,0.417,0.5,0.3,0.5,0.472,160.9,0.499,0.75,0.5,18.47,17.33,7.01,10.86,1
+52,Pakistan,New Zealand,Westpac Stadium,Pakistan,1,0,0.533,0.8,0.6,0.595,0.505,152.9,0.143,0.5285,0.571,24.3,17.57,5.97,7.24,0
+53,Pakistan,New Zealand,Eden Park,Pakistan,1,0,0.5,0.7,0.6,0.59,0.51,166.3,0.538,0.5285,0.385,24.23,16.74,6.07,7.04,1
+54,Pakistan,New Zealand,Bay Oval,Pakistan,1,0,0.529,0.7,0.5,0.593,0.505,183.2,0.8,0.5285,0.8,25.33,17.09,6.25,7.13,1
+24,New Zealand,Australia,Sydney Cricket Ground,New Zealand,1,-1,0.167,0.4,0.6,0.5,0.505,156.9,0.501,0.5285,0.75,17.79,25.79,7.14,6.55,0
+25,England,Australia,Bellerive Oval,England,1,0,0.385,0.4,0.6,0.468,0.51,160.9,0.5,0.5285,0.5,11.34,25.79,7.93,6.34,0
+26,England,Australia,Melbourne Cricket Ground,England,1,-1,0.357,0.4,0.6,0.463,0.515,140.5,0.5,0.5285,0.6,11.34,28.67,7.75,6.5,0
+27,New Zealand,England,Westpac Stadium,New Zealand,1,0,0.286,0.4,0.3,0.495,0.458,146.9,0.125,0.625,0.5,17.05,11.34,7.16,7.96,1
+28,New Zealand,Australia,Eden Park,New Zealand,1,0,0.143,0.5,0.7,0.5,0.52,168.8,0.571,0.357,0.5,17.79,28.67,7.44,6.34,0
+70,India,South Africa,The Wanderers Stadium,India,1,0,0.6,0.7,0.6,0.602,0.577,160.9,0.497,0.5285,0.5,13.82,18.3,7.31,7.32,1
+29,England,New Zealand,Seddon Park,England,1,0,0.6,0.3,0.4,0.454,0.495,169.6,0.429,0.5285,0.857,11.34,17.12,8.43,7.44,1
+71,India,South Africa,SuperSport Park,India,1,0,0.636,0.8,0.5,0.607,0.571,170.5,0.833,0.5285,0.5,13.76,21.97,7.55,7.51,0
+30,New Zealand,Australia,Eden Park,New Zealand,1,0,0.125,0.4,0.7,0.491,0.525,173.7,0.533,0.333,0.5,16.25,28.67,7.44,6.78,0
+72,India,South Africa,Newlands,India,1,0,0.583,0.7,0.5,0.6,0.576,148.9,0.2,0.5285,0.375,13.76,30.8,7.55,7.71,1
+80,India,Sri Lanka,R.Premadasa Stadium,India,1,0,0.714,0.7,0.2,0.604,0.495,160.9,0.499,0.5285,0.5,13.97,12.42,7.54,7.61,0
+83,Sri Lanka,India,R.Premadasa Stadium,Sri Lanka,1,0,0.333,0.3,0.7,0.495,0.602,160.9,0.496,0.333,0.667,11.29,13.97,7.92,7.54,0
+87,Pakistan,West Indies,National Stadium,Pakistan,1,0,0.727,0.8,0.3,0.597,0.467,160.9,0.495,0.5285,0.5,26.07,17.33,6.83,10.86,1
+88,Pakistan,West Indies,National Stadium,Pakistan,1,0,0.75,0.8,0.3,0.6,0.462,160.9,0.496,0.5285,0.5,26.53,17.33,6.66,11.1,1
+89,West Indies,Pakistan,National Stadium,West Indies,1,0,0.231,0.3,0.8,0.457,0.603,160.9,0.496,0.5285,1,17.33,25.43,11.3,6.55,0
+76,Pakistan,Scotland,Grange Cricket Club,Pakistan,1,0,1,0.9,0.6,0.607,0.458,160.9,0.496,0.5285,0.5,26.07,18.22,6.47,7.36,1
+95,Netherlands,Ireland,Hazelaarweg,Netherlands,1,0,0.6,0.7,0.4,0.562,0.488,160.9,0.496,0.5285,0.5,11.17,13.8,7.11,6.18,1
+96,Ireland,Netherlands,Hazelaarweg,Ireland,1,0,0.333,0.3,0.7,0.476,0.576,160.9,0.498,0.5285,0.5,15.23,19.14,5.99,7.27,0
+77,Pakistan,Scotland,Grange Cricket Club,Pakistan,1,0,1,0.9,0.5,0.61,0.44,160.9,0.498,0.5285,0.5,25.43,19.71,6.35,7.35,1
+97,Ireland,Scotland,Sportpark Het Schootsveld,Ireland,1,0,0.75,0.3,0.5,0.465,0.423,160.9,0.498,0.5285,0.5,15.23,18.75,6,7.4,1
+99,Netherlands,Scotland,VRA Ground,Netherlands,1,0,0.6,0.7,0.4,0.588,0.393,160.9,0.498,0.5285,0.5,17.03,19.23,7.22,7.38,0
+100,Scotland,Netherlands,VRA Ground,Scotland,1,0,0.5,0.5,0.6,0.414,0.571,160.9,0.497,0.5285,0.5,21.27,17.62,7.41,7.36,1
+91,India,Ireland,The Village,India,1,0,1,0.8,0.3,0.615,0.467,160.9,0.498,0.5285,0.5,13.97,17.2,7.54,6.01,1
+60,England,Australia,Edgbaston,England,1,0,0.333,0.3,0.7,0.459,0.53,160.9,0.498,0.5285,0.5,11.84,28.67,8.36,6.77,1
+92,India,Ireland,The Village,India,1,0,1,0.8,0.3,0.619,0.457,134.8,0.4,0.5285,0,13.97,16.97,7.54,6.01,1
+102,Pakistan,Zimbabwe,Harare Sports Club,Pakistan,1,0,1,0.9,0.6,0.613,0.273,152.5,0.75,1,0.125,25.43,14.4,6.39,7.66,1
+103,Pakistan,Australia,Harare Sports Club,Pakistan,1,0,0.5,0.9,0.7,0.616,0.525,154.2,0.765,1,0.5,26.43,28.4,6.39,6.78,0
+61,England,India,Old Trafford,England,1,0,0.545,0.4,0.8,0.465,0.622,139.3,0.167,0.5,0.5,11.84,14.57,8.39,7.54,0
+104,Australia,Zimbabwe,Harare Sports Club,Australia,1,0,0,0.8,0.5,0.529,0.267,152.1,0.722,0.5285,0.118,28.93,14.4,6.72,7.46,1
+105,Zimbabwe,Pakistan,Harare Sports Club,Zimbabwe,1,0,0,0.5,0.8,0.261,0.611,156.2,0.737,0.111,0.875,14.4,25.93,7.66,6.39,0
+106,Pakistan,Australia,Harare Sports Club,Pakistan,1,0,0.467,0.9,0.8,0.614,0.534,156.4,0.7,0.889,0.5,25.93,28.93,6.51,6.68,1
+107,Zimbabwe,Australia,Harare Sports Club,Zimbabwe,1,0,0.5,0.5,0.8,0.255,0.529,158.2,0.714,0.105,0.667,14.4,27.57,7.66,6.78,0
+62,India,England,Sophia Gardens,India,1,0,0.5,0.8,0.4,0.626,0.46,160.9,0.501,0.5285,1,14.57,11.84,7.54,8.18,0
+108,Australia,Pakistan,Harare Sports Club,Australia,1,0,0.438,0.8,0.9,0.533,0.617,157.9,0.682,0.75,0.9,27.23,26.83,6.78,6.51,0
+63,England,India,County Ground,England,1,0,0.538,0.4,0.8,0.465,0.62,160.9,0.499,0,0.5,11.64,14.57,8.23,7.54,0
+101,South Africa,Sri Lanka,R.Premadasa Stadium,South Africa,1,0,0.556,0.5,0.3,0.57,0.486,168.8,0.125,0.5285,0.2,26.86,10.35,7.6,7.92,0
+109,South Africa,Zimbabwe,Buffalo Park,South Africa,1,0,1,0.5,0.4,0.564,0.25,160.9,0.497,0.5285,0.5,25.8,14.4,7.68,7.66,1
+110,Zimbabwe,South Africa,Senwes Park,Zimbabwe,1,0,0,0.3,0.5,0.245,0.569,160.9,0.497,0.5285,0.5,14.4,25.8,7.66,7.54,0
+144,UAE,Australia,Tolerance Oval,UAE,1,0,0.5,0.4,0.7,0.267,0.528,160.9,0.497,0.5285,0.5,13.5,26.83,6.86,6.78,0
+132,Pakistan,Australia,Sheikh Zayed Stadium,Pakistan,1,0,0.529,0.9,0.7,0.62,0.533,132.1,0.368,0.571,0.5,26.83,26.83,6.51,6.78,1
+133,Pakistan,Australia,Dubai International Cricket Stadium,Pakistan,1,0,0.556,0.9,0.6,0.623,0.528,141.7,0.514,0.476,0.4,26.6,26.13,6.51,6.85,1
+90,England,Sri Lanka,R.Premadasa Stadium,England,1,0,0.5,0.4,0.4,0.461,0.491,160.9,0.111,0.5285,0.333,12.21,9.68,8.23,7.92,1
+134,Pakistan,Australia,Dubai International Cricket Stadium,Pakistan,1,0,0.579,0.9,0.5,0.626,0.523,141.9,0.528,0.5,0.333,28.07,26.13,6.51,6.85,1
+135,Pakistan,New Zealand,Sheikh Zayed Stadium,Pakistan,1,0,0.556,0.9,0.3,0.629,0.486,133.2,0.4,0.625,0.5,28.07,15.65,6.59,7.39,1
+136,New Zealand,Pakistan,Dubai International Cricket Stadium,New Zealand,1,0,0.421,0.3,0.9,0.482,0.632,142.1,0.541,0.25,0.522,15.58,28.07,7.39,6.59,0
+138,West Indies,India,Eden Gardens,West Indies,1,0,0.625,0.2,0.8,0.454,0.624,147.8,0.4,0.5285,0.5,17.93,14.57,11.3,7.54,0
+137,Pakistan,New Zealand,Dubai International Cricket Stadium,Pakistan,1,0,0.6,0.9,0.2,0.634,0.478,142.4,0.526,0.542,0.2,28.43,15.26,6.69,7.39,1
+139,India,West Indies,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,India,1,0,0.333,0.9,0.2,0.627,0.449,160.9,0.499,0.5285,0.5,14.57,17.77,7.54,11.3,1
+140,West Indies,India,MA Chidambaram Stadium,West Indies,1,0,0.5,0.2,0.9,0.444,0.631,160.9,0.5,0.5285,0.5,17.13,14.57,11.3,7.54,0
+117,South Africa,Australia,Carrara Oval,South Africa,1,0,0.353,0.6,0.4,0.573,0.518,160.9,0.499,0.5285,0.5,25.43,26.13,7.81,6.85,1
+118,Australia,India,Brisbane Cricket Ground,Australia,1,1,0.333,0.4,0.9,0.514,0.635,156.9,0.5,0.667,0.5,26.13,14.57,6.85,7.54,1
+120,Australia,India,Sydney Cricket Ground,Australia,1,1,0.353,0.3,0.7,0.513,0.623,164.6,0.4,0.8,0.5,26.13,14.57,6.85,7.57,0
+131,New Zealand,Sri Lanka,Eden Park,New Zealand,1,0,0.467,0.1,0.4,0.474,0.486,172.2,0.5,0.312,0.5,15.13,10.01,7.3,7.92,1
+149,UAE,Nepal,ICC Academy,UAE,1,0,0.5,0.3,0.111,0.25,0.111,156.6,1,0.5285,0.5,15.34,5.94,7.04,8.67,1
+111,South Africa,Pakistan,Newlands,South Africa,1,0,0.5,0.6,0.9,0.577,0.637,150.4,0.25,0.333,1,24.63,30.17,7.82,6.69,1
+150,UAE,Nepal,ICC Academy,UAE,1,0,1,0.4,0.1,0.294,0.1,156,1,0.667,0.5,19.24,23.95,6.51,8.15,0
+151,UAE,Nepal,ICC Academy,Nepal,0,0,0.5,0.3,0.1,0.278,0.182,149,0.857,0.5,0.5,22.9,22.45,6.63,7.07,0
+112,South Africa,Pakistan,The Wanderers Stadium,South Africa,1,0,0.545,0.7,0.9,0.581,0.632,160.9,0.502,0.5285,0.5,23.73,30.17,7.81,6.69,1
+128,New Zealand,India,Westpac Stadium,New Zealand,1,0,0.75,0.2,0.7,0.478,0.626,152.3,0.222,0.667,0.5,15.47,14.57,7.34,7.57,1
+113,South Africa,Pakistan,SuperSport Park,Pakistan,0,0,0.583,0.7,0.8,0.585,0.628,173,0.714,0.571,0.5,23.05,30.17,7.86,6.69,0
+129,New Zealand,India,Eden Park,New Zealand,1,0,0.778,0.3,0.6,0.483,0.62,172.6,0.529,0.353,0.5,16.52,14.57,6.59,7.57,0
+130,New Zealand,India,Seddon Park,New Zealand,1,0,0.7,0.3,0.6,0.479,0.624,172.6,0.5,0.75,0.5,16.38,14.57,7.28,7.57,1
+153,Oman,Ireland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Ireland,0,0,1,0.4,0.3,0.455,0.447,160.9,0.505,0.5285,0.5,20.91,17.1,6.78,6.07,0
+152,Netherlands,Scotland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Scotland,0,0,0.429,0.4,0.5,0.541,0.433,160.9,0.505,0.5285,0.5,16.57,23.43,7.34,7.54,1
+155,Ireland,Scotland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Ireland,1,0,0.667,0.4,0.4,0.458,0.419,160.9,0.505,0.5285,0.5,18.8,22.13,6.03,7.54,0
+154,Oman,Netherlands,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.4,0.5,0.417,0.553,160.9,0.505,0.5285,0.5,24.91,16.57,6.08,7.34,0
+156,Ireland,Netherlands,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,0,0,0.286,0.4,0.5,0.449,0.564,160.9,0.503,0.5285,0.5,18.73,16.57,6.46,7.32,1
+157,Oman,Scotland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.3,0.4,0.385,0.438,160.9,0.503,0.5285,0.5,24.91,22.13,6.6,7.57,0
+145,India,Australia,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,India,1,0,0.611,0.6,0.3,0.618,0.509,160.9,0.502,0.5285,0.5,14.57,26,7.57,6.87,0
+146,India,Australia,M.Chinnaswamy Stadium,India,1,1,0.579,0.5,0.3,0.613,0.513,170.2,0.501,0.5285,0.5,14.57,26,7.57,6.87,0
+141,West Indies,England,Darren Sammy National Cricket Stadium,West Indies,1,0,0.733,0.4,0.4,0.447,0.466,160.9,0.5,0.5285,0.5,22.54,12.21,10.83,8.23,0
+142,West Indies,England,Warner Park,England,0,0,0.688,0.3,0.5,0.442,0.471,160.9,0.499,0.667,0.5,23.22,12.21,10.83,8.23,0
+143,West Indies,England,Warner Park,West Indies,1,0,0.647,0.2,0.6,0.438,0.476,160.9,0.5,0.5,0.5,21.92,12.21,12.11,8.18,0
+115,South Africa,Sri Lanka,SuperSport Park,South Africa,1,0,0.455,0.6,0.4,0.574,0.477,172.4,0.75,0.5,0.5,20.71,10.08,7.73,7.92,1
+116,South Africa,Sri Lanka,The Wanderers Stadium,South Africa,1,0,0.5,0.6,0.3,0.578,0.473,160.9,0.499,0.5285,0.5,20.71,9.85,7.59,7.92,1
+124,England,Pakistan,Sophia Gardens,Pakistan,0,0,0.643,0.7,0.8,0.481,0.63,145.2,0.4,1,0.5,12.21,30.17,7.79,6.69,1
+194,Netherlands,Zimbabwe,Hazelaarweg,Netherlands,1,0,0,0.4,0.2,0.55,0.24,160.9,0.5,1,0.5,17.3,14.4,7.35,7.66,1
+147,Ireland,Zimbabwe,Bready Cricket Club,Zimbabwe,0,0,1,0.4,0.231,0.46,0.231,160.9,0.5,0.5285,0.5,18.73,16.27,6.64,7.45,1
+148,Ireland,Zimbabwe,Bready,Ireland,1,0,1,0.4,0.226,0.471,0.226,160.9,0.498,0.5285,0.5,19.37,18.13,6.64,7.73,0
+196,India,West Indies,Central Broward Regional Park Stadium Turf Ground,West Indies,0,0,0.455,0.4,0.2,0.607,0.434,166.2,0.75,0.5285,0.5,14.57,20.4,7.6,12.11,1
+197,India,West Indies,Central Broward Regional Park Stadium Turf Ground,India,1,0,0.5,0.4,0.2,0.611,0.43,158.3,0.667,0.333,0.429,14.57,20.37,7.6,12.11,1
+204,Netherlands,UAE,VRA Ground,Netherlands,1,0,1,0.5,0.3,0.548,0.263,160.9,0.497,0.333,0.5,18.95,19.46,7.44,6.83,0
+198,West Indies,India,Providence Stadium,West Indies,1,1,0.385,0.2,0.4,0.426,0.614,140.2,0.333,0.5285,0.5,20.37,14.57,12.11,7.6,0
+205,Netherlands,UAE,Sportpark Westvliet,Netherlands,1,0,0.75,0.4,0.3,0.535,0.3,160.9,0.495,0.5285,0.5,17.72,19.46,7.44,6.67,0
+215,Canada,USA,White Hill Field,USA,0,0,0.5,0.2,0.5,0.182,0.5,160.9,0.496,0.5285,0.5,45,26.75,4.84,8.66,1
+217,Canada,USA,White Hill Field,Canada,1,0,1,0.4,0.5,0.308,0.5,160.9,0.495,1,0.5,37.94,30.5,4.66,8.11,1
+208,Sri Lanka,New Zealand,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.375,0.2,0.3,0.468,0.483,169.6,0.588,0.636,0.143,9.85,17.3,7.92,7.28,0
+209,Sri Lanka,New Zealand,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.353,0.1,0.4,0.464,0.487,169.8,0.556,0.583,0.25,12.31,17.4,7.92,7.2,0
+210,Sri Lanka,New Zealand,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.333,0.1,0.5,0.46,0.492,169.4,0.526,0.538,0.333,10.55,17.9,7.92,7.2,1
+279,Netherlands,Scotland,The Village,Scotland,0,0,0.5,0.3,0.4,0.523,0.455,147.8,0.5,0.5285,0.5,18.48,21.17,7.5,7.36,0
+280,Ireland,Scotland,The Village,Scotland,0,0,0.571,0.4,0.5,0.462,0.471,162.7,0.571,0,0.5,28.37,24.87,6.89,7.64,1
+281,Ireland,Netherlands,The Village,Ireland,1,0,0.375,0.5,0.3,0.472,0.511,166.5,0.5,0.2,0.5,26.37,19.27,6.89,8.21,0
+176,India,South Africa,Punjab Cricket Association IS Bindra Stadium,South Africa,0,0,0.615,0.5,0.7,0.617,0.582,160.9,0.494,0.5285,0.5,14.57,20.71,7.6,7.59,1
+282,Netherlands,Scotland,The Village,Netherlands,1,0,0.444,0.4,0.5,0.522,0.457,168.1,0.444,0.667,0.667,19.53,26.07,8.21,7.8,0
+177,India,South Africa,M.Chinnaswamy Stadium,India,1,1,0.643,0.6,0.7,0.621,0.577,170.2,0.493,0.5285,0.5,14.57,20.84,7.47,7.38,0
+283,Nepal,Zimbabwe,Indian Association Ground,Nepal,1,0,0.5,0.6,0.1,0.389,0.232,160.9,0.492,0.5,0.5,18.36,20.87,7.21,7.84,0
+286,Nepal,Zimbabwe,Indian Association Ground,Zimbabwe,0,0,0,0.7,0.2,0.4,0.241,143,0.286,0.5,0.5,22.46,21.34,7.19,7.85,0
+237,Pakistan,Sri Lanka,Gaddafi Stadium,Sri Lanka,0,0,0.722,0.7,0.2,0.626,0.465,180.2,0.5,0.833,0.5,30.2,9.78,6.69,7.92,0
+222,Ireland,Netherlands,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,0,0,0.333,0.4,0.4,0.463,0.511,158.5,0.167,0.667,0.667,30.61,18.81,6.89,8.2,1
+223,Oman,Ireland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0.5,0.3,0.5,0.357,0.473,159.7,0.143,0,0.75,22.8,31.64,6.62,6.89,1
+225,Nepal,Netherlands,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,0,0,0,0.6,0.3,0.409,0.5,157.3,0.222,0.5285,0.5,21.43,22.33,7.25,7.76,1
+238,Pakistan,Sri Lanka,Gaddafi Stadium,Sri Lanka,0,0,0.684,0.6,0.3,0.621,0.47,178,0.571,0.714,0.5,30.2,19.3,6.74,7.92,0
+227,Ireland,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Ireland,1,0,1,0.6,0.6,0.474,0.435,159.7,0.273,0.667,0.5,24.27,20.02,6.88,7.19,1
+239,Pakistan,Sri Lanka,Gaddafi Stadium,Sri Lanka,0,0,0.65,0.5,0.3,0.617,0.474,178.5,0.625,0.625,0.667,30.2,26.8,6.74,7.92,0
+228,Oman,Netherlands,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,0,0,0,0.3,0.2,0.4,0.49,159.7,0.273,0.25,0.4,19.85,23.17,6.61,7.79,1
+230,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Nepal,0,0,0.5,0.4,0.5,0.438,0.417,153.5,0.308,0.4,0.667,21.03,18.39,6.59,7.12,1
+243,UAE,Oman,Sheikh Zayed Stadium,UAE,1,0,1,0.3,0.4,0.333,0.471,133.9,0.429,0.667,0.5,19.46,19.43,6.67,6.6,0
+244,Namibia,Netherlands,ICC Academy,Netherlands,0,0,0.5,1,0.3,1,0.5,148.1,0.9,0.5285,0.75,33.06,19.7,5.25,6.71,0
+246,UAE,Ireland,Sheikh Zayed Stadium,Ireland,0,0,0.25,0.3,0.7,0.318,0.492,133.6,0.391,0.5,0.75,19.1,22.79,6.6,6.88,1
+251,Ireland,Oman,Tolerance Oval,Ireland,1,0,0.333,0.6,0.6,0.483,0.526,160.9,0.494,0.5285,0.5,21.21,21.65,6.81,6.37,1
+253,Namibia,Scotland,ICC Academy,Namibia,1,0,0.5,0.778,0.7,0.778,0.487,147.2,0.917,0.5285,0.4,31.98,27.13,5.47,7.43,1
+257,Canada,Ireland,Sheikh Zayed Stadium,Canada,1,0,0,0.6,0.6,0.438,0.492,133,0.385,0.5285,0.6,28.89,22.88,5.99,6.65,1
+263,Canada,Oman,Sheikh Zayed Stadium,Canada,1,0,0.5,0.7,0.6,0.444,0.524,133.9,0.407,0.667,0.625,25.49,19.68,6.13,6.41,0
+269,UAE,Canada,Sheikh Zayed Stadium,UAE,1,0,0.5,0.4,0.7,0.348,0.421,131.9,0.379,0.6,0.5,19.1,24.13,6.7,6.28,1
+159,Australia,Sri Lanka,Adelaide Oval,Australia,1,1,0.385,0.4,0.4,0.517,0.479,156.9,0.497,0.25,0.5,32.56,21.08,6.83,7.92,1
+268,Netherlands,Scotland,Dubai International Cricket Stadium,Scotland,0,0,0.4,0.5,0.7,0.518,0.488,147.9,0.581,0.5,0.5,21.52,25.97,6.25,7.4,1
+271,Namibia,Oman,Dubai International Cricket Stadium,Namibia,1,0,0.5,0.8,0.7,0.846,0.522,147.5,0.568,0.5285,0.5,28.4,17.32,5.62,6.44,1
+270,UAE,Netherlands,Dubai International Cricket Stadium,UAE,1,1,0.4,0.5,0.6,0.375,0.526,147.5,0.568,0.5285,0.571,18.4,21.41,6.98,6.44,0
+160,Australia,Sri Lanka,Brisbane Cricket Ground,Sri Lanka,0,1,0.429,0.4,0.4,0.521,0.475,156.9,0.498,0.75,0.5,32.76,16.23,6.71,7.92,1
+272,UAE,Scotland,Dubai International Cricket Stadium,Scotland,0,1,0.5,0.5,0.6,0.36,0.476,146.3,0.565,0.5285,0.429,17.65,27.47,6.89,7.21,0
+274,Oman,Scotland,ICC Academy,Oman,1,0,0,0.7,0.6,0.52,0.488,143.5,0.8,0.5285,0.333,17.36,29,6.63,7.07,0
+184,New Zealand,England,Hagley Oval,New Zealand,1,0,0.312,0.5,0.8,0.488,0.486,160.9,0.498,0.5285,0.5,17.9,12.21,6.97,7.41,0
+161,Australia,Sri Lanka,Melbourne Cricket Ground,Sri Lanka,0,1,0.467,0.5,0.4,0.525,0.471,139.5,0.417,0.583,0.5,32.76,16.23,6.71,7.92,1
+275,Ireland,Netherlands,Dubai International Cricket Stadium,Netherlands,0,0,0.4,0.7,0.7,0.5,0.534,147.1,0.583,1,0.625,23.3,21.2,6.26,6.38,0
+277,Ireland,Namibia,Dubai International Cricket Stadium,Ireland,1,0,0.5,0.6,0.7,0.492,0.8,147,0.6,0.889,0.75,23.67,29.69,6.26,5.56,1
+185,New Zealand,England,Westpac Stadium,New Zealand,1,0,0.294,0.5,0.8,0.484,0.491,159,0.3,0.7,0.5,18.47,12.21,7.06,7.41,1
+163,Australia,Pakistan,Manuka Oval,Pakistan,0,0,0.333,0.6,0.3,0.525,0.608,160.9,0.497,0.5285,0.5,32.76,30.5,6.91,6.74,1
+186,New Zealand,England,Saxton Oval,New Zealand,1,0,0.333,0.6,0.7,0.488,0.486,160.9,0.497,0.5285,0.5,17.63,12.38,7.13,7.36,1
+187,New Zealand,England,McLean Park,England,0,0,0.368,0.7,0.7,0.492,0.482,160.9,0.497,0.5285,0.5,16,15.38,7.09,7.44,0
+164,Australia,Pakistan,Perth Stadium,Pakistan,0,1,0.364,0.7,0.2,0.529,0.604,156.9,0.497,0.5285,0.5,32.76,30.5,7.02,6.74,1
+181,India,West Indies,Rajiv Gandhi International Stadium,West Indies,0,0,0.571,0.6,0.2,0.617,0.422,160.9,0.497,0.5285,0.5,14.57,20.37,7.25,12.11,1
+182,India,West Indies,Greenfield International Stadium,India,1,0,0.6,0.7,0.2,0.62,0.418,160.9,0.497,0.5285,0.5,14.57,24.67,7.47,12.11,0
+183,India,West Indies,Wankhede Stadium,India,1,1,0.562,0.7,0.2,0.615,0.423,183,0,0.333,0.5,18.44,24.67,7.47,12.11,1
+288,India,Sri Lanka,Holkar Cricket Stadium,Sri Lanka,0,0,0.688,0.7,0.4,0.618,0.467,160.9,0.497,0.5285,0.5,18.44,15.47,7.47,7.92,1
+289,India,Sri Lanka,Maharashtra Cricket Association Stadium,India,1,0,0.706,0.7,0.4,0.621,0.463,160.9,0.496,0.5285,0.5,18.44,14.51,7.47,7.74,1
+290,West Indies,Ireland,National Cricket Stadium,Ireland,0,0,0.5,0.2,0.7,0.42,0.5,160.9,0.497,0.5285,0.5,20.37,23.67,12.11,6.13,0
+292,West Indies,Ireland,Warner Park,Ireland,0,0,0.333,0.1,0.6,0.412,0.5,115.3,0.167,0.333,0.5,20.37,24.77,10.39,6.13,1
+189,New Zealand,India,Eden Park,New Zealand,1,0,0.727,0.5,0.7,0.484,0.624,170.5,0.474,0.316,0.5,16.23,16.28,7.31,7.47,0
+190,New Zealand,India,Eden Park,New Zealand,1,0,0.667,0.5,0.7,0.48,0.627,172.1,0.45,0.3,0.5,16.23,15.58,7.48,7.47,0
+193,New Zealand,India,Bay Oval,India,0,0,0.533,0.2,0.7,0.469,0.62,182.8,0.833,0.667,0.5,17.67,13.43,7.62,7.62,0
+170,South Africa,England,Buffalo Park,South Africa,1,0,0.533,0.7,0.7,0.58,0.482,160.9,0.493,0.5285,0.5,20.84,15.6,7.31,7.47,1
+171,South Africa,England,Kingsmead,England,0,0,0.562,0.7,0.6,0.584,0.478,148.5,0.462,0.714,0.5,21.68,15.6,7.32,7.47,0
+172,South Africa,England,SuperSport Park,South Africa,1,0,0.529,0.6,0.6,0.579,0.482,173.2,0.778,0.556,0.5,21.68,15.3,7.64,7.47,0
+173,South Africa,Australia,The Wanderers Stadium,Australia,0,0,0.389,0.5,0.7,0.574,0.533,160.9,0.493,0.667,0.5,24.03,32.76,7.9,7.02,0
+174,South Africa,Australia,St George's Park,South Africa,1,0,0.368,0.4,0.8,0.569,0.537,160.9,0.494,0.5285,0.5,21.93,32.76,8.05,7.02,1
+175,South Africa,Australia,Newlands,Australia,0,0,0.4,0.5,0.8,0.573,0.532,151.8,0.278,0.364,0.833,21.93,32.76,7.89,7.02,0
+298,Sri Lanka,West Indies,Pallekele International Cricket Stadium,West Indies,0,0,0.667,0.4,0.2,0.459,0.417,167.2,0.55,0.571,0.25,14.51,20.37,7.74,9.1,0
+299,Sri Lanka,West Indies,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.6,0.4,0.3,0.455,0.422,168.5,0.571,0.533,0.4,14.51,22,7.74,8.72,0
+235,Pakistan,England,Old Trafford,Pakistan,1,0,0.25,0.2,0.5,0.601,0.483,140.8,0.125,0.5285,0.375,27.5,20.57,6.78,7.69,0
+236,Pakistan,England,Old Trafford,Pakistan,1,0,0.235,0.2,0.5,0.597,0.487,146.8,0.111,0.333,0.444,28,19.79,6.78,7.69,1
+231,England,Australia,The Rose Bowl,England,1,0,0.375,0.4,0.8,0.483,0.536,174.4,0.6,0.6,0.5,20.71,34.4,7.76,7.02,1
+232,Australia,England,The Rose Bowl,Australia,1,0,0.529,0.7,0.5,0.532,0.487,172.3,0.667,0.333,0.667,34.36,19.56,6.83,7.89,0
+233,England,Australia,The Rose Bowl,England,1,0,0.444,0.6,0.6,0.492,0.528,170.1,0.571,0.714,0.25,18.45,34.36,7.93,6.79,0
+308,Zimbabwe,Pakistan,Rawalpindi Cricket Stadium,Zimbabwe,1,-1,0,0.4,0.3,0.258,0.6,144.8,0.494,0.5285,0.5,21.9,28,7.58,6.78,0
+309,Zimbabwe,Pakistan,Rawalpindi Cricket Stadium,Zimbabwe,1,-1,0,0.4,0.4,0.254,0.603,144.8,0.493,0.5285,0.5,24.96,28.9,7.5,6.78,0
+310,Zimbabwe,Pakistan,Rawalpindi Cricket Stadium,Zimbabwe,1,-1,0,0.3,0.5,0.25,0.605,144.8,0.492,0.5285,0.5,25.7,28.83,7.5,6.78,0
+325,South Africa,England,Newlands,South Africa,1,0,0.5,0.5,0.5,0.568,0.488,153.9,0.316,0.333,0.25,22.6,17.58,8.16,8.11,0
+311,West Indies,New Zealand,Eden Park,West Indies,1,0,0.231,0.4,0.2,0.427,0.466,170.2,0.429,0,0.286,23.87,18.97,8.72,7.62,0
+326,South Africa,England,Boland Park,South Africa,1,0,0.474,0.4,0.6,0.563,0.492,160.9,0.49,0.5285,0.5,21.93,17.58,8.18,8,0
+312,New Zealand,West Indies,Bay Oval,New Zealand,1,0,0.5,0.3,0.4,0.47,0.424,180,0.857,0.571,0.5,19.9,22.73,7.89,8.72,1
+327,South Africa,England,Newlands,South Africa,1,0,0.45,0.3,0.7,0.558,0.496,155.2,0.3,0.308,0.4,19.13,17.58,8.08,7.79,0
+305,India,Australia,Manuka Oval,India,1,0,0.55,0.7,0.6,0.623,0.531,160.9,0.489,0.5285,0.5,12.61,34.36,7.45,6.79,1
+306,Australia,India,Sydney Cricket Ground,Australia,1,1,0.381,0.5,0.7,0.527,0.626,156.3,0.286,0.571,0.5,34.36,13.71,6.79,7.45,0
+307,Australia,India,Sydney Cricket Ground,Australia,1,1,0.364,0.5,0.8,0.523,0.629,161,0.25,0.5,1,34.36,13.9,6.79,7.45,1
+314,Pakistan,New Zealand,Eden Park,Pakistan,1,0,0.619,0.6,0.2,0.608,0.47,170.6,0.409,0.667,0.318,28.83,23.1,6.78,7.75,0
+315,Pakistan,New Zealand,Seddon Park,Pakistan,1,0,0.591,0.6,0.3,0.604,0.474,177.2,0.5,0.5285,0.7,28.83,23.7,6.78,7.49,0
+316,New Zealand,Pakistan,McLean Park,New Zealand,1,0,0.435,0.4,0.6,0.478,0.6,160.9,0.489,0.5285,0.5,25.43,28.83,7.49,6.84,0
+331,Pakistan,South Africa,Gaddafi Stadium,Pakistan,1,0,0.462,0.6,0.3,0.603,0.554,168.4,0.545,0.636,0.5,28.83,19.13,6.84,8.13,1
+332,Pakistan,South Africa,Gaddafi Stadium,Pakistan,1,0,0.5,0.6,0.2,0.605,0.549,168.4,0.583,0.667,0.5,28.83,19.37,6.84,8.13,0
+333,South Africa,Pakistan,Gaddafi Stadium,South Africa,1,0,0.533,0.2,0.6,0.553,0.601,166.5,0.538,0.5285,0.615,19.37,26.27,7.97,6.84,0
+317,New Zealand,Australia,Hagley Oval,New Zealand,1,0,0.111,0.4,0.5,0.474,0.527,160.9,0.487,0.5285,0.5,26.1,34.36,7.49,6.77,1
+318,New Zealand,Australia,University Oval,New Zealand,1,0,0.2,0.5,0.4,0.478,0.523,160.9,0.488,0.5285,0.5,26.03,34.36,7.49,6.83,1
+319,Australia,New Zealand,Westpac Stadium,Australia,1,0,0.636,0.3,0.6,0.519,0.482,160.9,0.333,0.5285,0.667,34.36,26.03,6.89,7.49,1
+349,Sri Lanka,West Indies,Coolidge Cricket Ground,Sri Lanka,1,0,0.545,0.3,0.4,0.452,0.417,160.9,0.489,0.5285,0.5,14.51,20.88,7.74,8.77,0
+350,Sri Lanka,West Indies,Coolidge Cricket Ground,Sri Lanka,1,0,0.5,0.2,0.4,0.448,0.421,160.9,0.489,0.5285,0.5,25.44,20.88,7.87,8.77,1
+320,Australia,New Zealand,Westpac Stadium,Australia,1,0,0.667,0.4,0.6,0.522,0.479,164.5,0.385,0.5285,0.615,34.36,26.03,7.03,7.49,1
+351,Sri Lanka,West Indies,Coolidge Cricket Ground,Sri Lanka,1,0,0.538,0.2,0.4,0.452,0.418,160.9,0.49,0.5285,0.5,25.11,20.88,7.87,8.71,0
+321,Australia,New Zealand,Sky Stadium,Australia,1,0,0.692,0.4,0.6,0.526,0.475,160.9,0.49,0.5285,0.5,34.36,26.03,7.03,7.49,0
+334,India,England,Narendra Modi Stadium,India,1,1,0.5,0.7,0.7,0.624,0.5,170.2,0.489,0.5285,0.5,13.79,17.58,7.45,7.96,0
+335,England,India,Narendra Modi Stadium,England,1,-1,0.533,0.7,0.6,0.504,0.619,170.2,0.488,0.5285,0.5,17.31,13.79,7.86,7.52,0
+336,India,England,Narendra Modi Stadium,India,1,1,0.5,0.6,0.7,0.622,0.5,170.2,0.488,0.5285,0.5,28.51,17.31,7.39,7.88,0
+337,India,England,Narendra Modi Stadium,India,1,1,0.471,0.5,0.7,0.618,0.504,170.2,0.487,0.333,0.667,19.34,17.31,7.38,7.96,1
+338,India,England,Narendra Modi Stadium,India,1,1,0.5,0.5,0.7,0.62,0.5,170.2,0.488,0.5,0.5,33.97,18.46,7.38,7.97,1
+342,South Africa,Pakistan,The Wanderers Stadium,South Africa,1,0,0.5,0.2,0.7,0.548,0.604,160.9,0.491,0.5,0.5,19.37,26.27,7.86,6.84,0
+343,Pakistan,South Africa,The Wanderers Stadium,Pakistan,1,0,0.529,0.7,0.2,0.606,0.544,194.6,0.8,0.5285,0.4,26.27,21.03,6.89,7.86,0
+344,South Africa,Pakistan,SuperSport Park,South Africa,1,0,0.5,0.3,0.6,0.548,0.602,178.1,0.7,0.5,0.5,23.62,25.5,7.86,6.89,0
+345,South Africa,Pakistan,SuperSport Park,South Africa,1,0,0.474,0.2,0.6,0.543,0.605,180.4,0.636,0.455,1,25.77,27.37,7.86,6.89,0
+363,Netherlands,Nepal,Tribhuvan University International Cricket Ground,Netherlands,1,0,0.5,0.9,0.6,0.55,0.467,160.9,0.488,0.5285,1,21.33,17.61,6.46,6.32,0
+366,Nepal,Netherlands,Tribhuvan University International Cricket Ground,Nepal,1,0,0.4,0.7,0.8,0.5,0.548,154.8,0.5,1,0.5,31.84,22.09,6.32,6.46,0
+357,Pakistan,Zimbabwe,Harare Sports Club,Pakistan,1,0,1,0.6,0.3,0.607,0.246,159,0.652,0.909,0.1,27.37,24.4,6.89,7.47,1
+358,Zimbabwe,Pakistan,Harare Sports Club,Zimbabwe,1,0,0,0.3,0.7,0.242,0.61,158.6,0.667,0.095,0.917,23.69,25.93,7.36,6.89,1
+369,Nepal,Netherlands,Tribhuvan University International Cricket Ground,Nepal,1,0,0.333,0.7,0.7,0.5,0.547,162.1,0.444,0.857,0.5,28.55,23.61,6.36,6.46,1
+359,Pakistan,Zimbabwe,Harare Sports Club,Pakistan,1,0,0.933,0.7,0.3,0.606,0.254,157,0.68,0.846,0.136,25.93,23.56,6.89,7.24,1
+339,Sri Lanka,England,Sophia Gardens,Sri Lanka,1,0,0.444,0.1,0.6,0.449,0.496,149.8,0.333,0.5285,1,21.44,16.68,7.87,8.08,0
+340,Sri Lanka,England,Sophia Gardens,Sri Lanka,1,0,0.4,0.1,0.6,0.445,0.5,146.9,0.286,0.5285,1,21.38,16.68,7.91,8.1,0
+373,South Africa,West Indies,National Cricket Stadium,South Africa,1,0,0.6,0.2,0.5,0.539,0.423,160.9,0.489,0.5285,0.5,24.31,20.81,7.86,8.52,0
+341,England,Sri Lanka,The Rose Bowl,England,1,0,0.636,0.7,0.1,0.504,0.442,167,0.5,0.625,0.5,16.68,21.38,8.02,7.91,1
+374,South Africa,West Indies,National Cricket Stadium,South Africa,1,0,0.545,0.2,0.6,0.535,0.427,160.9,0.489,0.5285,0.5,24.31,20.81,7.86,8.43,1
+375,South Africa,West Indies,National Cricket Stadium,South Africa,1,0,0.583,0.3,0.5,0.538,0.424,160.9,0.489,0.5285,0.333,24.31,20.81,7.68,8.3,1
+376,West Indies,South Africa,National Cricket Stadium,West Indies,1,0,0.385,0.4,0.4,0.421,0.542,160.9,0.49,0.25,0.667,20.81,23.84,8.2,7.65,1
+377,South Africa,West Indies,National Cricket Stadium,South Africa,1,0,0.571,0.4,0.4,0.538,0.425,173.6,0.8,0.5,0.4,23.37,20.81,7.65,8.22,1
+378,West Indies,Australia,Daren Sammy National Cricket Stadium,West Indies,1,0,0.545,0.4,0.4,0.422,0.522,160.9,0.491,0.5285,0.5,20.81,34.36,8.21,7.03,1
+379,West Indies,Australia,Daren Sammy National Cricket Stadium,West Indies,1,0,0.583,0.5,0.4,0.426,0.518,160.9,0.492,0.5285,0.5,20.81,34.36,8.16,7.03,1
+380,Australia,West Indies,Daren Sammy National Cricket Stadium,Australia,1,0,0.385,0.3,0.6,0.514,0.431,160.9,0.492,0.5285,0.5,34.36,20.81,7.03,8.16,0
+381,Australia,West Indies,Daren Sammy National Cricket Stadium,Australia,1,0,0.357,0.3,0.6,0.511,0.435,160.9,0.492,0,1,34.36,20.81,7.03,8.17,1
+328,Pakistan,England,Trent Bridge,Pakistan,1,0,0.278,0.7,0.7,0.608,0.508,154.4,0.545,0.5285,0.5,25.8,16.68,6.89,8.02,1
+382,West Indies,Australia,Daren Sammy National Cricket Stadium,West Indies,1,0,0.6,0.6,0.4,0.432,0.514,160.9,0.492,0.75,0.25,20.81,34.4,8.17,7.03,1
+329,England,Pakistan,Headingley,England,1,0,0.579,0.6,0.7,0.504,0.611,160.9,0.493,0.5285,0.5,16.68,25.8,8.02,6.89,1
+346,South Africa,Ireland,The Village,South Africa,1,0,0.5,0.4,0.5,0.541,0.493,163.6,0.4,0.5285,0.167,24.85,23.97,7.51,6.2,1
+330,Pakistan,England,Old Trafford,Pakistan,1,0,0.3,0.7,0.6,0.607,0.507,151.1,0.2,0.5,0.4,25.8,16.68,7.02,8.02,0
+347,South Africa,Ireland,Civil Service Cricket Club,South Africa,1,0,1,0.5,0.5,0.545,0.486,106.9,0.143,0.5285,0.5,25.6,23.6,7.37,6.45,1
+348,South Africa,Ireland,Civil Service Cricket Club,South Africa,1,0,1,0.6,0.4,0.548,0.479,113.4,0.25,0.5285,0.4,25.6,23.6,7.37,6.53,1
+370,India,Sri Lanka,R Premadasa Stadium,India,1,0,0.722,0.6,0.1,0.623,0.438,153.3,0.542,0.8,0.154,29.8,21.38,7.38,7.84,1
+371,India,Sri Lanka,R Premadasa Stadium,India,1,0,0.737,0.7,0.1,0.626,0.435,153.7,0.56,0.833,0.143,28.92,31.44,6.97,7.85,0
+372,India,Sri Lanka,R Premadasa Stadium,India,1,0,0.7,0.6,0.2,0.621,0.439,152.9,0.538,0.714,0.2,28.71,31.44,6.6,7.89,0
+384,Pakistan,West Indies,Providence Stadium,Pakistan,1,-1,0.733,0.5,0.5,0.6,0.433,141,0.286,0.5285,0.667,25.8,21.01,7.02,8.17,1
+408,Zimbabwe,Ireland,Castle Avenue,Zimbabwe,1,0,0.333,0.2,0.4,0.254,0.472,160.9,0.494,0.5285,0.5,28.67,23.6,7.44,6.65,1
+409,Zimbabwe,Ireland,Castle Avenue,Zimbabwe,1,0,0.5,0.3,0.3,0.264,0.466,160.9,0.494,0.5285,0.5,26.9,23.6,7.42,6.65,0
+410,Ireland,Zimbabwe,Bready Cricket Club,Ireland,1,0,0.6,0.3,0.3,0.473,0.26,160.9,0.494,0.333,0.5,23.23,27.1,6.65,7.38,1
+411,Ireland,Zimbabwe,Bready Cricket Club,Ireland,1,0,0.667,0.4,0.3,0.48,0.257,160.9,0.494,0.5,0.5,25.2,25.57,6.73,7.32,1
+412,Zimbabwe,Ireland,Bready Cricket Club,Zimbabwe,1,0,0.286,0.3,0.4,0.253,0.487,163.8,0.6,0,0.6,23.65,24.5,7.45,6.51,1
+400,South Africa,Sri Lanka,R Premadasa Stadium,South Africa,1,0,0.538,0.6,0.3,0.551,0.444,150.2,0.519,0.25,0.25,25.6,31.44,7.37,7.59,1
+401,Sri Lanka,South Africa,R Premadasa Stadium,Sri Lanka,1,0,0.357,0.3,0.7,0.44,0.555,150.7,0.536,0.235,0.4,24,27.1,7.98,6.38,0
+402,Sri Lanka,South Africa,R Premadasa Stadium,Sri Lanka,1,0,0.333,0.3,0.8,0.437,0.558,149,0.517,0.222,0.5,22.78,27.03,7.75,6.39,0
+413,Scotland,Zimbabwe,Grange Cricket Club Ground,Scotland,1,0,0,0.6,0.4,0.5,0.263,160.9,0.495,0.5285,0.5,25.33,24.06,7.08,7.3,1
+414,Zimbabwe,Scotland,Grange Cricket Club Ground,Zimbabwe,1,0,0.5,0.3,0.7,0.26,0.511,160.9,0.496,0.5285,0.667,25.23,25.33,7.28,7.15,1
+415,Scotland,Zimbabwe,Grange Cricket Club Ground,Scotland,1,0,0.333,0.6,0.4,0.5,0.269,139.2,0.6,0.5,0.5,26.83,24.59,7.11,7.28,0
+480,UAE,Ireland,ICC Academy,UAE,1,0,0.4,0.5,0.3,0.346,0.481,145,0.75,0.4,0.5,17.36,23.7,6.99,6.62,0
+481,UAE,Ireland,ICC Academy,UAE,1,0,0.333,0.4,0.4,0.333,0.487,143.7,0.706,0.333,0.5,16.55,25.1,6.29,6.71,1
+478,Scotland,Namibia,ICC Academy,Scotland,1,0,0,0.6,0.8,0.5,0.789,145.3,0.684,0.5,0.5,28.4,27.36,6.19,5.64,0
+482,Ireland,UAE,ICC Academy,Ireland,1,0,0.571,0.4,0.5,0.481,0.357,144.8,0.65,0.5285,0.429,25.1,21.42,6.72,6.21,0
+418,Netherlands,Ireland,Zayed Cricket Stadium,Netherlands,1,0,0.636,0.7,0.4,0.538,0.475,160.9,0.494,0.5285,0.5,23.17,25.3,6.46,6.72,0
+419,Namibia,Sri Lanka,Zayed Cricket Stadium,Namibia,1,0,0.5,0.8,0.2,0.81,0.434,160.9,0.494,0.5285,0.5,25.79,22.22,5.74,7.62,0
+423,Sri Lanka,Ireland,Zayed Cricket Stadium,Sri Lanka,1,0,1,0.3,0.5,0.438,0.481,160.9,0.495,0.5285,0.5,21.18,25.3,7.52,6.72,1
+422,Netherlands,Namibia,Zayed Cricket Stadium,Netherlands,1,0,1,0.6,0.7,0.53,0.773,160.9,0.495,0.5285,0.5,23.6,25.79,6.46,5.74,0
+424,Oman,Scotland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.5,0.6,0.517,0.51,148,0.4,0.556,0.8,18.67,29.3,6.7,7,0
+426,Netherlands,Sri Lanka,Sharjah Cricket Stadium,Netherlands,1,0,0,0.5,0.4,0.522,0.442,150.1,0.494,0.5285,0.5,23.87,23.68,6.8,7.32,0
+425,Ireland,Namibia,Sharjah Cricket Stadium,Ireland,1,0,1,0.5,0.7,0.476,0.783,150.1,0.494,0.5285,0.5,25.3,26.09,6.59,5.77,0
+428,West Indies,England,Dubai International Cricket Stadium,West Indies,1,0,0.611,0.4,0.6,0.423,0.511,146.4,0.596,0.5285,0.667,21.01,16.25,8.27,8.02,0
+427,South Africa,Australia,Zayed Cricket Stadium,South Africa,1,0,0.381,0.9,0.2,0.561,0.5,160.9,0.493,0.5285,0.5,29,35.76,6.19,6.72,0
+430,India,Pakistan,Dubai International Cricket Stadium,India,1,0,0.75,0.5,0.4,0.617,0.595,144.7,0.585,0.5285,0.56,28.71,25.5,6.49,7.02,0
+432,New Zealand,Pakistan,Sharjah Cricket Stadium,New Zealand,1,0,0.417,0.6,0.4,0.487,0.598,128,0.2,0.5285,0.5,30.73,25.5,5.76,7.02,0
+431,West Indies,South Africa,Dubai International Cricket Stadium,West Indies,1,0,0.4,0.4,0.8,0.42,0.557,144.8,0.574,0,0.5,20.81,29,7.86,6.31,0
+434,Scotland,Namibia,Zayed Cricket Stadium,Scotland,1,0,0,0.7,0.7,0.519,0.792,131,0.2,0.5285,0.5,28.9,26.09,6.88,5.76,0
+435,Sri Lanka,Australia,Dubai International Cricket Stadium,Sri Lanka,1,0,0.5,0.6,0.3,0.45,0.503,144.8,0.564,0.5285,0.286,26.11,34.43,7.26,6.72,0
+438,Australia,England,Dubai International Cricket Stadium,Australia,1,0,0.526,0.4,0.7,0.507,0.518,144.9,0.554,0.375,0.714,34.43,16.25,6.72,8.02,0
+437,Sri Lanka,South Africa,Sharjah Cricket Stadium,Sri Lanka,1,0,0.312,0.6,0.8,0.447,0.56,130.9,0.286,0.5285,0.5,25.66,30.2,7.27,6.3,0
+439,India,New Zealand,Dubai International Cricket Stadium,India,1,0,0.375,0.4,0.6,0.613,0.483,144.6,0.544,0.5285,0.167,25.76,30.03,6.78,5.76,0
+440,England,Sri Lanka,Sharjah Cricket Stadium,England,1,0,0.667,0.8,0.5,0.522,0.444,132.2,0.25,0.5285,0.667,18.55,25.64,8,7.29,1
+442,Pakistan,Namibia,Zayed Cricket Stadium,Pakistan,1,0,0.5,0.5,0.8,0.6,0.8,126.9,0.143,0.5285,0.667,25.5,26.09,7.02,5.73,1
+443,New Zealand,Scotland,Dubai International Cricket Stadium,New Zealand,1,0,1,0.6,0.6,0.487,0.509,144,0.534,0.286,0.5,30.03,28.9,5.76,6.91,1
+445,Sri Lanka,West Indies,Zayed Cricket Stadium,Sri Lanka,1,0,0.5,0.4,0.3,0.441,0.421,129,0.222,0.5285,0.5,25.26,22.11,7.15,7.57,1
+447,Scotland,India,Dubai International Cricket Stadium,Scotland,1,0,0.5,0.5,0.4,0.5,0.608,143.3,0.533,0.444,0.5,28.63,23.88,7.03,6.76,0
+446,New Zealand,Namibia,Sharjah Cricket Stadium,New Zealand,1,0,0.5,0.6,0.8,0.49,0.769,135.7,0.333,0.5285,0.5,30.03,27.06,5.76,5.73,1
+448,West Indies,Australia,Zayed Cricket Stadium,West Indies,1,0,0.625,0.2,0.4,0.418,0.507,135,0.3,0.5285,0.5,22.78,34.46,7.67,6.72,0
+449,South Africa,England,Sharjah Cricket Stadium,South Africa,1,0,0.429,0.9,0.9,0.566,0.525,138.4,0.4,0.5285,0.5,29.37,18.55,6.52,8,1
+450,Pakistan,Scotland,Sharjah Cricket Stadium,Pakistan,1,0,1,0.5,0.4,0.602,0.491,143,0.455,0.5285,0.5,25.5,29.07,7.02,7.1,1
+451,Namibia,India,Dubai International Cricket Stadium,Namibia,1,0,0.5,0.7,0.5,0.741,0.611,142.3,0.525,0.6,0.333,27.19,21.78,5.66,6.71,0
+452,England,New Zealand,Zayed Cricket Stadium,England,1,0,0.571,0.8,0.6,0.521,0.494,137,0.273,0.5285,0.5,18.55,29.4,8,5.76,0
+453,Pakistan,Australia,Dubai International Cricket Stadium,Pakistan,1,0,0.522,0.5,0.5,0.605,0.51,142.1,0.516,0.577,0.4,25.5,36.26,7.02,6.72,0
+454,New Zealand,Australia,Dubai International Cricket Stadium,New Zealand,1,0,0.286,0.6,0.6,0.497,0.513,142.7,0.508,0.375,0.455,29.4,36.26,5.76,6.72,0
+464,New Zealand,India,Sawai Mansingh Stadium,New Zealand,1,0,0.529,0.6,0.5,0.494,0.614,160.9,0.487,0.5285,0.5,28.13,21.43,5.76,6.71,0
+465,New Zealand,India,JSCA International Stadium Complex,New Zealand,1,0,0.5,0.6,0.6,0.49,0.616,160.9,0.487,0.5285,0.5,28.13,22.95,5.76,6.72,0
+466,India,New Zealand,Eden Gardens,India,1,0,0.421,0.6,0.5,0.619,0.487,141.3,0.333,0.667,0.5,21.54,28.13,6.79,5.76,1
+494,Pakistan,West Indies,National Stadium,Pakistan,1,0,0.667,0.7,0.2,0.608,0.415,169.2,0.6,1,0,25.5,22.78,7.02,7.63,1
+495,Pakistan,West Indies,National Stadium,Pakistan,1,0,0.684,0.8,0.1,0.61,0.413,174.3,0.667,1,0,25.5,23.33,7.02,7.49,1
+496,West Indies,Pakistan,National Stadium,West Indies,1,0,0.15,0.1,0.9,0.41,0.612,174,0.714,0,1,25.63,24.17,7.35,7.02,0
+498,USA,Ireland,Central Broward Regional Park Stadium Turf Ground,USA,1,0,0.5,0.5,0.5,0.5,0.47,159.2,0.7,0.5285,0.5,23.83,25.3,8.11,6.59,1
+499,Ireland,USA,Central Broward Regional Park Stadium Turf Ground,Ireland,1,0,0,0.4,0.25,0.464,0.25,161.8,0.727,0.5285,0.5,24.6,23.83,6.79,8.11,1
+352,England,West Indies,Kensington Oval,England,1,0,0.421,0.7,0.1,0.518,0.407,150.7,0.647,0.667,0.556,18.55,27.1,8,7.1,0
+353,England,West Indies,Kensington Oval,England,1,0,0.4,0.6,0.2,0.514,0.411,148.1,0.611,0.571,0.6,17.92,28.47,7.76,6.9,1
+354,West Indies,England,Kensington Oval,West Indies,1,0,0.571,0.2,0.7,0.408,0.517,149.3,0.632,0.545,0.625,29.14,18.16,6.87,7.84,1
+355,England,West Indies,Kensington Oval,England,1,0,0.409,0.6,0.3,0.514,0.412,153,0.65,0.556,0.583,33,26.92,7.86,7.13,1
+356,West Indies,England,Kensington Oval,West Indies,1,0,0.565,0.3,0.6,0.409,0.517,154.9,0.667,0.538,0.6,26.92,23.4,7.08,7.83,1
+555,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,1,0.5,0.8,0.5,0.514,146.8,0.381,0.5,0.5,16.37,31.8,6.7,6.34,0
+387,Australia,Sri Lanka,Sydney Cricket Ground,Australia,1,1,0.529,0.7,0.5,0.516,0.444,163.8,0.333,0.556,0.5,37.13,27.63,6.71,7.14,1
+556,Oman,Ireland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0.5,0.4,0.4,0.484,0.471,146.3,0.364,0.455,0.714,16.8,25.5,6.69,6.79,0
+559,UAE,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.333,0.6,0.8,0.379,0.528,146.3,0.364,0.5285,0.6,24.42,32.57,6.35,4.21,1
+554,UAE,Ireland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.5,0.6,0.4,0.4,0.477,147.8,0.375,0.5285,0.75,25.12,25.5,6.5,6.77,1
+557,UAE,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.667,0.6,0.3,0.419,0.469,149,0.4,0.5285,0.417,25.11,23.7,6.5,6.7,0
+558,Ireland,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Ireland,1,0,1,0.4,0.7,0.471,0.514,149,0.4,0.667,0.5,26.23,37.07,6.74,6.1,1
+389,Sri Lanka,Australia,Manuka Oval,Sri Lanka,1,0,0.421,0.5,0.7,0.438,0.516,160.9,0.489,0.5285,0.5,24.33,37.9,7.41,6.71,0
+467,West Indies,India,Eden Gardens,West Indies,1,0,0.353,0.3,0.6,0.413,0.622,147.4,0.429,0.5285,0.75,25.67,20.95,7.08,6.76,0
+539,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Nepal,1,0,0.5,0.6,0.4,0.5,0.485,148.7,0.407,0.429,0.462,29.68,24.5,6.1,6.7,1
+541,UAE,Ireland,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.556,0.6,0.4,0.406,0.477,148.7,0.407,0.667,0.7,27.42,26.27,6.44,6.74,1
+468,India,West Indies,Eden Gardens,India,1,0,0.611,0.6,0.3,0.624,0.411,148.6,0.375,0.8,0.333,21.86,26.83,6.21,7.08,1
+390,Sri Lanka,Australia,Melbourne Cricket Ground,Sri Lanka,1,-1,0.4,0.4,0.8,0.435,0.519,139.7,0.385,0.667,0.615,24.33,37.13,7.38,6.71,0
+542,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Canada,1,0,0,0.6,0.4,0.48,0.471,147.9,0.448,0.5285,0.429,26.57,20.59,3.98,6.8,0
+469,India,West Indies,Eden Gardens,India,1,0,0.632,0.7,0.3,0.627,0.408,152.8,0.444,0.833,0.25,21.05,26.17,6.54,7.23,1
+391,Australia,Sri Lanka,Melbourne Cricket Ground,Australia,1,1,0.571,0.8,0.3,0.522,0.432,139.6,0.357,0.643,0.5,37.13,24.7,6.71,7.33,0
+546,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Canada,1,0,0.5,0.5,0.7,0.462,0.525,148.2,0.433,0.5285,0.5,26.3,31.25,4.35,5.33,0
+550,Ireland,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),Ireland,1,0,0.6,0.5,0.5,0.484,0.5,160.9,0.488,0.5285,0.5,27.27,20.68,6.73,6.52,1
+549,UAE,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.5,0.6,0.7,0.424,0.537,144.8,0.406,0.75,0.556,29.92,30.65,6.44,5.33,1
+470,India,Sri Lanka,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,India,1,0,0.667,0.8,0.3,0.629,0.436,160.9,0.489,0.5285,0.5,21.84,24.97,6.63,7.45,1
+553,Ireland,UAE,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Ireland,1,0,0.4,0.6,0.6,0.489,0.441,145.2,0.412,0.667,0.8,27.27,31.54,6.73,6.38,0
+552,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),Oman,1,0,0.333,0.4,0.6,0.486,0.524,158.6,0.8,0.5285,0.5,19.85,30.17,6.75,5.44,0
+471,Sri Lanka,India,Himachal Pradesh Cricket Association Stadium,Sri Lanka,1,0,0.318,0.2,0.9,0.433,0.632,140.1,0.571,0.5285,0.5,24.97,24.29,7.45,6.63,0
+472,Sri Lanka,India,Himachal Pradesh Cricket Association Stadium,Sri Lanka,1,0,0.304,0.2,1,0.43,0.634,145.5,0.5,0.5285,0.5,25.77,24.57,7.45,6.63,0
+497,Pakistan,Australia,Gaddafi Stadium,Pakistan,1,0,0.5,0.9,0.7,0.614,0.519,166.4,0.5,0.643,0.5,24.17,37.13,7.02,6.71,0
+582,Zimbabwe,Namibia,Queens Sports Club,Zimbabwe,1,0,0.5,0.5,0.5,0.278,0.71,160.9,0.487,0.5285,0.5,26.25,22.72,7.42,5.79,1
+583,Zimbabwe,Namibia,Queens Sports Club,Zimbabwe,1,0,1,0.5,0.5,0.288,0.688,160.9,0.488,0.667,0.5,25.63,22.72,7.28,5.85,0
+584,Namibia,Zimbabwe,Queens Sports Club,Namibia,1,0,0.5,0.5,0.5,0.697,0.284,160.9,0.487,0.5285,0.5,22.72,25.73,5.77,7.1,0
+585,Zimbabwe,Namibia,Queens Sports Club,Zimbabwe,1,0,0.667,0.5,0.4,0.293,0.676,147.8,0.6,0.6,0.333,26.07,22.72,6.4,5.77,0
+586,Namibia,Zimbabwe,Queens Sports Club,Namibia,1,0,0.5,0.4,0.5,0.686,0.289,149.3,0.5,0.5,0.5,24.06,26.07,5.61,6.74,1
+572,Sri Lanka,Australia,R Premadasa Stadium,Sri Lanka,1,0,0.409,0.2,0.8,0.428,0.522,148.1,0.5,0.211,0.714,25.43,37.13,7.45,6.26,0
+573,Sri Lanka,Australia,R Premadasa Stadium,Sri Lanka,1,0,0.391,0.2,0.8,0.425,0.525,147.4,0.484,0.2,0.75,26.3,37.13,7.39,6.34,0
+473,India,South Africa,Arun Jaitley Stadium,India,1,0,0.6,1,0.9,0.636,0.569,160.9,0.486,0.5285,0.5,24.53,29.37,6.75,6.68,0
+574,Australia,Sri Lanka,Pallekele International Cricket Stadium,Australia,1,0,0.583,0.8,0.1,0.528,0.422,167.9,0.545,0.333,0.5,37.13,25.23,6.34,6.1,0
+474,India,South Africa,Barabati Stadium,India,1,0,0.562,0.9,0.9,0.632,0.572,160.9,0.485,0.5285,0.5,24.53,29.37,6.75,6.94,0
+475,India,South Africa,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,India,1,0,0.529,0.8,0.9,0.628,0.575,160.9,0.485,0.5285,0.5,25.6,29.37,6.75,6.92,1
+476,India,South Africa,Saurashtra Cricket Association Stadium,India,1,0,0.556,0.8,0.8,0.631,0.571,160.9,0.485,0.667,0.5,25.6,28.7,6.75,7.08,1
+560,Ireland,India,The Village,Ireland,1,0,0,0.6,0.7,0.484,0.629,163.7,0.455,0.143,0.5,27.53,25.97,6.73,6.64,0
+561,India,Ireland,The Village,India,1,0,1,0.7,0.6,0.631,0.479,159.1,0.417,1,0.125,25.7,27.53,6.64,6.73,1
+455,India,England,The Rose Bowl,India,1,0,0.526,0.7,0.5,0.634,0.514,168.4,0.556,0.5285,0.667,26.87,20.97,6.64,7.83,1
+456,India,England,Edgbaston,India,1,0,0.55,0.7,0.4,0.636,0.51,169.6,1,0.5285,1,26.23,20.97,6.18,7.79,1
+457,England,India,Trent Bridge,England,1,0,0.429,0.3,0.7,0.507,0.638,160.8,0.583,0.333,0.667,20.97,25.9,7.79,6.18,1
+612,Zimbabwe,USA,Queens Sports Club,Zimbabwe,1,0,0.5,0.6,0.2,0.302,0.2,153.1,0.636,0.556,0.5,25.27,21.77,6.81,8.11,1
+614,USA,Netherlands,Bulawayo Athletic Club,USA,1,0,0.5,0.167,0.5,0.167,0.535,160.9,0.488,0.5285,0.5,24.23,24.13,7.83,6.41,0
+615,Zimbabwe,Netherlands,Queens Sports Club,Zimbabwe,1,0,0.333,0.7,0.5,0.318,0.542,161.1,0.714,0.636,1,24.93,24.13,7.01,6.45,1
+562,New Zealand,Ireland,Civil Service Cricket Club,New Zealand,1,0,1,0.5,0.5,0.484,0.474,121.8,0.333,0.5285,0.333,27.1,27.53,5.76,6.73,1
+563,New Zealand,Ireland,Civil Service Cricket Club,New Zealand,1,0,1,0.5,0.4,0.488,0.469,126.9,0.4,0.5285,0.286,25.91,27.53,5.85,6.73,1
+564,Ireland,New Zealand,Civil Service Cricket Club,Ireland,1,0,0,0.4,0.6,0.464,0.491,131.6,0.455,0.25,0.5,27.53,26.43,6.73,5.54,0
+575,New Zealand,Scotland,Grange Cricket Club Ground,New Zealand,1,0,1,0.6,0.4,0.494,0.482,145.5,0.5,0.5285,0.4,26.06,28.83,5.72,7.32,1
+458,England,South Africa,County Ground,England,1,0,0.5,0.3,0.6,0.51,0.564,160.9,0.489,0,0.5,19.97,28.73,7.79,7.19,1
+459,South Africa,England,Sophia Gardens,South Africa,1,0,0.435,0.6,0.4,0.56,0.513,142.4,0.25,0.5285,1,46.1,19.97,7.23,7.83,1
+576,New Zealand,Scotland,Grange Cricket Club Ground,New Zealand,1,0,1,0.6,0.4,0.497,0.474,156.9,0.571,0.5285,0.333,29.33,28.83,6.11,7.32,1
+595,India,West Indies,Brian Lara Stadium,India,1,0,0.65,0.6,0.4,0.634,0.41,160.9,0.491,0.5285,0.5,25.9,29,6.18,7.39,1
+460,South Africa,England,The Rose Bowl,South Africa,1,0,0.458,0.6,0.4,0.563,0.51,171.4,0.6,0.5285,0.6,36.6,19.97,7.23,7.83,1
+596,India,West Indies,Warner Park,India,1,0,0.667,0.7,0.4,0.636,0.408,118.6,0.143,0.5285,0.429,26.43,27.57,6.28,7.19,0
+597,West Indies,India,Warner Park,West Indies,1,0,0.318,0.4,0.7,0.411,0.633,121,0.125,0.5,0.5,28.27,25.5,7.19,6.34,0
+565,South Africa,Ireland,County Ground,South Africa,1,0,1,0.6,0.3,0.566,0.459,177.2,0.4,0.5285,0.5,31.99,27.4,7.18,6.8,1
+580,New Zealand,Netherlands,Sportpark Westvliet,New Zealand,1,0,1,0.6,0.4,0.5,0.534,160.9,0.492,0.5285,0.333,33.47,24.13,6.15,6.42,1
+581,Netherlands,New Zealand,Sportpark Westvliet,Netherlands,1,0,0,0.4,0.6,0.527,0.503,160.9,0.493,0.25,0.5,24.13,33.43,6.44,6.07,0
+566,South Africa,Ireland,County Ground,South Africa,1,0,1,0.6,0.3,0.569,0.455,182.8,0.5,0.667,0.5,31.22,29.6,7.22,6.8,1
+598,India,West Indies,Central Broward Regional Park Stadium Turf Ground,India,1,0,0.652,0.7,0.4,0.635,0.409,160.8,0.75,0.5,0.375,25.5,28.77,6.52,7.05,1
+599,India,West Indies,Central Broward Regional Park Stadium Turf Ground,India,1,0,0.667,0.7,0.3,0.637,0.406,163.2,0.769,0.6,0.333,26.33,28.2,6.39,7.05,1
+600,New Zealand,West Indies,Sabina Park,New Zealand,1,0,0.5,0.7,0.3,0.506,0.404,160.9,0.494,0.5285,0.667,33.37,28.2,5.9,7.05,1
+601,New Zealand,West Indies,Sabina Park,New Zealand,1,0,0.529,0.8,0.3,0.509,0.401,160.9,0.494,0.5285,0.5,33.37,27.8,5.88,7.05,1
+602,New Zealand,West Indies,Sabina Park,New Zealand,1,0,0.556,0.9,0.3,0.512,0.399,160.4,0.6,0.5285,0.4,29.26,27.8,5.6,7.05,0
+638,Pakistan,India,Dubai International Cricket Stadium,Pakistan,1,0,0.222,0.8,0.8,0.611,0.639,143.1,0.5,0.556,0.5,24.17,25.77,7.02,6.48,0
+642,India,Pakistan,Dubai International Cricket Stadium,India,1,0,0.7,0.8,0.7,0.643,0.61,144.5,0.493,0.667,0.536,27.23,24.43,6.65,6.54,0
+643,India,Sri Lanka,Dubai International Cricket Stadium,India,1,0,0.708,0.7,0.3,0.64,0.429,145.1,0.485,0.571,0.5,27.23,21,6.65,6.08,0
+644,Pakistan,Sri Lanka,Dubai International Cricket Stadium,Pakistan,1,0,0.619,0.8,0.4,0.612,0.433,145.5,0.478,0.552,0.6,24.43,20.8,7.02,6.08,0
+645,Sri Lanka,Pakistan,Dubai International Cricket Stadium,Sri Lanka,1,0,0.409,0.5,0.7,0.437,0.608,145.1,0.471,0.667,0.533,20.8,25.13,6.08,7.02,1
+631,Pakistan,England,National Stadium,Pakistan,1,0,0.286,0.6,0.4,0.605,0.507,178.1,0.625,1,0.5,24.8,19.73,7.02,7.8,0
+646,India,Australia,Punjab Cricket Association IS Bindra Stadium,India,1,0,0.565,0.6,0.7,0.636,0.525,160.9,0.493,0.5285,0.5,27.57,37.13,6.65,6.34,0
+632,England,Pakistan,National Stadium,England,1,0,0.636,0.4,0.5,0.51,0.602,175.9,0.556,0.5285,0.875,21.2,24.8,7.8,7.02,0
+633,England,Pakistan,National Stadium,England,1,0,0.609,0.4,0.5,0.506,0.604,178.2,0.5,0.5285,0.889,21.73,24.8,7.77,7.02,1
+647,Australia,India,Vidarbha Cricket Association Stadium,Australia,1,0,0.417,0.7,0.6,0.528,0.632,151.6,0.75,0.5285,0.5,36.28,27.57,6.86,6.65,0
+648,Australia,India,Rajiv Gandhi International Stadium,Australia,1,0,0.4,0.6,0.6,0.524,0.634,160.9,0.492,0.5285,0.5,35.03,27.57,6.86,6.65,0
+634,Pakistan,England,National Stadium,Pakistan,1,0,0.292,0.4,0.4,0.601,0.51,182.1,0.545,0.8,0.667,24.8,31.33,7.02,7.77,1
+649,South Africa,India,Greenfield International Stadium,South Africa,1,0,0.4,0.6,0.7,0.571,0.636,160.9,0.492,0.5285,0.5,31.22,27.57,7.22,6.71,0
+635,Pakistan,England,Gaddafi Stadium,Pakistan,1,0,0.32,0.4,0.4,0.603,0.506,166.1,0.467,0.6,0.5,24.8,24.78,7.02,7.83,1
+636,Pakistan,England,Gaddafi Stadium,Pakistan,1,0,0.346,0.5,0.4,0.605,0.503,164.8,0.5,0.625,0.5,24.8,23.75,7.02,7.83,0
+637,England,Pakistan,Gaddafi Stadium,England,1,0,0.593,0.5,0.5,0.506,0.602,165,0.471,0.5285,0.588,24.25,24.8,7.83,7.02,1
+650,India,South Africa,Barsapara Cricket Stadium,India,1,0,0.571,0.7,0.5,0.638,0.568,160.9,0.492,0.5285,0.5,27.57,29.23,6.71,7.22,1
+651,South Africa,India,Holkar Cricket Stadium,South Africa,1,0,0.364,0.4,0.7,0.564,0.64,160.9,0.493,0.5285,0.5,30.53,27.57,7.25,6.71,1
+590,West Indies,Australia,Carrara Oval,West Indies,1,0,0.588,0.4,0.6,0.402,0.521,160.9,0.493,0.5285,0.5,29.4,35.77,7.05,6.86,0
+591,Australia,West Indies,Brisbane Cricket Ground,Australia,1,1,0.444,0.6,0.3,0.524,0.4,166.4,0.6,0.8,0.5,34.4,29.13,6.86,7.05,1
+619,New Zealand,Pakistan,Hagley Oval,New Zealand,1,0,0.4,0.9,0.4,0.509,0.601,160.9,0.494,0.5285,0.5,28.6,24.8,5.66,7.02,0
+592,England,Australia,Perth Stadium,England,1,-1,0.45,0.5,0.6,0.509,0.527,156.9,0.493,0.5285,0.5,25.4,35.17,7.83,6.86,1
+621,Pakistan,New Zealand,Hagley Oval,Pakistan,1,0,0.615,0.5,0.8,0.603,0.509,157.6,0.4,0.5285,0.5,24.8,26.8,7.02,5.51,0
+593,England,Australia,Manuka Oval,England,1,0,0.476,0.5,0.6,0.512,0.524,160.9,0.493,0.5285,0.667,25.67,34.03,7.85,6.74,1
+624,New Zealand,Pakistan,Hagley Oval,New Zealand,1,0,0.407,0.8,0.6,0.514,0.602,162.4,0.375,0.667,0.75,28.13,24.8,5.6,7.02,0
+500,Namibia,Sri Lanka,GMHBA Stadium,Namibia,1,0,0,0.5,0.5,0.694,0.44,160.9,0.492,0.5285,0.5,23.48,21.07,5.58,6.08,1
+501,UAE,Netherlands,GMHBA Stadium,UAE,1,0,0.333,0.7,0.4,0.457,0.52,160.9,0.492,0.5285,0.5,32.74,23.2,6.45,6.52,0
+502,Scotland,West Indies,Bellerive Oval,Scotland,1,0,0.5,0.3,0.2,0.466,0.398,160.9,0.492,0.5285,0.5,28.83,28.13,7.32,7.01,1
+503,Zimbabwe,Ireland,Bellerive Oval,Zimbabwe,1,0,0.375,0.7,0.2,0.337,0.45,160.9,0.492,0.5285,0.5,25.5,29.53,6.93,6.74,1
+504,Namibia,Netherlands,GMHBA Stadium,Namibia,1,0,0.5,0.6,0.5,0.703,0.526,160.9,0.493,0.5285,0.5,23.66,23.47,5.55,6.41,0
+505,Sri Lanka,UAE,GMHBA Stadium,Sri Lanka,1,0,1,0.5,0.7,0.438,0.444,160.9,0.493,0.5285,0.5,21.8,30.73,6.09,6.35,1
+506,Scotland,Ireland,Bellerive Oval,Scotland,1,0,0.25,0.4,0.1,0.475,0.446,176.2,0.8,0.5285,0.5,28.83,29.8,7.32,6.81,0
+507,West Indies,Zimbabwe,Bellerive Oval,West Indies,1,0,0.667,0.2,0.8,0.395,0.344,176.2,0.8,0.5285,0.5,27.67,26,7.18,6.8,1
+509,UAE,Namibia,GMHBA Stadium,UAE,1,0,0.5,0.7,0.6,0.432,0.684,160.9,0.493,0.5285,0.5,30.33,21.95,6.5,5.76,1
+508,Sri Lanka,Netherlands,GMHBA Stadium,Sri Lanka,1,0,1,0.6,0.6,0.441,0.532,160.9,0.493,0.5285,0.5,23.97,23.47,6.09,6.4,1
+511,Scotland,Zimbabwe,Bellerive Oval,Scotland,1,0,0.25,0.3,0.8,0.467,0.34,172.9,0.714,0.5285,0.5,31.91,25.33,7.33,6.8,0
+510,West Indies,Ireland,Bellerive Oval,West Indies,1,0,0.429,0.2,0.1,0.399,0.451,172.9,0.714,0.333,0.5,27.67,30.33,7.18,6.81,0
+512,New Zealand,Australia,Sydney Cricket Ground,New Zealand,1,-1,0.267,0.7,0.4,0.511,0.518,162.5,0.364,0.5285,0.545,28.13,33.63,5.5,6.83,1
+513,Ireland,Sri Lanka,Bellerive Oval,Ireland,1,0,0,0.2,0.7,0.456,0.444,165.3,0.556,0.667,0.5,30.33,24.57,6.81,6.09,0
+514,Pakistan,India,Melbourne Cricket Ground,Pakistan,1,0,0.273,0.6,0.6,0.604,0.637,140.6,0.333,0.5285,0.5,23.43,27.57,7.02,6.71,0
+517,Sri Lanka,Australia,Perth Stadium,Sri Lanka,1,-1,0.4,0.8,0.3,0.448,0.515,156.9,0.493,0.5285,0.5,24.57,33.63,6.06,6.83,0
+518,Ireland,England,Melbourne Cricket Ground,Ireland,1,0,0,0.2,0.6,0.452,0.512,141.8,0.312,0.5285,0,30.33,24.77,6.81,7.85,1
+520,India,Netherlands,Sydney Cricket Ground,India,1,0,0.5,0.6,0.5,0.639,0.519,165.6,0.417,0.75,0.5,27.57,26.03,6.71,6.47,1
+521,Zimbabwe,Pakistan,Perth Stadium,Zimbabwe,1,0,0.062,0.7,0.6,0.344,0.601,156.9,0.493,0.5285,0.5,25.27,23.43,6.64,7.02,1
+522,New Zealand,Sri Lanka,Sydney Cricket Ground,New Zealand,1,0,0.526,0.7,0.8,0.514,0.445,169.4,0.5,0.333,0.5,28.27,24.37,5.5,6.08,1
+524,Netherlands,Pakistan,Perth Stadium,Netherlands,1,0,0,0.4,0.5,0.512,0.598,156.9,0.495,0.5285,0.5,25.4,23.43,6.47,7.02,0
+525,India,South Africa,Perth Stadium,India,1,0,0.565,0.6,0.6,0.641,0.566,156.9,0.495,0.5285,0.5,27.57,29.36,6.71,7.26,0
+526,Australia,Ireland,Brisbane Cricket Ground,Australia,1,1,1,0.4,0.3,0.517,0.457,165.7,0.714,0.833,0.5,33.63,30.33,6.84,6.81,1
+527,England,New Zealand,Brisbane Cricket Ground,England,1,0,0.545,0.5,0.7,0.509,0.517,167.4,0.75,0.5285,0.5,24.97,28.27,7.85,5.5,1
+528,Zimbabwe,Netherlands,Adelaide Oval,Zimbabwe,1,0,0.5,0.6,0.3,0.347,0.506,181.8,0.6,0.5285,0.5,26.63,25.4,6.59,6.53,0
+530,Pakistan,South Africa,Sydney Cricket Ground,Pakistan,1,0,0.55,0.5,0.7,0.6,0.569,169.2,0.533,0.5285,0.5,23.43,29.3,7.02,7.18,1
+531,New Zealand,Ireland,Adelaide Oval,New Zealand,1,0,1,0.6,0.3,0.514,0.453,172.9,0.571,0.5285,0.5,28.27,29.73,5.5,6.81,1
+532,Sri Lanka,England,Sydney Cricket Ground,Sri Lanka,1,0,0.308,0.7,0.6,0.442,0.512,170.2,0.562,0,0.5,22.4,25.17,6.13,7.85,0
+535,India,Zimbabwe,Melbourne Cricket Ground,India,1,0,0.714,0.7,0.5,0.639,0.343,142.6,0.353,0.6,0.5,29.33,26.63,6.5,6.64,1
+533,Netherlands,South Africa,Adelaide Oval,Netherlands,1,0,0,0.3,0.6,0.512,0.565,174.4,0.625,0.5285,0.5,24.87,29.3,6.53,7.18,1
+536,New Zealand,Pakistan,Sydney Cricket Ground,New Zealand,1,0,0.393,0.6,0.7,0.517,0.604,168.5,0.529,0.5,0.5,28.27,23.43,5.5,7.02,0
+537,India,England,Adelaide Oval,India,1,0,0.545,0.8,0.6,0.641,0.515,168,0.6,0.5285,0.5,29.33,23.9,6.5,7.85,0
+538,Pakistan,England,Melbourne Cricket Ground,Pakistan,1,0,0.321,0.7,0.7,0.606,0.518,145.1,0.389,0.5285,0,23.43,23.9,7.02,7.85,0
+676,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Canada,1,0,0,0.7,0.4,0.516,0.475,145.9,0.375,0.667,0.471,41.77,20.97,5.55,6.38,1
+616,India,New Zealand,Bay Oval,India,1,0,0.45,0.7,0.6,0.638,0.514,169.2,0.778,0.5285,0.556,29.33,28.27,6.5,5.5,1
+681,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0.667,0.5,0.7,0.488,0.529,148.7,0.4,0.5,0.667,20.41,36.93,6.54,5.74,0
+682,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0.5,0.5,0.7,0.477,0.543,149.2,0.391,0.476,0.7,18.97,37.12,6.59,5.74,0
+686,India,Sri Lanka,Wankhede Stadium,India,1,1,0.68,0.6,0.6,0.636,0.44,192.5,0.167,0.5,0.5,29.13,22.4,6.5,6.32,1
+687,Sri Lanka,India,Maharashtra Cricket Association Stadium,Sri Lanka,1,0,0.308,0.5,0.6,0.437,0.638,160.9,0.493,0.5285,0.5,22.6,28.53,6.32,6.74,1
+688,India,Sri Lanka,Saurashtra Cricket Association Stadium,India,1,0,0.667,0.6,0.5,0.635,0.44,160.9,0.493,0.75,0.5,28.53,23.5,6.74,6.32,1
+683,Ireland,Zimbabwe,Harare Sports Club,Ireland,1,0,0.556,0.3,0.4,0.449,0.34,159.2,0.656,0.5285,0.207,29.73,26.63,6.81,6.64,0
+684,Zimbabwe,Ireland,Harare Sports Club,Zimbabwe,1,0,0.5,0.5,0.3,0.347,0.444,157.9,0.636,0.233,0.5,26.63,29.73,6.64,5.89,0
+685,Ireland,Zimbabwe,Harare Sports Club,Ireland,1,0,0.545,0.4,0.4,0.45,0.343,157.5,0.618,0.5285,0.226,29.73,26.63,6.3,6.64,0
+689,New Zealand,India,JSCA International Stadium Complex,New Zealand,1,0,0.409,0.5,0.6,0.508,0.637,160.9,0.493,0.5285,1,28.27,28.53,5.5,6.74,1
+690,New Zealand,India,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,New Zealand,1,0,0.435,0.5,0.5,0.511,0.634,160.9,0.493,0.5285,0.5,26.03,28.53,5.6,6.74,0
+691,India,New Zealand,Narendra Modi Stadium,India,1,1,0.458,0.6,0.4,0.635,0.508,170.6,0.4,0.6,0.5,29.67,26.03,6.74,5.41,1
+664,South Africa,West Indies,SuperSport Park,South Africa,1,0,0.625,0.5,0.2,0.562,0.396,177.3,0.583,0.417,0.5,29.5,27.63,7.14,7.18,0
+665,West Indies,South Africa,SuperSport Park,West Indies,1,0,0.412,0.3,0.4,0.4,0.558,173.8,0.538,0.5285,0.385,26.13,29.93,7.18,7.14,0
+666,West Indies,South Africa,The Wanderers Stadium,West Indies,1,0,0.389,0.3,0.4,0.398,0.561,185.5,0.667,0.5285,0.5,26.03,29.93,7.18,7.24,1
+626,Sri Lanka,New Zealand,University Oval,Sri Lanka,1,0,0.333,0.4,0.3,0.435,0.503,160.9,0.492,0.5285,0.5,21.53,26.03,6.38,5.4,0
+627,Sri Lanka,New Zealand,John Davies Oval,Sri Lanka,1,0,0.318,0.3,0.3,0.433,0.505,160.9,0.492,0.5285,0.5,22.3,28.13,6.38,5.57,0
+667,Pakistan,New Zealand,Gaddafi Stadium,Pakistan,1,0,0.621,0.6,0.4,0.603,0.508,167.4,0.5,0.556,0.5,23.43,28.23,7.02,5.81,1
+668,Pakistan,New Zealand,Gaddafi Stadium,Pakistan,1,0,0.633,0.7,0.3,0.605,0.505,168.2,0.526,0.579,0.5,33.07,28.23,7.02,5.85,1
+669,New Zealand,Pakistan,Gaddafi Stadium,New Zealand,1,0,0.355,0.3,0.7,0.503,0.607,169.4,0.55,0.5285,0.6,28.23,25.23,5.84,7.02,1
+671,Pakistan,New Zealand,Rawalpindi Cricket Stadium,Pakistan,1,1,0.606,0.6,0.4,0.601,0.503,144.8,0.492,0.75,0.5,24.63,28.23,7.11,5.96,0
+717,Ireland,Italy,Goldenacre,Ireland,1,0,0.5,0.3,0.6,0.442,0.556,160.9,0.492,0.5285,0.5,29.27,31.98,5.89,5.32,1
+723,Scotland,Italy,Grange Cricket Club Ground,Scotland,1,0,0.5,0.3,0.6,0.476,0.55,168.1,0.636,0.375,0.5,29.3,26.97,7.16,5.82,1
+729,Scotland,Ireland,Grange Cricket Club Ground,Scotland,1,0,0.222,0.6,0.6,0.5,0.462,171.6,0.714,0.5,0.5,33.13,28.4,6.59,5.89,1
+712,West Indies,India,Brian Lara Stadium,West Indies,1,0,0.28,0.4,0.6,0.401,0.637,160.9,0.495,0.5285,0.5,26.03,30.27,7.18,6.74,1
+713,India,West Indies,Providence Stadium,India,1,-1,0.654,0.5,0.5,0.634,0.405,122.9,0.273,0.5285,0.429,35.5,26.03,6.74,7.18,0
+714,West Indies,India,Providence Stadium,West Indies,1,1,0.333,0.5,0.5,0.408,0.631,125.3,0.25,0.5,0.5,26.03,37.5,7.16,6.74,0
+715,West Indies,India,Central Broward Regional Park Stadium Turf Ground,West Indies,1,0,0.321,0.5,0.5,0.406,0.633,164.9,0.786,0.3,0.667,26.03,37.94,7.16,6.74,0
+716,India,West Indies,Central Broward Regional Park Stadium Turf Ground,India,1,0,0.655,0.6,0.5,0.635,0.403,165.8,0.733,0.714,0.273,34.67,26.03,6.74,7.16,0
+709,New Zealand,UAE,Dubai International Cricket Stadium,New Zealand,1,-1,0.5,0.4,0.7,0.505,0.447,145.5,0.479,0.333,0,28.23,25.98,6.13,6.53,1
+730,Ireland,India,Malahide,Ireland,1,0,0,0.6,0.5,0.458,0.631,160.9,0.494,0.5285,0.5,28.23,34.93,5.89,6.78,0
+710,New Zealand,UAE,Dubai International Cricket Stadium,New Zealand,1,-1,1,0.5,0.6,0.508,0.436,145.6,0.486,0.4,0,28.73,26.38,5.98,6.57,0
+711,New Zealand,UAE,Dubai International Cricket Stadium,New Zealand,1,-1,0.5,0.5,0.6,0.505,0.45,145.5,0.479,0.364,0.2,28.73,28.58,5.98,5.58,1
+731,India,Ireland,Malahide,India,1,0,1,0.6,0.5,0.633,0.454,160.9,0.493,0.5285,0.5,33.01,28.23,6.78,5.89,1
+698,Australia,South Africa,Kingsmead,Australia,1,0,0.636,0.4,0.4,0.52,0.558,152.4,0.5,0.333,0.625,33.63,29.93,6.84,7.22,1
+656,New Zealand,England,Riverside Ground,New Zealand,1,0,0.348,0.6,0.5,0.508,0.512,160.9,0.494,0.5285,0.333,28.73,23.43,5.83,7.39,0
+699,South Africa,Australia,Kingsmead,South Africa,1,0,0.348,0.4,0.5,0.554,0.523,157.3,0.533,0.556,0.5,29.93,33.63,7.22,6.13,0
+657,England,New Zealand,Old Trafford,England,1,0,0.583,0.5,0.5,0.515,0.505,151.4,0.182,0.455,0.5,24.23,28.43,6.88,5.83,1
+658,New Zealand,England,Edgbaston,New Zealand,1,0,0.32,0.4,0.6,0.503,0.517,169.7,1,0.5285,0.75,27.83,26.2,5.83,6.3,1
+700,South Africa,Australia,Kingsmead,South Africa,1,0,0.333,0.3,0.6,0.551,0.526,157.8,0.5,0.5,0.6,29.93,34.77,7.31,6.84,0
+659,England,New Zealand,Trent Bridge,England,1,0,0.577,0.6,0.5,0.514,0.505,165,0.615,0.5,0.5,25.33,28.97,6.3,5.83,0
+756,UAE,Oman,West End Park International Cricket Stadium,UAE,1,0,0.5,0.5,0.4,0.439,0.468,160.9,0.495,0.5285,0.5,28.54,16.74,6.18,6.34,0
+758,India,Nepal,Zhejiang University of Technology Cricket Field,India,1,0,0.5,0.6,0.9,0.635,0.604,160.9,0.495,0.5285,0.5,36.07,35.3,6.78,2.9,1
+767,UAE,Nepal,Mulpani Cricket Ground,UAE,1,0,0.6,0.5,0.8,0.429,0.593,160.9,0.497,0.5285,0.5,27.74,32.12,6.81,3.94,0
+770,UAE,Nepal,Mulpani Cricket Ground,UAE,1,0,0.5,0.4,0.8,0.419,0.614,160.9,0.496,0.5285,1,27.74,31.9,6.66,3.94,0
+772,Zimbabwe,Namibia,Wanderers Cricket Ground,Zimbabwe,1,0,0.4,0.4,0.5,0.35,0.667,160.9,0.496,0.5285,0.5,26.63,21.64,6.64,5.99,0
+773,Namibia,Zimbabwe,Wanderers Cricket Ground,Namibia,1,0,0.667,0.6,0.4,0.675,0.346,145.8,0.4,1,0.5,21.49,25.97,5.99,6.72,0
+771,Nepal,UAE,Tribhuvan University International Cricket Ground,Nepal,1,0,0.571,0.8,0.3,0.621,0.409,172.5,0.6,0.923,0.5,32.5,27.83,3.97,6.85,0
+774,Namibia,Zimbabwe,United Cricket Club Ground,Namibia,1,0,0.571,0.5,0.4,0.659,0.352,168.7,0.571,0.857,0.5,23.32,25.97,6.18,6.72,0
+775,Zimbabwe,Namibia,United Cricket Club Ground,Zimbabwe,1,0,0.5,0.5,0.5,0.358,0.643,164.9,0.5,0.5285,0.75,25.97,23.06,6.72,6.15,0
+776,Namibia,Zimbabwe,United Cricket Club Ground,Namibia,1,0,0.556,0.5,0.4,0.651,0.355,163.6,0.444,0.778,0.5,22.92,25.97,6.28,6.72,1
+781,Oman,Nepal,Tribhuvan University International Cricket Ground,Oman,1,0,0.25,0.6,0.8,0.5,0.623,169.4,0.55,0.5285,0.875,24.43,33.2,6.46,4.03,1
+783,UAE,Nepal,Mulpani Cricket Ground,UAE,1,0,0.5,0.3,0.7,0.422,0.613,160.9,0.495,0.5285,1,27.91,33.43,6.98,4.12,0
+785,Zimbabwe,Namibia,Wanderers Cricket Ground,Zimbabwe,1,0,0.4,0.4,0.6,0.352,0.659,154.5,0.333,0.5285,0.75,25.97,22.92,6.57,6.28,0
+749,Australia,India,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,Australia,1,0,0.385,0.6,0.7,0.528,0.639,160.9,0.493,0.5285,0.667,34.77,35.9,7.11,6.29,0
+750,India,Australia,Greenfield International Stadium,India,1,0,0.593,0.7,0.5,0.64,0.525,160.9,0.492,0.667,0.5,34.18,35.1,6.29,7.11,1
+751,India,Australia,Barsapara Cricket Stadium,India,1,0,0.607,0.8,0.5,0.642,0.522,160.9,0.492,0.5285,0.5,34.07,34.77,6.29,7.11,0
+752,India,Australia,Shaheed Veer Narayan Singh International Stadium,India,1,0,0.586,0.8,0.6,0.639,0.525,160.9,0.492,0.5285,0.5,33.4,35.77,6.29,7.24,1
+753,India,Australia,M Chinnaswamy Stadium,India,1,1,0.6,0.8,0.6,0.641,0.522,131.2,0.333,0.5,0.5,34.33,35.77,6.29,7.24,1
+796,Ireland,Zimbabwe,Harare Sports Club,Ireland,1,0,0.5,0.5,0.6,0.45,0.368,157,0.6,0.333,0.25,28.23,25.8,5.89,6.77,0
+797,Zimbabwe,Ireland,Harare Sports Club,Zimbabwe,1,0,0.538,0.6,0.5,0.374,0.446,156.7,0.583,0.273,0.25,25.87,28.3,6.64,5.89,0
+798,Zimbabwe,Ireland,Harare Sports Club,Zimbabwe,1,0,0.5,0.5,0.6,0.371,0.451,156.9,0.568,0.265,0.4,25.87,28.3,5.71,5.95,0
+736,India,South Africa,St George's Park,India,1,0,0.542,0.8,0.3,0.643,0.548,160.9,0.492,0.5285,0.667,32.73,29.6,6.29,7.32,0
+701,England,West Indies,Kensington Oval,England,1,0,0.417,0.5,0.6,0.511,0.407,156,0.682,0.545,0.571,25.33,26.6,6.45,7.16,0
+737,India,South Africa,The Wanderers Stadium,India,1,0,0.52,0.8,0.3,0.639,0.55,190.4,0.714,0.5285,0.429,35.61,29.6,6.29,7.28,1
+702,West Indies,England,National Cricket Stadium,West Indies,1,0,0.6,0.6,0.4,0.41,0.509,172.7,0.833,0.333,0.5,25.37,24.77,7.16,7.57,1
+703,West Indies,England,National Cricket Stadium,West Indies,1,0,0.615,0.7,0.3,0.413,0.506,173.1,0.857,0.429,0.5,25.8,24.4,6.28,7.7,0
+704,England,West Indies,Brian Lara Stadium,England,1,0,0.407,0.3,0.6,0.508,0.411,160.9,0.491,0.5285,0.5,24.83,25.8,7.7,6.58,1
+705,England,West Indies,Brian Lara Stadium,England,1,0,0.429,0.4,0.6,0.511,0.409,160.9,0.492,0.5285,0.333,23.6,25.8,7.7,7.67,0
+741,New Zealand,Pakistan,Eden Park,New Zealand,1,0,0.382,0.5,0.5,0.505,0.597,169.8,0.4,0.36,0.5,28.67,24.63,6.07,7.11,1
+742,New Zealand,Pakistan,Seddon Park,New Zealand,1,0,0.4,0.5,0.4,0.507,0.594,178.8,0.5,0.75,0,28.67,24.63,6.07,7.11,1
+799,Zimbabwe,Sri Lanka,R Premadasa Stadium,Zimbabwe,1,0,0,0.5,0.2,0.368,0.43,146.7,0.469,0.5285,0.19,25.87,22.3,5.71,6.38,0
+800,Sri Lanka,Zimbabwe,R Premadasa Stadium,Sri Lanka,1,0,1,0.2,0.5,0.434,0.364,146.6,0.455,0.227,0.5,22.43,23.93,6.38,5.71,0
+743,New Zealand,Pakistan,University Oval,New Zealand,1,0,0.417,0.6,0.3,0.51,0.592,160.9,0.49,0.5285,0.5,28.93,24.53,6.07,7.11,1
+801,Zimbabwe,Sri Lanka,R Premadasa Stadium,Zimbabwe,1,0,0.25,0.6,0.2,0.37,0.431,147.4,0.441,0.5285,0.217,25.03,21.27,5.71,6.5,0
+744,Pakistan,New Zealand,Hagley Oval,Pakistan,1,0,0.541,0.3,0.6,0.589,0.512,162.4,0.333,0.8,0.571,24.53,32.97,7.11,6.07,0
+745,Pakistan,New Zealand,Hagley Oval,Pakistan,1,0,0.526,0.2,0.7,0.586,0.515,162,0.3,0.667,0.625,23.27,32.97,7.11,6.07,1
+706,Australia,West Indies,Bellerive Oval,Australia,1,0,0.474,0.6,0.6,0.519,0.412,153.2,0.5,1,0.25,35.77,26.17,7.24,7.51,1
+707,Australia,West Indies,Adelaide Oval,Australia,1,1,0.5,0.6,0.5,0.522,0.41,168,0.545,0.4,0.5,35.97,26,7.24,7.73,1
+708,West Indies,Australia,Perth Stadium,West Indies,1,-1,0.476,0.4,0.6,0.408,0.525,137.5,0.333,0.5285,0.667,27.83,35.43,7.73,7.24,1
+746,New Zealand,Australia,Sky Stadium,New Zealand,1,0,0.312,0.7,0.5,0.512,0.522,160.9,0.491,0.5285,0.5,33.17,35.43,6.07,7.24,0
+747,Australia,New Zealand,Eden Park,Australia,1,0,0.647,0.5,0.6,0.524,0.51,171.9,0.423,1,0.385,36.33,33.17,7.26,6.07,1
+748,Australia,New Zealand,Eden Park,Australia,1,0,0.667,0.5,0.5,0.527,0.507,172,0.444,1,0.37,36.03,33.17,7.13,6.07,1
+856,Namibia,Nepal,Tribhuvan University International Cricket Ground,Namibia,1,0,0.5,0.8,0.7,0.7,0.609,166.2,0.522,0.5285,0.778,23.89,33.57,6.44,4.12,1
+857,Netherlands,Nepal,Tribhuvan University International Cricket Ground,Netherlands,1,0,0.429,0.4,0.6,0.518,0.6,167.8,0.542,0.4,0.737,25.27,33.57,6.51,4.12,1
+858,Netherlands,Namibia,Tribhuvan University International Cricket Ground,Netherlands,1,0,0.667,0.5,0.9,0.524,0.706,168.5,0.56,0.5,0.5,35.77,23.89,6.51,6.7,1
+859,Nepal,Namibia,Tribhuvan University International Cricket Ground,Nepal,1,0,0,0.5,0.9,0.591,0.692,171.5,0.577,0.7,0.5,31.67,23.89,5.72,6.55,1
+860,Netherlands,Nepal,Tribhuvan University International Cricket Ground,Netherlands,1,0,0.5,0.6,0.5,0.529,0.597,171.8,0.593,0.571,0.714,49.27,31.53,6.51,5.72,0
+862,Nepal,Netherlands,Tribhuvan University International Cricket Ground,Nepal,1,0,0.444,0.5,0.4,0.603,0.517,167.5,0.552,0.727,0.444,30.9,39.21,5.72,6.19,0
+853,Scotland,UAE,Dubai International Cricket Stadium,Scotland,1,-1,0.667,0.7,0.3,0.507,0.413,145.8,0.486,0.4,0.167,33.81,28.84,6.46,7.03,0
+854,Scotland,UAE,Dubai International Cricket Stadium,Scotland,1,-1,0.5,0.7,0.4,0.5,0.426,145.8,0.48,0.364,0.286,34.01,28.84,6.46,6.86,1
+855,Scotland,UAE,Dubai International Cricket Stadium,Scotland,1,-1,0.6,0.7,0.3,0.507,0.417,145.5,0.487,0.417,0.25,34.07,27.24,6.47,6.66,1
+870,Zimbabwe,Namibia,Achimota Senior Secondary School A Field,Zimbabwe,1,0,0.364,0.5,0.7,0.367,0.667,160.9,0.493,0.5285,0.5,25.03,23.76,5.71,6.56,1
+878,Namibia,Zimbabwe,Achimota Senior Secondary School A Field,Namibia,1,0,0.583,0.5,0.6,0.655,0.387,152.5,0.667,0.5285,1,22.99,25.03,6.56,5.71,0
+893,Oman,Namibia,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.8,0.4,0.518,0.644,148.1,0.36,0.48,0.5,22.18,22.99,6.18,6.56,0
+894,Oman,Namibia,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.7,0.4,0.509,0.65,147.4,0.353,0.462,0.5,21.91,22.99,6.18,6.56,1
+895,Namibia,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Namibia,1,0,0.667,0.3,0.7,0.639,0.517,147.2,0.365,0.5285,0.481,22.99,22.69,6.53,6.27,0
+896,Namibia,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Namibia,1,0,0.5,0.3,0.7,0.629,0.525,146.3,0.358,0.333,0.5,22.99,22.69,6.53,6.03,1
+884,Canada,USA,Prairie View Cricket Complex,Canada,1,0,0.667,0.8,0.143,0.585,0.143,160.9,0.492,0.5285,0.5,30.27,25.11,5.73,7.83,0
+897,Namibia,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Namibia,1,0,0.6,0.4,0.6,0.635,0.517,146.6,0.37,0.5,0.483,22.99,22.69,6.53,6.03,1
+885,USA,Canada,Prairie View Cricket Complex,USA,1,0,0.25,0.25,0.7,0.25,0.571,160.9,0.492,0.5285,0.5,35.79,30.73,5.68,6.01,1
+886,USA,Canada,Prairie View Cricket Complex,USA,1,0,0.4,0.333,0.7,0.333,0.558,160.9,0.493,0.5285,0.5,38.35,31.63,7.23,6.01,1
+887,Canada,USA,Prairie View Cricket Complex,Canada,1,0,0.333,0.6,0.4,0.545,0.4,160.9,0.493,0,1,28.33,39.54,6.02,7.36,0
+903,UAE,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.4,0.3,0.6,0.408,0.524,149.3,0.397,0.833,0.484,27.24,22.69,6.56,6.08,0
+906,Nepal,UAE,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Nepal,1,0,0.556,0.6,0.2,0.597,0.4,148.6,0.383,0.615,0.714,29.23,27.24,5.65,6.83,0
+880,New Zealand,Pakistan,Rawalpindi Cricket Stadium,New Zealand,1,-1,0.425,0.5,0.2,0.502,0.586,129.7,0,0.333,0.5,33.2,23.27,6.07,7.11,0
+881,Pakistan,New Zealand,Rawalpindi Cricket Stadium,Pakistan,1,1,0.537,0.3,0.4,0.587,0.5,124,0,0.571,0.25,23.27,33.2,5.92,6.07,0
+909,UAE,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.333,0.3,0.7,0.412,0.545,147.7,0.365,0.75,0.515,26.1,23.33,6.69,6.02,1
+882,New Zealand,Pakistan,Gaddafi Stadium,New Zealand,1,0,0.429,0.4,0.3,0.502,0.585,169.1,0.571,0.333,0.571,33.2,23.5,6.07,6.58,1
+883,Pakistan,New Zealand,Gaddafi Stadium,Pakistan,1,0,0.512,0.2,0.4,0.582,0.505,169.5,0.591,0.545,0.5,23.5,33.2,6.58,6.07,1
+913,Pakistan,Ireland,Castle Avenue,Pakistan,1,0,1,0.3,0.6,0.584,0.455,160.9,0.491,0.5285,0.5,23.5,28.3,6.66,6.01,0
+914,Ireland,Pakistan,Castle Avenue,Ireland,1,0,0.5,0.6,0.3,0.46,0.581,160.9,0.491,0.667,0.5,28.3,23.5,6.01,6.66,0
+915,Ireland,Pakistan,Castle Avenue,Ireland,1,0,0.333,0.5,0.4,0.456,0.583,160.9,0.491,0.5,0.5,28.3,24.07,6.01,6.66,0
+916,Netherlands,Scotland,Sportpark Westvliet,Netherlands,1,0,0.455,0.5,0.8,0.523,0.514,143.4,0.2,0.2,0.5,38.35,34.07,6.19,6.29,1
+917,Ireland,Netherlands,Sportpark Westvliet,Ireland,1,0,0.417,0.4,0.6,0.452,0.528,147.3,0.333,0.5285,0.333,28.3,37.1,6.01,6.19,1
+918,Scotland,Netherlands,Sportpark Westvliet,Scotland,1,0,0.5,0.8,0.6,0.507,0.522,147.7,0.429,0.5285,0.286,34.07,34.93,6.37,6.27,1
+925,West Indies,South Africa,Sabina Park,West Indies,1,0,0.421,0.5,0.3,0.411,0.55,157.8,0.5,0.5,0.5,28.14,29.6,7.73,7.2,1
+919,Scotland,Ireland,Sportpark Westvliet,Scotland,1,0,0.3,0.8,0.4,0.514,0.457,149,0.5,0.5285,0.5,34.07,28.63,6.34,6.01,0
+920,Ireland,Netherlands,Sportpark Westvliet,Ireland,1,0,0.462,0.5,0.6,0.461,0.516,149.9,0.444,0.5285,0.25,28.7,32.06,6.01,6.59,1
+926,West Indies,South Africa,Sabina Park,West Indies,1,0,0.45,0.6,0.3,0.414,0.547,160.3,0.571,0.571,0.5,28.14,29.6,7.82,7.2,1
+732,England,Pakistan,Edgbaston,England,1,0,0.621,0.4,0.5,0.508,0.585,174.3,1,0.6,0.5,23.6,24.07,7.7,6.66,1
+927,South Africa,West Indies,Sabina Park,South Africa,1,0,0.524,0.3,0.6,0.543,0.417,166.1,0.625,0.5285,0.625,29.6,28.4,7.2,7.76,0
+733,Pakistan,England,Kennington Oval,Pakistan,1,0,0.3,0.5,0.5,0.583,0.511,150.9,0.562,0.667,0.333,22.97,23.2,6.66,7.57,0
+802,Canada,USA,Grand Prairie Stadium,Canada,1,-1,0.286,0.5,0.5,0.533,0.455,130.5,0.492,0.5285,0.5,29.93,32.74,6.02,7.72,0
+805,Sri Lanka,South Africa,Nassau County International Cricket Stadium,Sri Lanka,1,0,0.294,0.4,0.2,0.438,0.54,130.5,0.491,0.5285,0.5,22.6,29.6,6.6,7.2,0
+807,Nepal,Netherlands,Grand Prairie Stadium,Nepal,1,0,0.4,0.5,0.5,0.582,0.511,130.5,0.49,0.5285,0.5,30.03,31.84,5.85,6.46,0
+809,Australia,Oman,Kensington Oval,Australia,1,0,0.5,0.6,0.6,0.529,0.529,152.1,0.6,0.5,0.5,36.03,22.83,7.13,6.05,1
+808,Ireland,India,Nassau County International Cricket Stadium,Ireland,1,0,0,0.6,0.8,0.465,0.641,130.5,0.49,0.5285,0.5,28.37,34.72,6,6.18,0
+811,Namibia,Scotland,Kensington Oval,Namibia,1,0,1,0.5,0.6,0.631,0.5,152.5,0.615,0.5285,0.5,22.99,34.07,6.59,6.39,0
+812,Canada,Ireland,Nassau County International Cricket Stadium,Canada,1,0,0.333,0.4,0.6,0.522,0.462,130.5,0.489,0.5285,0.5,29.6,29.23,6.15,6,1
+815,Australia,England,Kensington Oval,Australia,1,0,0.435,0.7,0.4,0.532,0.511,152.6,0.593,0.571,0.462,36.03,21.53,7.13,7.71,1
+814,Netherlands,South Africa,Nassau County International Cricket Stadium,Netherlands,1,0,0.5,0.5,0.3,0.516,0.543,130.5,0.489,0.5285,0.5,30.26,29.6,6.45,7.2,0
+817,India,Pakistan,Nassau County International Cricket Stadium,India,1,0,0.667,0.8,0.4,0.643,0.578,130.5,0.489,0.5285,0.5,34.72,22.97,6.18,6.63,1
+818,Oman,Scotland,Sir Vivian Richards Stadium,Oman,1,0,0,0.5,0.6,0.522,0.507,130.6,0.6,0.5285,0.5,22.83,34.07,6.05,6.44,0
+821,Namibia,Australia,Sir Vivian Richards Stadium,Namibia,1,0,0.5,0.5,0.7,0.621,0.534,133.8,0.5,0.5285,0.5,22.99,36.03,6.55,7.13,0
+820,Canada,Pakistan,Nassau County International Cricket Stadium,Canada,1,0,0.5,0.5,0.3,0.532,0.575,107.5,0.5,0.5285,0.5,29.6,22.97,6.19,6.63,0
+823,West Indies,New Zealand,Brian Lara Stadium,West Indies,1,0,0.211,0.7,0.3,0.426,0.502,160.9,0.489,0.5,0.5,27.1,33.17,7.68,6,1
+822,USA,India,Nassau County International Cricket Stadium,USA,1,1,0.5,0.6,0.8,0.462,0.645,107.3,0.429,0.5285,0.5,32.87,34.72,7.89,6.18,0
+825,Oman,England,Sir Vivian Richards Stadium,Oman,1,0,0.5,0.5,0.4,0.514,0.508,125,0.429,0.5285,0.5,23.23,21.53,6.08,7.74,0
+826,South Africa,Nepal,Arnos Vale Ground,South Africa,1,0,0.5,0.5,0.5,0.548,0.575,160.9,0.488,0.5285,0.5,29.6,30.03,6.92,5.62,1
+828,England,Namibia,Sir Vivian Richards Stadium,England,1,0,0.5,0.5,0.4,0.511,0.612,115.2,0.375,0.5285,0.5,21.53,22.99,7.74,6.68,1
+829,Scotland,Australia,Daren Sammy National Cricket Stadium,Scotland,1,0,0.5,0.6,0.8,0.513,0.537,174,0.8,0.5285,0.2,31.8,36.03,6.44,7.13,0
+830,Ireland,Pakistan,Central Broward Regional Park Stadium Turf Ground,Ireland,1,0,0.25,0.6,0.4,0.458,0.577,165.8,0.688,0.5285,0.5,29.23,22.9,6,6.63,0
+832,Sri Lanka,Netherlands,Daren Sammy National Cricket Stadium,Sri Lanka,1,0,1,0.4,0.3,0.433,0.505,175,0.667,0.5285,0.5,23.87,28.83,6.62,6.61,1
+835,West Indies,England,Daren Sammy National Cricket Stadium,West Indies,1,0,0.586,0.8,0.6,0.429,0.514,178.7,0.714,0.8,0.5,26.63,22.83,7.48,7.74,0
+834,South Africa,USA,Sir Vivian Richards Stadium,South Africa,1,0,0.5,0.6,0.5,0.551,0.429,116,0.444,0.5285,0.5,29.6,30.57,6.85,7.89,1
+838,USA,West Indies,Kensington Oval,USA,1,0,0.5,0.5,0.7,0.4,0.427,154.4,0.607,0.5285,0.6,31.52,26.63,8.15,7.48,0
+837,South Africa,England,Daren Sammy National Cricket Stadium,South Africa,1,0,0.48,0.6,0.7,0.553,0.516,178.9,0.625,0.5285,0.5,29.53,24.8,6.95,7.76,1
+840,USA,England,Kensington Oval,USA,1,0,0.5,0.5,0.6,0.375,0.513,153.4,0.586,0.5285,0.429,30.98,24.8,8.2,7.76,0
+841,West Indies,South Africa,Sir Vivian Richards Stadium,West Indies,1,0,0.5,0.8,0.7,0.43,0.556,131.2,0.5,0.5,1,26.63,29.53,7.49,6.94,0
+842,India,Australia,Daren Sammy National Cricket Stadium,India,1,0,0.613,0.8,0.9,0.648,0.542,177.1,0.667,0.5285,0.333,34.72,35.8,6.18,7.13,1
+843,India,England,Providence Stadium,India,1,0,0.522,0.8,0.6,0.65,0.516,131.5,0.267,0.667,0.5,34.72,24.8,6.18,7.71,1
+844,India,South Africa,Kensington Oval,India,1,0,0.538,0.9,0.7,0.651,0.558,152.2,0.567,0.5285,0.5,34.72,29.53,6.12,6.94,1
+848,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0.25,0.6,0.9,0.385,0.653,156.5,0.553,0.257,0.714,25.03,34.72,6.63,6.12,1
+849,India,Zimbabwe,Harare Sports Club,India,1,0,0.667,0.8,0.6,0.65,0.389,155.4,0.564,0.625,0.278,33.5,25.03,6.12,6.38,1
+850,India,Zimbabwe,Harare Sports Club,India,1,0,0.7,0.9,0.5,0.651,0.386,157.4,0.575,0.667,0.27,42.47,25.03,6.08,6.64,1
+851,Zimbabwe,India,Harare Sports Club,Zimbabwe,1,0,0.273,0.4,0.9,0.383,0.653,158,0.585,0.263,0.7,25.03,36.82,6.64,6.08,0
+852,India,Zimbabwe,Harare Sports Club,India,1,0,0.75,0.9,0.3,0.655,0.381,157.9,0.571,0.727,0.256,36.82,25.03,6.08,6.64,1
+955,India,Sri Lanka,Pallekele International Cricket Stadium,India,1,0,0.679,0.9,0.5,0.656,0.436,168.3,0.522,0.5285,0.529,34.93,23.87,6.12,6.62,1
+956,Sri Lanka,India,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.31,0.5,0.9,0.434,0.658,170.1,0.542,0.5,0.5,23.87,34.93,6.62,6.12,0
+928,South Africa,West Indies,Brian Lara Stadium,South Africa,1,0,0.522,0.7,0.8,0.555,0.428,143.6,0.571,0.5285,0.6,29.53,26.23,6.94,7.28,0
+969,Canada,Netherlands,Sportpark Maarschalkerweerd,Canada,1,0,0,0.4,0.3,0.521,0.5,160.9,0.49,0.5285,0.5,28.17,28.83,6.06,6.61,0
+929,West Indies,South Africa,Brian Lara Stadium,West Indies,1,0,0.5,0.8,0.7,0.431,0.552,147.4,0.5,0.667,0.5,29.23,30.9,7.31,6.58,1
+971,Netherlands,USA,Sportpark Maarschalkerweerd,Netherlands,1,0,1,0.4,0.4,0.505,0.333,160.9,0.489,0.5285,0.5,29.1,29.79,6.54,8.18,1
+972,Canada,Netherlands,Sportpark Maarschalkerweerd,Canada,1,0,0,0.2,0.4,0.5,0.51,160.9,0.49,0.5285,0.5,26.47,29.1,6.06,6.17,1
+930,South Africa,West Indies,Brian Lara Stadium,South Africa,1,0,0.48,0.7,0.8,0.549,0.434,150.9,0.556,0.5285,0.714,29.53,29.93,6.71,7.48,0
+973,USA,Canada,Sportpark Westvliet,USA,1,0,0.556,0.3,0.2,0.316,0.51,151,0.5,0.5285,0.5,29.07,25.97,8.38,6.13,1
+974,Netherlands,USA,Sportpark Westvliet,Netherlands,1,0,1,0.3,0.3,0.505,0.35,152.5,0.545,0.222,0.5,29.1,38.67,6.25,8.21,1
+952,Scotland,Australia,Grange Cricket Club Ground,Scotland,1,0,0,0.5,0.8,0.506,0.539,172.3,0.688,0.545,0.5,31.8,35.8,6.44,7.13,0
+953,Australia,Scotland,Grange Cricket Club Ground,Australia,1,0,1,0.9,0.5,0.541,0.5,171.2,0.647,0.5285,0.5,35.8,32.5,7.13,6.44,1
+954,Scotland,Australia,Grange Cricket Club Ground,Scotland,1,0,0,0.4,0.9,0.494,0.544,172.6,0.667,0.462,0.5,32.5,35.8,6.75,7.13,0
+734,Australia,England,The Rose Bowl,Australia,1,0,0.458,0.9,0.6,0.546,0.513,173.2,0.636,0.4,0.545,35.8,25.5,7.13,7.71,1
+735,Australia,England,Sophia Gardens,Australia,1,0,0.48,0.9,0.5,0.548,0.511,149.6,0.333,0.5285,0.889,35.8,25.5,7.13,7.71,0
+921,Ireland,South Africa,Zayed Cricket Stadium,Ireland,1,0,0,0.5,0.6,0.455,0.546,139.4,0.25,0.5285,0.5,28.53,29.53,6,6.94,0
+990,Canada,Nepal,Maple Leaf North-West Ground,Canada,1,0,0,0.2,0.4,0.5,0.561,160.9,0.49,0.5285,0.5,25.07,28.37,6.1,5.49,1
+986,UAE,Namibia,Wanderers Cricket Ground,UAE,1,0,1,0.4,0.3,0.423,0.603,153.8,0.417,0.5285,0.889,26.1,22.99,6.59,6.68,1
+922,Ireland,South Africa,Zayed Cricket Stadium,Ireland,1,0,0,0.4,0.6,0.451,0.548,141.8,0.231,0.333,0.667,28.53,30.23,6.59,6.91,1
+991,Nepal,Oman,Maple Leaf North-West Ground,Nepal,1,0,0.5,0.4,0.5,0.554,0.507,160.9,0.49,0.5285,0.5,26.77,23.23,5.45,6.05,1
+992,Canada,Oman,Maple Leaf North-West Ground,Canada,1,0,0.6,0.3,0.4,0.509,0.5,160.9,0.491,0.5285,0.5,25.13,23.37,6.11,6.05,0
+987,USA,Namibia,Wanderers Cricket Ground,USA,1,0,0.5,0.2,0.3,0.333,0.594,160.8,0.462,0.5285,0.8,34.27,22.99,8.26,6.68,1
+993,Nepal,Canada,Maple Leaf North-West Ground,Nepal,1,0,0.5,0.4,0.3,0.56,0.5,134.8,0.4,0.5285,0.5,27.2,25.1,5.64,4.67,0
+988,Namibia,UAE,Wanderers Cricket Ground,Namibia,1,0,0,0.2,0.5,0.586,0.434,162.2,0.5,0.727,0.5,22.99,28.4,6.68,6.59,0
+994,Nepal,Oman,Maple Leaf North-West Ground,Nepal,1,0,0.571,0.3,0.4,0.553,0.507,135.5,0.333,0.333,0.5,27.77,23.37,5.63,6.05,1
+995,Oman,Canada,Maple Leaf North-West Ground,Oman,1,0,0.5,0.3,0.4,0.5,0.509,138.6,0.429,0.333,0.667,23.37,25.1,6.25,4.67,0
+989,Namibia,USA,Wanderers Cricket Ground,Namibia,1,0,0,0.2,0.2,0.577,0.364,158.7,0.467,0.667,0.5,22.99,34.57,6.68,8.16,0
+996,Sri Lanka,West Indies,Rangiri Dambulla International Stadium,Sri Lanka,1,1,0.533,0.4,0.8,0.429,0.437,151.4,0.491,0.5285,0.5,25.3,29.93,6.62,7.64,0
+997,Sri Lanka,West Indies,Rangiri Dambulla International Stadium,Sri Lanka,1,1,0.5,0.3,0.8,0.427,0.439,151.4,0.49,0.5285,0.5,23.93,28.33,6.62,7.67,1
+998,West Indies,Sri Lanka,Rangiri Dambulla International Stadium,West Indies,1,-1,0.471,0.7,0.3,0.437,0.43,151.4,0.491,0.5285,0.5,28.33,24.63,7.75,4.84,0
+999,Nepal,USA,Grand Prairie Stadium,Nepal,1,-1,0.5,0.3,0.3,0.558,0.391,130.5,0.491,0.5285,0.5,27.77,33.82,5.63,8.1,1
+1001,USA,Nepal,Grand Prairie Stadium,USA,1,1,0,0.3,0.3,0.36,0.557,152.8,0.167,0.25,0.333,33.51,31.3,8.1,5.58,0
+982,India,South Africa,Kingsmead,India,1,0,0.556,0.9,0.5,0.661,0.545,159.6,0.471,0.75,0.455,35.57,28.65,4.47,6.91,1
+931,West Indies,England,Kensington Oval,West Indies,1,0,0.567,0.6,0.5,0.435,0.513,152.9,0.581,0.625,0.467,28.9,25.6,7.75,7.55,0
+1010,New Zealand,Sri Lanka,Rangiri Dambulla International Stadium,New Zealand,1,-1,0.565,0.4,0.4,0.505,0.433,151.4,0.491,0.5285,0.667,33.33,24.63,6.11,6.2,0
+1011,New Zealand,Sri Lanka,Rangiri Dambulla International Stadium,New Zealand,1,-1,0.542,0.4,0.4,0.502,0.436,151.4,0.491,0.5285,0.75,33.33,25.67,6.11,6.48,1
+983,India,South Africa,St George's Park,India,1,0,0.571,0.9,0.4,0.662,0.543,160.9,0.491,0.5285,0.75,35.57,28.47,4.47,6.94,0
+932,West Indies,England,Kensington Oval,West Indies,1,0,0.548,0.5,0.6,0.433,0.516,153.8,0.562,0.588,0.5,29.57,29.49,7.87,7.55,0
+984,India,South Africa,SuperSport Park,India,1,0,0.552,0.8,0.4,0.659,0.545,179.8,0.5,0.5285,0.429,35.57,28.27,4.47,6.94,1
+1007,Netherlands,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,1,0,0.667,0.4,0.2,0.51,0.493,148.6,0.375,0.429,0.5,24.87,23.37,6.61,6.25,0
+1008,Netherlands,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,1,0,0.5,0.4,0.2,0.505,0.5,148.4,0.369,0.375,0.514,24.87,23.37,6.61,6.15,1
+933,West Indies,England,Daren Sammy National Cricket Stadium,West Indies,1,0,0.531,0.5,0.7,0.431,0.518,179.9,0.7,0.667,0.5,29.57,26.85,7.87,7.67,0
+910,Australia,Pakistan,Brisbane Cricket Ground,Australia,1,1,0.44,0.8,0.5,0.545,0.579,168.7,0.778,0.857,0.5,35.8,23.4,7.13,6.63,1
+985,India,South Africa,The Wanderers Stadium,India,1,0,0.567,0.8,0.3,0.661,0.542,191.8,0.75,0.5285,0.375,35.07,28.27,4.47,6.94,1
+1009,Netherlands,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Netherlands,1,0,0.6,0.5,0.2,0.51,0.494,149,0.379,0.444,0.5,24.97,23.37,6.44,6.29,1
+911,Australia,Pakistan,Sydney Cricket Ground,Australia,1,1,0.462,0.8,0.4,0.548,0.576,167.6,0.5,0.5,0.667,35.8,23.4,7.13,6.63,1
+934,England,West Indies,Daren Sammy National Cricket Stadium,England,1,0,0.485,0.7,0.4,0.521,0.429,176.7,0.636,0.667,0.571,25.5,29.57,7.67,7.85,0
+912,Pakistan,Australia,Bellerive Oval,Pakistan,1,0,0.444,0.4,0.8,0.574,0.55,157.8,0.538,0.5285,1,23.4,35.8,6.63,7.13,0
+966,Pakistan,Zimbabwe,Queens Sports Club,Pakistan,1,0,0.882,0.3,0.6,0.571,0.4,159.1,0.733,0.5285,0.667,23.4,25.2,6.63,6.45,1
+967,Zimbabwe,Pakistan,Queens Sports Club,Zimbabwe,1,0,0.111,0.5,0.3,0.397,0.573,159.5,0.75,0.615,0.5,25.07,23.4,6.51,6.86,0
+968,Pakistan,Zimbabwe,Queens Sports Club,Pakistan,1,0,0.895,0.4,0.5,0.575,0.394,153.5,0.706,0.5285,0.571,23.4,25.07,5.65,6.51,0
+923,South Africa,Pakistan,Kingsmead,South Africa,1,0,0.429,0.2,0.4,0.539,0.573,162,0.5,0.417,0.5,29.3,23.4,6.94,6.21,1
+924,Pakistan,South Africa,SuperSport Park,Pakistan,1,0,0.545,0.4,0.3,0.57,0.542,182.4,0.533,1,0.4,23.4,29.3,6.41,6.94,0
+1013,UAE,Oman,ICC Academy,UAE,1,0,0.429,0.6,0.3,0.444,0.494,148.2,0.652,0.5,0.5,28.6,23.37,6.49,6.29,1
+958,New Zealand,Sri Lanka,Bay Oval,New Zealand,1,0,0.56,0.5,0.4,0.505,0.434,158,0.667,0.5,0.5,33.33,24.97,6.06,6.63,1
+959,New Zealand,Sri Lanka,Bay Oval,New Zealand,1,0,0.577,0.6,0.4,0.507,0.432,159.1,0.692,0.538,0.5,33.33,24.97,6.3,6.63,1
+960,Sri Lanka,New Zealand,Saxton Oval,Sri Lanka,1,0,0.296,0.3,0.7,0.429,0.509,160.9,0.493,0.5285,0.5,24.6,34,6.67,6.63,1
+947,England,India,Eden Gardens,England,1,0,0.458,0.5,0.8,0.515,0.662,155.9,0.5,0.5285,0.857,28.98,40.63,7.67,4.47,0
+948,England,India,MA Chidambaram Stadium,England,1,0,0.44,0.5,0.8,0.513,0.664,160.9,0.493,0.5285,0.5,27.94,38.47,7.55,4.47,0
+949,England,India,Saurashtra Cricket Association Stadium,England,1,0,0.423,0.4,0.8,0.51,0.665,189.4,0.6,0.5285,0.8,27.74,39,7.51,4.47,1
+950,India,England,Maharashtra Cricket Association Stadium,India,1,0,0.556,0.8,0.5,0.662,0.513,160.9,0.493,0.333,0.5,38.63,27.74,4.47,7.48,1
+951,India,England,Wankhede Stadium,India,1,1,0.571,0.8,0.5,0.664,0.51,188.1,0.286,0.6,0.667,38.3,28.43,4.47,7.76,1
+1029,Oman,USA,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0.5,0.3,0.3,0.482,0.346,148.9,0.388,0.486,0.5,23.37,34.81,6.29,8.29,0
+1030,Oman,USA,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.3,0.4,0.476,0.37,149.5,0.382,0.474,0.5,23.37,37.6,6.29,8.32,0
+1031,Oman,USA,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Oman,1,0,0,0.3,0.5,0.471,0.393,149.4,0.377,0.462,0.5,23.37,36.14,6.29,7.52,0
+1018,Ireland,Zimbabwe,Harare Sports Club,Ireland,1,0,0.5,0.4,0.6,0.452,0.396,156.2,0.568,0.429,0.244,30.07,24.87,6.72,6.51,0
+961,Pakistan,New Zealand,Hagley Oval,Pakistan,1,0,0.523,0.4,0.6,0.568,0.507,159.5,0.364,0.714,0.556,23.4,34,6.43,6.66,0
+962,Pakistan,New Zealand,University Oval,Pakistan,1,0,0.511,0.3,0.6,0.566,0.509,160.9,0.491,0.5285,1,23.4,34.93,6.42,6.66,0
+1032,Canada,Namibia,Namibia Cricket Ground,Canada,1,0,0.5,0.5,0.2,0.518,0.569,160.9,0.491,0.5285,0.5,25.1,22.99,4.67,6.68,0
+963,New Zealand,Pakistan,Eden Park,New Zealand,1,0,0.457,0.7,0.2,0.511,0.563,170.1,0.464,0.357,0.4,34.93,23.4,6.66,6.42,0
+1033,Canada,Namibia,Namibia Cricket Ground,Canada,1,0,0,0.4,0.2,0.509,0.575,160.9,0.49,0.5285,0.5,30.33,22.99,6.11,6.68,0
+1034,Canada,Namibia,Namibia Cricket Ground,Canada,1,0,0,0.4,0.2,0.5,0.581,160.9,0.49,0.5285,0.5,25.73,22.99,6.11,6.71,0
+964,New Zealand,Pakistan,Bay Oval,New Zealand,1,0,0.447,0.7,0.3,0.509,0.565,161,0.714,0.571,0.5,37.57,23.4,6.66,7.1,1
+965,Pakistan,New Zealand,Sky Stadium,Pakistan,1,0,0.5,0.3,0.7,0.563,0.511,160.9,0.49,0.5285,0.5,23.4,37.57,7.1,6.66,0
+1064,Canada,USA,Jimmy Powell Oval,Canada,1,0,0.2,0.6,0.6,0.516,0.414,160.9,0.488,1,0.5,27.53,34.9,6.11,7.37,1
+1066,Canada,USA,Jimmy Powell Oval,Canada,1,0,0.273,0.7,0.5,0.531,0.4,123.4,0.4,1,0.5,29.73,34.47,6.11,7.37,0
+975,England,West Indies,Riverside Ground,England,1,0,0.457,0.4,0.1,0.507,0.423,160.9,0.488,0.5,0.5,28.43,31.37,7.83,7.93,1
+976,West Indies,England,County Ground,West Indies,1,0,0.5,0.1,0.4,0.421,0.51,182.7,0.571,0.5285,0.2,31.37,28.43,7.93,7.65,0
+977,England,West Indies,The Rose Bowl,England,1,0,0.486,0.4,0.1,0.512,0.419,173.7,0.667,0.5,0.5,28.43,31.37,7.87,7.99,1
+1020,West Indies,Ireland,Bready Cricket Club,West Indies,1,0,0.375,0.1,0.3,0.417,0.445,157.2,0.667,0.5285,0.5,31.37,29.1,7.99,6.64,1
+1073,Scotland,Netherlands,Titwood,Scotland,1,0,0.538,0.3,0.5,0.488,0.515,160.9,0.489,0.5285,0.5,32.67,24.87,6.75,6.48,1
+1075,Scotland,Nepal,Titwood,Scotland,1,0,0.5,0.4,0.5,0.494,0.553,160.9,0.49,0.5285,0.5,32.67,30.8,6.75,6.04,0
+1077,Netherlands,Scotland,Titwood,Netherlands,1,0,0.429,0.5,0.3,0.505,0.488,160.9,0.49,0.5285,0.5,25.27,32.97,6.48,6.75,1
+1076,Netherlands,Nepal,Titwood,Netherlands,1,0,0.5,0.6,0.6,0.509,0.558,160.9,0.49,0.333,0.5,28.27,30.8,6.48,6.04,0
+1078,Scotland,Nepal,Titwood,Scotland,1,0,0,0.3,0.6,0.482,0.562,156.2,0.4,0.333,0.667,34.33,30.8,6.75,6.04,1
+1097,Scotland,Netherlands,Sportpark Westvliet,Scotland,1,0,0.533,0.4,0.5,0.488,0.509,149.4,0.5,0.333,0.364,35.47,29.83,6.7,6.54,1
+1098,Italy,Scotland,Sportpark Westvliet,Italy,1,0,0,0.9,0.4,0.655,0.494,149.3,0.533,0.5285,0.5,28.7,35.47,5.98,6.7,1
+1101,Italy,Netherlands,Sportpark Westvliet,Italy,1,0,0.5,0.9,0.5,0.667,0.509,151.7,0.588,0.5285,0.385,28.67,29.83,5.93,6.54,0
+1038,Zimbabwe,South Africa,Harare Sports Club,Zimbabwe,1,0,0,0.6,0.4,0.397,0.544,155.5,0.543,0.256,0.5,24.87,29.3,6.5,6.94,0
+1039,New Zealand,South Africa,Harare Sports Club,New Zealand,1,0,0.267,0.7,0.5,0.513,0.546,155.2,0.532,1,0.5,40.23,29.3,6.66,6.94,1
+1040,Zimbabwe,New Zealand,Harare Sports Club,Zimbabwe,1,0,0,0.5,0.8,0.395,0.515,155.6,0.542,0.25,1,25.4,40.87,6.5,6.66,0
+1041,Zimbabwe,South Africa,Harare Sports Club,Zimbabwe,1,0,0,0.4,0.5,0.392,0.544,154.8,0.531,0.244,0.5,25.17,29.3,6.5,6.94,0
+1021,West Indies,Australia,Sabina Park,West Indies,1,0,0.5,0.2,0.8,0.42,0.552,165.8,0.556,0.667,0.5,32.57,35.8,7.99,7.13,0
+1022,West Indies,Australia,Sabina Park,West Indies,1,0,0.478,0.2,0.8,0.418,0.554,168.1,0.5,0.6,0.5,32.57,35.8,7.99,7.13,0
+1042,South Africa,New Zealand,Harare Sports Club,South Africa,1,0,0.688,0.5,0.8,0.546,0.517,154.6,0.52,0.667,1,29.3,40.87,6.8,6.66,0
+1043,New Zealand,Zimbabwe,Harare Sports Club,New Zealand,1,0,1,0.8,0.3,0.519,0.389,154.2,0.51,1,0.239,43.07,25.17,6.66,6.56,1
+1023,West Indies,Australia,Warner Park,West Indies,1,0,0.458,0.1,0.9,0.416,0.557,125.8,0.111,0.444,0.5,32.57,35.8,7.99,7.13,0
+1044,New Zealand,South Africa,Harare Sports Club,New Zealand,1,0,0.353,0.8,0.5,0.522,0.543,154.9,0.519,1,0.5,43.07,29.3,6.66,6.8,1
+1024,West Indies,Australia,Warner Park,West Indies,1,0,0.44,0.1,0.9,0.414,0.559,134.6,0.1,0.4,0.5,32.57,35.8,7.99,7.13,0
+1025,West Indies,Australia,Warner Park,West Indies,1,0,0.423,0.1,0.9,0.412,0.561,141,0.091,0.364,0.5,32.57,34.93,7.99,7.13,0
+1026,Pakistan,West Indies,Central Broward Regional Park Stadium Turf Ground,Pakistan,1,0,0.714,0.5,0.1,0.563,0.41,162.2,0.647,0.5285,0.333,24.5,32.57,7.16,8,1
+1027,Pakistan,West Indies,Central Broward Regional Park Stadium Turf Ground,Pakistan,1,0,0.727,0.6,0.1,0.565,0.408,163.1,0.667,0.5285,0.308,24.93,32.57,7.16,8.07,0
+1028,Pakistan,West Indies,Central Broward Regional Park Stadium Turf Ground,Pakistan,1,0,0.696,0.5,0.2,0.562,0.411,161.5,0.632,0.667,0.357,24.93,32.57,7.16,8.07,1
+1045,Australia,South Africa,Marrara Stadium,Australia,1,0,0.68,0.9,0.5,0.563,0.54,160.9,0.488,0.5285,0.5,35.13,29.3,7.13,6.94,1
+1046,South Africa,Australia,Marrara Stadium,South Africa,1,0,0.308,0.4,0.9,0.538,0.565,160.9,0.489,0.5285,0.5,29.1,35.27,6.94,7.13,1
+1047,South Africa,Australia,Cazaly's Stadium,South Africa,1,0,0.333,0.5,0.9,0.54,0.562,160.9,0.489,0.5285,0.5,29.88,35.27,6.94,7.36,0
+1134,Pakistan,UAE,Sharjah Cricket Stadium,Pakistan,1,-1,1,0.6,0.6,0.564,0.455,150.4,0.538,0.75,0.5,25.3,28.8,7.16,6.43,1
+1116,Zimbabwe,Sri Lanka,Harare Sports Club,Zimbabwe,1,0,0.2,0.2,0.5,0.387,0.431,155.4,0.528,0.234,0.5,25.17,24.67,6.56,6.89,0
+1135,Pakistan,UAE,Sharjah Cricket Stadium,Pakistan,1,-1,1,0.7,0.6,0.566,0.446,154.4,0.571,0.8,0.5,25.43,28.17,7.13,6.63,1
+1117,Sri Lanka,Zimbabwe,Harare Sports Club,Sri Lanka,1,0,0.833,0.5,0.2,0.434,0.384,155.7,0.519,0.5285,0.229,25.9,25.17,6.94,6.56,0
+1118,Zimbabwe,Sri Lanka,Harare Sports Club,Zimbabwe,1,0,0.286,0.3,0.4,0.388,0.431,154.4,0.509,0.245,0.5,25.37,25.9,6.56,6.94,0
+1119,UAE,India,Dubai International Cricket Stadium,UAE,1,1,0,0.5,0.8,0.439,0.665,144.8,0.494,0.222,0.5,30.23,38.3,6.63,4.47,0
+978,South Africa,England,Sophia Gardens,South Africa,1,0,0.5,0.5,0.4,0.537,0.515,153.9,0.3,0.5285,0.9,30.67,28.93,6.94,8.1,1
+979,England,South Africa,Old Trafford,England,1,0,0.444,0.4,0.5,0.512,0.54,155.2,0.25,0.5,0.5,28.6,30.4,8.04,6.94,1
+1120,Pakistan,Oman,Dubai International Cricket Stadium,Pakistan,1,0,0.5,0.7,0.2,0.568,0.465,143.7,0.487,0.516,0.333,26.8,23.37,7.13,6.29,1
+1122,Pakistan,India,Dubai International Cricket Stadium,Pakistan,1,0,0.231,0.7,0.8,0.569,0.667,143.9,0.494,0.531,0.556,26.8,36.47,7.09,4.47,0
+1149,Zimbabwe,Namibia,Queens Sports Club,Zimbabwe,1,0,0.462,0.2,0.3,0.386,0.587,152.3,0.667,0.6,0.6,25.37,22.99,6.56,6.71,1
+1123,UAE,Oman,Zayed Cricket Stadium,UAE,1,0,0.5,0.5,0.2,0.431,0.46,145.2,0.267,0.5285,0.5,30.23,23.37,6.63,6.29,1
+1150,Namibia,Zimbabwe,Queens Sports Club,Namibia,1,0,0.5,0.3,0.3,0.579,0.39,155.4,0.684,0.5,0.625,22.99,25.37,6.71,6.56,0
+980,Ireland,England,The Village,Ireland,1,0,0.5,0.2,0.5,0.442,0.515,164.2,0.462,0.111,0.5,29.1,28.6,6.44,8.39,0
+1125,Pakistan,UAE,Dubai International Cricket Stadium,Pakistan,1,-1,1,0.6,0.6,0.567,0.441,143.8,0.481,0.515,0.2,26.8,32.3,7.16,6.58,1
+1151,Namibia,Zimbabwe,Queens Sports Club,Namibia,1,0,0.467,0.3,0.3,0.571,0.394,156,0.65,0.429,0.647,22.99,25.7,6.71,6.56,1
+1126,India,Oman,Zayed Cricket Stadium,India,1,0,0.5,0.8,0.2,0.668,0.455,146.9,0.312,0.5285,0.5,36.47,23.37,4.47,6.29,1
+1128,Pakistan,India,Dubai International Cricket Stadium,Pakistan,1,0,0.214,0.7,0.9,0.569,0.669,144.1,0.482,0.529,0.6,26.8,36.47,6.99,4.61,0
+981,Ireland,England,The Village,Ireland,1,0,0.333,0.1,0.6,0.439,0.517,166.4,0.429,0.1,0.5,29.1,28.6,7.03,8.39,0
+1129,Sri Lanka,Pakistan,Zayed Cricket Stadium,Sri Lanka,1,0,0.435,0.6,0.7,0.438,0.567,149.3,0.353,1,0.5,26.95,26.8,7.11,6.92,0
+1087,Nepal,West Indies,Sharjah Cricket Stadium,Nepal,1,0,0.5,0.5,0.2,0.557,0.409,155.5,0.6,0.5285,0.5,30.8,32.57,5.97,8.05,1
+1133,Pakistan,India,Dubai International Cricket Stadium,Pakistan,1,0,0.2,0.7,0.8,0.57,0.669,145.2,0.483,0.528,0.615,26.47,39.53,6.92,4.51,0
+1088,Nepal,West Indies,Sharjah Cricket Stadium,Nepal,1,0,1,0.6,0.2,0.561,0.407,155.1,0.625,0.5285,0.5,30.8,32.57,5.97,7.88,1
+1089,Nepal,West Indies,Sharjah Cricket Stadium,Nepal,1,0,1,0.6,0.1,0.566,0.405,156.1,0.647,0.5285,0.333,30.8,32.57,5.9,7.88,0
+1102,New Zealand,Australia,Bay Oval,New Zealand,1,0,0.263,0.9,0.9,0.524,0.565,164.9,0.733,0.6,0.5,43.07,35.27,6.66,7.36,0
+1104,New Zealand,Australia,Bay Oval,New Zealand,1,0,0.238,0.7,0.8,0.519,0.564,157.1,0.647,0.529,0.5,41.83,35.47,6.75,7.38,0
+1160,Namibia,Zimbabwe,Harare Sports Club,Namibia,1,0,0.5,0.8,0.7,0.598,0.406,158.7,0.516,1,0.296,22.99,26.5,6.75,6.64,0
+1079,South Africa,Namibia,Namibia Cricket Ground,South Africa,1,0,0.5,0.4,0.7,0.537,0.59,160.9,0.487,0.5285,1,27.77,22.99,6.94,6.78,0
+1166,Nepal,UAE,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Nepal,1,0,0.5,0.6,0.6,0.569,0.433,148.4,0.378,0.588,0.778,29.8,32.3,5.63,6.58,1
+1167,UAE,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),UAE,1,0,0.556,0.5,0.4,0.426,0.473,148.3,0.387,0.7,0.476,34.23,24.57,6.63,6.29,0
+1169,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),Nepal,1,0,0.625,0.8,0.5,0.577,0.479,147.8,0.39,0.632,0.488,29.8,24.57,5.62,6.29,1
+1106,England,New Zealand,Hagley Oval,England,1,0,0.536,0.6,0.6,0.517,0.515,153.7,0.308,0.5285,0.545,28.6,41.83,8.39,6.59,1
+1139,South Africa,Pakistan,Rawalpindi Cricket Stadium,South Africa,1,-1,0.478,0.3,0.7,0.534,0.568,130.8,0,0.5285,0.5,27.77,26.47,6.94,6.92,1
+1049,India,Australia,Melbourne Cricket Ground,India,1,-1,0.606,0.8,0.7,0.668,0.563,144.6,0.368,0.667,0.6,38.83,35.47,4.67,7.38,0
+1140,South Africa,Pakistan,Gaddafi Stadium,South Africa,1,0,0.5,0.4,0.6,0.537,0.566,173.3,0.615,0.333,0.615,27.77,26.63,6.94,7.04,0
+1141,South Africa,Pakistan,Gaddafi Stadium,South Africa,1,0,0.48,0.3,0.6,0.534,0.567,170.9,0.593,0.25,0.63,27.77,27.13,6.94,7.04,0
+1050,Australia,India,Bellerive Oval,Australia,1,0,0.353,0.7,0.7,0.565,0.665,154.9,0.5,1,0.5,35.13,40.3,7.36,4.67,0
+1108,West Indies,New Zealand,Eden Park,West Indies,1,0,0.25,0.5,0.4,0.416,0.51,166.8,0.433,0,0.333,32.57,41.83,7.83,6.59,1
+1051,India,Australia,Carrara Oval,India,1,0,0.6,0.7,0.6,0.667,0.563,160.9,0.486,0.5285,0.5,40.3,35.5,4.67,7.36,1
+1109,New Zealand,West Indies,Eden Park,New Zealand,1,0,0.476,0.3,0.6,0.508,0.419,166.7,0.452,0.323,0.2,41.83,32.57,6.59,7.83,1
+1110,New Zealand,West Indies,Saxton Oval,New Zealand,1,0,0.5,0.3,0.6,0.51,0.417,160.9,0.487,0.667,0.5,41.67,33.57,6.59,7.93,1
+1112,West Indies,New Zealand,University Oval,West Indies,1,0,0.25,0.5,0.2,0.413,0.51,160.9,0.487,0.5285,1,33.07,41.67,7.91,6.59,0
+1182,UAE,Oman,West End Park International Cricket Stadium,UAE,1,0,0.5,0.4,0.6,0.419,0.479,160.9,0.487,0.5285,0.667,34.83,24.2,6.63,6.29,0
+1142,Zimbabwe,Pakistan,Rawalpindi Cricket Stadium,Zimbabwe,1,-1,0.15,0.8,0.6,0.41,0.569,137.8,0.111,0,0.444,26.1,27.13,6.64,7.04,0
+1143,Zimbabwe,Sri Lanka,Rawalpindi Cricket Stadium,Zimbabwe,1,0,0.25,0.7,0.4,0.407,0.433,138.7,0.1,0,0.5,26.1,26.95,6.59,7.22,1
+1144,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,Sri Lanka,1,-1,0.417,0.4,0.6,0.431,0.57,140.8,0.182,0.5285,0.5,26.95,27.13,7.22,7.04,0
+1145,Pakistan,Zimbabwe,Rawalpindi Cricket Stadium,Pakistan,1,1,0.857,0.7,0.8,0.572,0.411,139.8,0.167,0.545,0.2,27.13,26.63,6.92,6.59,1
+1146,Zimbabwe,Sri Lanka,Rawalpindi Cricket Stadium,Zimbabwe,1,0,0.333,0.7,0.4,0.409,0.429,144,0.231,0.167,0.5,25.5,26.47,6.59,7.13,0
+1147,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,Sri Lanka,1,-1,0.4,0.4,0.7,0.432,0.574,144.1,0.214,0.333,0.583,26.13,28.3,7.13,6.92,1
+1148,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,Sri Lanka,1,-1,0.423,0.5,0.7,0.435,0.571,146.8,0.267,0.5,0.538,28.5,28.3,7.13,6.86,0
+1057,India,South Africa,Barabati Stadium,India,1,0,0.581,0.6,0.3,0.665,0.531,160.9,0.486,0.333,0.5,40.3,27.6,4.67,6.94,1
+1058,South Africa,India,Maharaja Yadavindra Singh International Cricket Stadium,South Africa,1,0,0.375,0.3,0.6,0.529,0.667,160.9,0.486,0.5285,0.5,27.6,38.4,7,4.67,1
+1059,South Africa,India,Himachal Pradesh Cricket Association Stadium,South Africa,1,0,0.394,0.4,0.5,0.531,0.664,145.6,0.444,0.5285,0.667,27.6,38.4,7,4.67,0
+1060,India,South Africa,Narendra Modi Stadium,India,1,1,0.588,0.5,0.3,0.665,0.529,181.2,0.5,0.667,0.5,38.4,27.3,4.67,7,1
+1232,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,Sri Lanka,1,1,0.407,0.4,0.7,0.433,0.573,153.8,0.5,0.5,0.5,28.93,28.9,6.41,6.86,0
+1233,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,Sri Lanka,1,1,0.393,0.3,0.7,0.431,0.575,150.1,0.429,0.429,0.5,26.5,30.47,6.41,6.71,1
+1090,India,New Zealand,Vidarbha Cricket Association Stadium,India,1,0,0.48,0.6,0.3,0.667,0.512,144.8,0.667,0.6,0.5,38.4,41.67,4.67,6.59,1
+1234,Italy,Ireland,7he Sevens Stadium,Italy,1,0,0,0.9,0.2,0.645,0.434,160.9,0.487,0.5285,0.5,28.13,30.1,6.02,6.95,0
+1091,New Zealand,India,Shaheed Veer Narayan Singh International Stadium,New Zealand,1,0,0.385,0.3,0.6,0.51,0.668,160.9,0.487,0.5285,0.5,41.67,40.87,6.84,4.67,0
+1092,New Zealand,India,Barsapara Cricket Stadium,New Zealand,1,0,0.37,0.3,0.7,0.508,0.669,160.9,0.486,0.5285,0.333,41.67,40.87,6.84,4.67,0
+1235,Ireland,Italy,7he Sevens Stadium,Ireland,1,0,1,0.2,0.8,0.438,0.625,160.9,0.486,0.5285,0.5,28.37,27,6.6,5.99,1
+1236,Ireland,Italy,7he Sevens Stadium,Ireland,1,0,1,0.3,0.7,0.441,0.606,160.9,0.486,0.5285,0.5,29.4,28.77,6.57,6.08,0
+1035,West Indies,South Africa,Boland Park,West Indies,1,0,0.538,0.5,0.3,0.411,0.526,160.9,0.486,0.5285,0.5,31.73,26.13,7.93,7,0
+1093,New Zealand,India,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,New Zealand,1,0,0.357,0.3,0.8,0.506,0.671,160.9,0.486,0.5285,0.75,41.67,42.9,6.84,4.67,1
+1239,Pakistan,Australia,Gaddafi Stadium,Pakistan,1,0,0.429,0.7,0.4,0.572,0.558,169.8,0.571,0.643,0.5,28.67,35.5,6.71,7.35,1
+1237,Ireland,UAE,Dubai International Cricket Stadium,Ireland,1,-1,0.364,0.3,0.3,0.438,0.413,145.2,0.477,0.9,0.182,29.4,34.83,6.44,6.63,1
+1036,West Indies,South Africa,SuperSport Park,West Indies,1,0,0.519,0.5,0.3,0.409,0.528,183.9,0.5,0.5285,0.438,31.73,26.13,7.93,7,0
+1179,Sri Lanka,England,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.286,0.3,0.7,0.433,0.517,168,0.481,0.476,0.333,26.43,28.6,6.41,8.39,0
+1240,Pakistan,Australia,Gaddafi Stadium,Pakistan,1,0,0.448,0.8,0.4,0.574,0.555,169.7,0.586,0.655,0.5,29.27,35.5,6.71,7.35,1
+1094,India,New Zealand,Greenfield International Stadium,India,1,0,0.517,0.7,0.4,0.668,0.508,160.9,0.486,0.75,0.5,42.9,41.67,4.67,6.84,1
+1037,West Indies,South Africa,The Wanderers Stadium,West Indies,1,0,0.5,0.4,0.4,0.408,0.531,201.9,0.778,0.5285,0.333,31.67,26.13,7.93,7,1
+1238,Ireland,UAE,Dubai International Cricket Stadium,Ireland,1,-1,0.417,0.4,0.2,0.442,0.406,145.6,0.483,0.909,0.167,29.3,35.1,6.52,6.9,1
+1241,Pakistan,Australia,Gaddafi Stadium,Pakistan,1,0,0.467,0.8,0.3,0.576,0.553,170.7,0.6,0.667,0.333,28.8,35.5,6.71,7.35,1
+1180,Sri Lanka,England,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.267,0.3,0.7,0.431,0.519,166.7,0.464,0.455,0.5,26.33,30.13,6.4,8.39,0
+1181,England,Sri Lanka,Pallekele International Cricket Stadium,England,1,0,0.75,0.7,0.3,0.521,0.429,167.5,0.448,0.6,0.435,30.13,27.07,8.38,6.59,1
+1184,West Indies,Scotland,Eden Gardens,West Indies,1,0,0,0.4,0.3,0.41,0.483,153.7,0.455,0.2,0.5,31.67,34.07,7.93,6.77,1
+1183,Netherlands,Pakistan,Sinhalese Sports Club Ground,Netherlands,1,0,0,0.4,0.8,0.5,0.577,160.9,0.487,0.5285,0.5,31.37,28.8,6.42,6.7,0
+1185,India,USA,Wankhede Stadium,India,1,1,1,0.7,0.6,0.669,0.419,195.5,0.375,0.667,0.5,39.47,31.83,5.67,7.37,1
+1187,Sri Lanka,Ireland,R Premadasa Stadium,Sri Lanka,1,0,1,0.3,0.5,0.427,0.446,145.1,0.417,0.24,0.5,26.71,28.6,6.56,6.42,1
+1186,England,Nepal,Wankhede Stadium,England,1,0,0.5,0.7,0.8,0.523,0.585,191.7,0.444,0.5,0.5,30.13,29.8,7.96,5.62,1
+1189,Oman,Zimbabwe,Sinhalese Sports Club Ground,Oman,1,0,0.5,0.7,0.6,0.485,0.406,160.9,0.488,0.5285,0.5,24.2,25.5,6.29,6.59,0
+1190,South Africa,Canada,Narendra Modi Stadium,South Africa,1,0,0.5,0.4,0.9,0.528,0.569,188.3,0.571,0.5285,0.5,25.63,32.67,7,6.05,1
+1188,Scotland,Italy,Eden Gardens,Scotland,1,0,0.5,0.3,0.7,0.477,0.618,156.1,0.5,0.5285,0.5,34.07,25.43,6.77,6.33,1
+1193,Pakistan,USA,Sinhalese Sports Club Ground,Pakistan,1,0,0,0.8,0.5,0.579,0.406,160.9,0.489,0.5285,0.5,28.8,32.97,6.7,6.02,1
+1191,Namibia,Netherlands,Arun Jaitley Stadium,Namibia,1,0,0.2,0.7,0.4,0.595,0.496,160.9,0.489,0.5285,0.5,22.99,31.37,6.78,6.42,0
+1192,UAE,New Zealand,MA Chidambaram Stadium,UAE,1,0,0.333,0.1,0.4,0.4,0.506,160.9,0.489,0.5285,0.5,35.1,41.67,6.9,6.84,0
+1194,Australia,Ireland,R Premadasa Stadium,Australia,1,0,1,0.2,0.5,0.55,0.443,145.6,0.432,0.778,0,35.5,28.6,7.35,6.67,1
+1195,West Indies,England,Wankhede Stadium,West Indies,1,0,0.474,0.4,0.8,0.413,0.526,190.9,0.5,0.667,0.6,31.67,29.23,7.93,8,1
+1198,India,Namibia,Arun Jaitley Stadium,India,1,0,1,0.8,0.6,0.671,0.588,187.6,0.4,0.5,0.5,37.43,22.99,5.67,6.78,1
+1196,Sri Lanka,Oman,Pallekele International Cricket Stadium,Sri Lanka,1,0,0.5,0.4,0.7,0.43,0.48,166.2,0.467,0.417,0.5,24.8,24.2,6.5,6.29,1
+1197,Nepal,Italy,Wankhede Stadium,Nepal,1,0,0.5,0.8,0.6,0.579,0.6,191.4,0.545,0.5285,0.5,29.8,23.6,5.62,6.52,0
+1199,Zimbabwe,Australia,R Premadasa Stadium,Zimbabwe,1,0,0.333,0.7,0.3,0.41,0.552,146.6,0.447,0.333,0.8,25.5,35.5,6.62,7.35,1
+1200,Canada,UAE,Arun Jaitley Stadium,Canada,1,0,0,0.8,0.1,0.562,0.394,191.2,0.5,0.5285,0.5,31.4,36.13,6.05,6.9,0
+1201,USA,Netherlands,MA Chidambaram Stadium,USA,1,0,0,0.4,0.4,0.394,0.5,160.9,0.489,0.5285,0.5,35.3,31.63,6.47,6.42,1
+1203,Scotland,England,Eden Gardens,Scotland,1,0,0,0.4,0.7,0.483,0.523,160,0.538,0.5285,0.333,36.57,29.73,6.77,8.51,0
+1204,New Zealand,South Africa,Narendra Modi Stadium,New Zealand,1,0,0.389,0.5,0.4,0.508,0.53,191.4,0.625,0.5285,0.5,42.4,25.63,6.72,7,0
+1202,Ireland,Oman,Sinhalese Sports Club Ground,Ireland,1,0,0.667,0.5,0.7,0.44,0.475,160.9,0.49,0.5285,0.5,28.6,24.2,6.67,6.29,1
+1205,Nepal,West Indies,Wankhede Stadium,Nepal,1,0,0.667,0.7,0.4,0.574,0.415,185.7,0.5,0.5285,0.75,29.8,31.67,5.62,7.89,0
+1207,India,Pakistan,R Premadasa Stadium,India,1,0,0.75,0.8,0.8,0.672,0.58,147.1,0.462,0.625,0.714,37.43,28.8,5.66,6.7,1
+1206,USA,Namibia,MA Chidambaram Stadium,USA,1,0,1,0.5,0.6,0.412,0.581,176.4,0.4,0.5285,0.5,36.51,22.99,6.27,6.78,1
+1208,England,Italy,Eden Gardens,England,1,0,0.5,0.7,0.6,0.525,0.611,159.4,0.5,0.5,0.5,29.73,24.63,8.51,6.52,1
+1209,Australia,Sri Lanka,Pallekele International Cricket Stadium,Australia,1,0,0.577,0.2,0.5,0.55,0.433,168.1,0.484,0.25,0.44,35.5,27.33,7.27,6.42,0
+1210,Canada,New Zealand,MA Chidambaram Stadium,Canada,1,0,0.5,0.7,0.4,0.554,0.506,180.2,0.5,0.5285,0.5,29.9,43.47,6.05,6.72,0
+1211,Scotland,Nepal,Wankhede Stadium,Scotland,1,0,0.5,0.4,0.6,0.478,0.569,181.6,0.462,0.5285,0,36.57,29.17,6.89,5.62,0
+1214,India,Netherlands,Narendra Modi Stadium,India,1,1,1,0.9,0.4,0.673,0.496,189.6,0.556,0.714,0.5,35.17,32,5.66,6.42,1
+1212,UAE,South Africa,Arun Jaitley Stadium,UAE,1,0,0.5,0.2,0.5,0.403,0.532,185.3,0.429,0.5285,0.5,34.47,25.63,6.9,7.02,0
+1213,Pakistan,Namibia,Sinhalese Sports Club Ground,Pakistan,1,0,1,0.7,0.6,0.578,0.575,160.9,0.489,0.5285,0.5,28.97,22.99,6.82,6.83,1
+1216,Sri Lanka,Zimbabwe,R Premadasa Stadium,Sri Lanka,1,0,0.7,0.5,0.7,0.435,0.413,147.8,0.475,0.269,0.5,27.49,25.5,6.46,6.62,0
+1215,West Indies,Italy,Eden Gardens,West Indies,1,0,0.5,0.4,0.5,0.418,0.595,162.3,0.533,0.333,0.5,31.67,25.6,7.63,6.72,1
+1217,Oman,Australia,Pallekele International Cricket Stadium,Oman,1,0,0,0.6,0.2,0.47,0.547,168.5,0.469,0.5285,0.2,24.2,35.5,6.29,7.27,0
+1219,South Africa,India,Narendra Modi Stadium,South Africa,1,-1,0.371,0.6,0.9,0.535,0.674,189.9,0.6,0.667,0.75,25.63,35.17,6.9,5.66,1
+1218,England,Sri Lanka,Pallekele International Cricket Stadium,England,1,0,0.765,0.7,0.4,0.528,0.433,166.5,0.455,0.667,0.462,29.73,29.03,8.52,6.5,1
+1220,West Indies,Zimbabwe,Wankhede Stadium,West Indies,1,0,0.75,0.5,0.7,0.42,0.417,180.8,0.429,0.8,0.5,31.67,25.5,7.59,6.62,1
+1221,Pakistan,England,Pallekele International Cricket Stadium,Pakistan,1,0,0.29,0.8,0.8,0.58,0.53,165.9,0.471,0.5285,0.714,32.03,29.73,6.82,8.52,0
+1222,New Zealand,Sri Lanka,R Premadasa Stadium,New Zealand,1,0,0.571,0.4,0.4,0.508,0.431,148.6,0.463,0.5285,0.259,43.47,27.85,6.72,6.5,1
+1223,West Indies,South Africa,Narendra Modi Stadium,West Indies,1,0,0.517,0.6,0.7,0.423,0.537,189.6,0.636,0.5285,0.75,31.67,25.63,7.54,6.9,0
+1224,India,Zimbabwe,MA Chidambaram Stadium,India,1,0,0.769,0.8,0.6,0.672,0.414,179.1,0.429,0.667,0.5,35.17,25.5,5.66,6.62,1
+1225,New Zealand,England,R Premadasa Stadium,New Zealand,1,0,0.333,0.5,0.8,0.51,0.532,149,0.476,1,0.5,43.47,29.73,6.72,8.64,0
+1226,Pakistan,Sri Lanka,Pallekele International Cricket Stadium,Pakistan,1,0,0.586,0.7,0.4,0.577,0.429,165.9,0.457,0.667,0.444,32.03,26.1,6.82,6.43,1
+1228,West Indies,India,Eden Gardens,West Indies,1,0,0.333,0.6,0.8,0.421,0.673,162.4,0.562,0.429,0.875,31.83,35.17,7.54,5.66,0
+1227,Zimbabwe,South Africa,Arun Jaitley Stadium,Zimbabwe,1,0,0,0.5,0.7,0.412,0.539,177.4,0.375,0.5285,0.5,26.43,25,6.62,6.9,0
+1229,South Africa,New Zealand,Eden Gardens,South Africa,1,0,0.632,0.8,0.4,0.541,0.508,164.4,0.529,0.5285,0.5,25,43.47,6.9,6.72,0
+1230,India,England,Wankhede Stadium,India,1,1,0.586,0.8,0.9,0.674,0.534,185.7,0.467,0.714,0.5,37.53,29.73,5.77,8.65,1
+1231,India,New Zealand,Narendra Modi Stadium,India,1,1,0.533,0.8,0.5,0.675,0.51,188.5,0.583,0.667,0.5,37.53,43.47,5.77,6.72,1

@@ -1,0 +1,76 @@
+FACT_DELIVERY COLS:
+  delivery_id
+  match_id
+  inning
+  over_number
+  ball_number
+  batter
+  bowler
+  non_striker
+  runs_batter
+  runs_extras
+  runs_total
+  extra_wides
+  extra_noballs
+  extra_byes
+  extra_legbyes
+  wicket_type
+  player_out
+
+SAMPLE ROWS:
+  delivery_id: 1
+  match_id: 1
+  inning: 1
+  over_number: 0
+  ball_number: 1
+  batter: AJ Finch
+  bowler: SL Malinga
+  non_striker: M Klinger
+  runs_batter: 0
+  runs_extras: 0
+  runs_total: 0
+  extra_wides: 0
+  extra_noballs: 0
+  extra_byes: 0
+  extra_legbyes: 0
+  wicket_type: None
+  player_out: None
+
+  delivery_id: 2
+  match_id: 1
+  inning: 1
+  over_number: 0
+  ball_number: 2
+  batter: AJ Finch
+  bowler: SL Malinga
+  non_striker: M Klinger
+  runs_batter: 0
+  runs_extras: 0
+  runs_total: 0
+  extra_wides: 0
+  extra_noballs: 0
+  extra_byes: 0
+  extra_legbyes: 0
+  wicket_type: None
+  player_out: None
+
+
+vw_phase_analysis COLS: ['match_id', 'match_date', 'venue', 'inning', 'match_phase', 'runs_scored', 'wickets_lost', 'run_rate']
+  match_id: 1
+  match_date: 2017-02-17
+  venue: Melbourne Cricket Ground
+  inning: 1
+  match_phase: Death Overs (15-19)
+  runs_scored: 52
+  wickets_lost: 4
+  run_rate: 10.40
+
+  match_id: 1
+  match_date: 2017-02-17
+  venue: Melbourne Cricket Ground
+  inning: 1
+  match_phase: Middle Overs (6-14)
+  runs_scored: 69
+  wickets_lost: 2
+  run_rate: 7.67
+

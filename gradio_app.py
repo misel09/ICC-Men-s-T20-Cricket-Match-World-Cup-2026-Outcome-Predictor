@@ -110,25 +110,27 @@ def predict_score(batting_team, bowling_team, venue, innings, toss_winner, toss_
     predictions = {}
     for name, model in score_models.items():
         pred = model.predict(df)[0]
-        predictions[name] = float(pred)
+        predictions[name] = int(round(float(pred)))
 
     result = f"""
-Total Runs: {predictions['total_runs']:.1f}
-Powerplay Runs: {predictions['pp_runs']:.1f}
-Middle Overs Runs: {predictions['mid_runs']:.1f}
-Death Overs Runs: {predictions['death_runs']:.1f}
-Powerplay Wickets: {predictions['pp_wickets']:.1f}
-Middle Overs Wickets: {predictions['mid_wickets']:.1f}
-Death Overs Wickets: {predictions['death_wickets']:.1f}
+Total Runs: {predictions['total_runs']}
+Powerplay Runs: {predictions['pp_runs']}
+Middle Overs Runs: {predictions['mid_runs']}
+Death Overs Runs: {predictions['death_runs']}
+Powerplay Wickets: {predictions['pp_wickets']}
+Middle Overs Wickets: {predictions['mid_wickets']}
+Death Overs Wickets: {predictions['death_wickets']}
 """
     return result
+
+from feature_extractor import extractor
 
 # Gradio Interface
 with gr.Blocks(title="Cricket Match Prediction") as demo:
     gr.Markdown("# 🏏 Cricket Match Prediction System")
 
     with gr.Tab("Match Winner Prediction"):
-        gr.Markdown("Predict the winner of a cricket match")
+        gr.Markdown("Predict the winner of a cricket match by simply entering the teams and venue.")
 
         with gr.Row():
             team1 = gr.Textbox(label="Team 1", placeholder="e.g., India")
@@ -136,108 +138,146 @@ with gr.Blocks(title="Cricket Match Prediction") as demo:
 
         with gr.Row():
             venue = gr.Textbox(label="Venue", placeholder="e.g., Melbourne Cricket Ground")
-            first_innings_team = gr.Textbox(label="First Innings Team", placeholder="e.g., India")
-
-        with gr.Row():
-            is_team1_batting_first = gr.Number(label="Is Team 1 Batting First (0/1)", value=1)
-            home_advantage = gr.Number(label="Home Advantage", value=0.0)
-
-        with gr.Row():
-            h2h_win_rate = gr.Number(label="Head-to-Head Win Rate", value=0.5)
-            recent_form_t1 = gr.Number(label="Team 1 Recent Form", value=0.5)
-            recent_form_t2 = gr.Number(label="Team 2 Recent Form", value=0.5)
-
-        with gr.Row():
-            team1_overall_win_rate = gr.Number(label="Team 1 Overall Win Rate", value=0.6)
-            team2_overall_win_rate = gr.Number(label="Team 2 Overall Win Rate", value=0.4)
-
-        with gr.Row():
-            avg_score_venue = gr.Number(label="Average Score at Venue", value=150.0)
-            toss_venue_win_rate = gr.Number(label="Toss Venue Win Rate", value=0.5)
-
-        with gr.Row():
-            venue_win_rate_t1 = gr.Number(label="Venue Win Rate Team 1", value=0.5)
-            venue_win_rate_t2 = gr.Number(label="Venue Win Rate Team 2", value=0.5)
-
-        with gr.Row():
-            t1_top_batsmen_avg = gr.Number(label="Team 1 Top Batsmen Average", value=35.0)
-            t2_top_batsmen_avg = gr.Number(label="Team 2 Top Batsmen Average", value=30.0)
-
-        with gr.Row():
-            t1_top_bowler_econ = gr.Number(label="Team 1 Top Bowler Economy", value=7.0)
-            t2_top_bowler_econ = gr.Number(label="Team 2 Top Bowler Economy", value=8.0)
 
         match_predict_btn = gr.Button("Predict Match Winner")
         match_output = gr.Textbox(label="Prediction Result")
 
+        def simplified_predict_match(t1, t2, ven):
+            if not t1 or not t2 or not ven:
+                return "Please enter Team 1, Team 2, and Venue."
+                
+            features = extractor.get_match_features(t1, t2, ven)
+            EXPECTED_FEATURES = [
+                'team1', 'team2', 'venue', 'first_innings_team', 
+                'h2h_win_rate', 'recent_form_t1', 'recent_form_t2', 
+                'team1_overall_win_rate', 'team2_overall_win_rate', 
+                'avg_score_venue', 'toss_venue_win_rate', 
+                'venue_win_rate_t1', 'venue_win_rate_t2', 
+                't1_top_batsmen_avg', 't2_top_batsmen_avg', 
+                't1_top_bowler_econ', 't2_top_bowler_econ', 
+                'batting_diff', 'bowling_diff', 'recent_form_diff', 
+                'overall_winrate_diff', 'venue_diff', 'batting_ratio', 
+                'bowling_ratio', 'form_ratio', 'winrate_ratio', 
+                'team_strength_diff'
+            ]
+            
+            df = pd.DataFrame([features], columns=EXPECTED_FEATURES)
+            pred_proba = match_model.predict_proba(df)[0]
+            winner_idx = np.argmax(pred_proba)
+            winner = t1 if winner_idx == 0 else t2
+            return f"{winner} (Confidence: {pred_proba[winner_idx]*100:.1f}%)"
+
         match_predict_btn.click(
-            predict_match,
-            inputs=[team1, team2, venue, first_innings_team, is_team1_batting_first,
-                   home_advantage, h2h_win_rate, recent_form_t1, recent_form_t2,
-                   team1_overall_win_rate, team2_overall_win_rate, avg_score_venue,
-                   toss_venue_win_rate, venue_win_rate_t1, venue_win_rate_t2,
-                   t1_top_batsmen_avg, t2_top_batsmen_avg, t1_top_bowler_econ, t2_top_bowler_econ],
+            simplified_predict_match,
+            inputs=[team1, team2, venue],
             outputs=match_output
         )
 
+    with gr.Tab("Playing 11 Prediction"):
+        gr.Markdown("Predict the most likely Playing XI for a team in a specific match setup.")
+
+        with gr.Row():
+            p11_team = gr.Textbox(label="Team", placeholder="e.g., India")
+            p11_opponent = gr.Textbox(label="Opponent", placeholder="e.g., Australia")
+            p11_venue = gr.Textbox(label="Venue", placeholder="e.g., Melbourne Cricket Ground")
+
+        p11_predict_btn = gr.Button("Predict Playing 11")
+        p11_output = gr.Dataframe(headers=["Player Name", "Role", "Probability"], interactive=False)
+
+        def predict_playing_11(team, opponent, venue):
+            if not team or not opponent or not venue:
+                return pd.DataFrame([["Please enter Team, Opponent, and Venue", "", ""]])
+                
+            if playing11_model is None:
+                return pd.DataFrame([["Model not loaded", "", ""]])
+                
+            team_players, team_map, role_map = extractor.get_playing11_features(team, opponent, venue)
+            if team_players.empty:
+                return pd.DataFrame([[f"No data found for team {team} or unable to encode inputs.", "", ""]])
+
+            features = [
+                'team','opponent','venue','player_role','designation',
+                'batting_average', 'strike_rate', 'bowling_economy',
+                'career_total_runs', 'career_wickets',
+                'runs_last_5_matches', 'wickets_last_5_matches',
+                'runs_at_venue', 'wickets_at_venue',
+                'runs_vs_opponent', 'batting_avg_vs_opponent', 'wickets_vs_opponent',
+                'bowling_econ_vs_opponent', 'wickets_last5_vs_opponent',
+                'selection_rate'
+            ]
+            
+            # Predict Probability
+            team_players['prob'] = playing11_model.predict_proba(team_players[features])[:,1]
+            
+            # Aggregate Player Scores
+            players = team_players.groupby(
+                ['player_name','team','player_role']
+            )['prob'].mean().reset_index()
+
+            # Map categories back
+            players['player_role'] = players['player_role'].map(role_map)
+            
+            # Select Top 11
+            playing_xi = players.sort_values('prob', ascending=False).head(11)
+            playing_xi['prob'] = (playing_xi['prob'] * 100).round(1).astype(str) + "%"
+            
+            return playing_xi[['player_name', 'player_role', 'prob']]
+
+        p11_predict_btn.click(
+            predict_playing_11,
+            inputs=[p11_team, p11_opponent, p11_venue],
+            outputs=p11_output
+        )
+
     with gr.Tab("Score Prediction"):
-        gr.Markdown("Predict scores and wickets for different phases of the innings")
+        gr.Markdown("Predict scores and wickets by specifying the batting/bowling teams and venue.")
 
         with gr.Row():
             batting_team = gr.Textbox(label="Batting Team", placeholder="e.g., India")
             bowling_team = gr.Textbox(label="Bowling Team", placeholder="e.g., Australia")
-            venue = gr.Textbox(label="Venue", placeholder="e.g., Melbourne Cricket Ground")
-
-        with gr.Row():
-            innings = gr.Number(label="Innings", value=1)
-            toss_winner = gr.Textbox(label="Toss Winner", placeholder="e.g., India")
-            toss_decision = gr.Textbox(label="Toss Decision", placeholder="bat/field")
-
-        with gr.Row():
-            venue_avg_runs = gr.Number(label="Venue Average Runs", value=150.0)
-            venue_avg_pp_runs = gr.Number(label="Venue PP Average Runs", value=45.0)
-            venue_avg_mid_runs = gr.Number(label="Venue Mid Average Runs", value=70.0)
-            venue_avg_death_runs = gr.Number(label="Venue Death Average Runs", value=35.0)
-
-        with gr.Row():
-            venue_avg_pp_wickets = gr.Number(label="Venue PP Average Wickets", value=1.5)
-            venue_avg_mid_wickets = gr.Number(label="Venue Mid Average Wickets", value=3.0)
-            venue_avg_death_wickets = gr.Number(label="Venue Death Average Wickets", value=2.5)
-
-        with gr.Row():
-            team_avg_runs = gr.Number(label="Team Average Runs", value=160.0)
-            team_avg_pp_runs = gr.Number(label="Team PP Average Runs", value=50.0)
-            team_avg_mid_runs = gr.Number(label="Team Mid Average Runs", value=75.0)
-            team_avg_death_runs = gr.Number(label="Team Death Average Runs", value=35.0)
-
-        with gr.Row():
-            opponent_avg_runs_conceded = gr.Number(label="Opponent Average Runs Conceded", value=140.0)
-            opponent_avg_pp_runs_conceded = gr.Number(label="Opponent PP Runs Conceded", value=40.0)
-            opponent_avg_mid_runs_conceded = gr.Number(label="Opponent Mid Runs Conceded", value=65.0)
-            opponent_avg_death_runs_conceded = gr.Number(label="Opponent Death Runs Conceded", value=35.0)
-
-        with gr.Row():
-            team_last5_avg_runs = gr.Number(label="Team Last 5 Matches Average Runs", value=155.0)
-            opponent_last5_avg_conceded = gr.Number(label="Opponent Last 5 Matches Average Conceded", value=145.0)
-            team_win_rate_vs_opponent = gr.Number(label="Team Win Rate vs Opponent", value=0.6)
-
-        with gr.Row():
-            attack_vs_defense = gr.Number(label="Attack vs Defense", value=1.0)
-            venue_vs_team = gr.Number(label="Venue vs Team", value=1.0)
-            recent_vs_average = gr.Number(label="Recent vs Average", value=1.0)
+            venue_score = gr.Textbox(label="Venue", placeholder="e.g., Melbourne Cricket Ground")
 
         score_predict_btn = gr.Button("Predict Scores")
         score_output = gr.Textbox(label="Prediction Result", lines=8)
 
+        def simplified_predict_score(bat, bowl, ven):
+            if not bat or not bowl or not ven:
+                return "Please enter Batting Team, Bowling Team, and Venue."
+                
+            features = extractor.get_score_features(bat, bowl, ven)
+            args = [
+                bat, bowl, ven,
+                features['innings'],
+                features['toss_winner'],
+                features['toss_decision'],
+                features['venue_avg_runs'],
+                features['venue_avg_pp_runs'],
+                features['venue_avg_mid_runs'],
+                features['venue_avg_death_runs'],
+                features['venue_avg_pp_wickets'],
+                features['venue_avg_mid_wickets'],
+                features['venue_avg_death_wickets'],
+                features['team_avg_runs'],
+                features['team_avg_pp_runs'],
+                features['team_avg_mid_runs'],
+                features['team_avg_death_runs'],
+                features['opponent_avg_runs_conceded'],
+                features['opponent_avg_pp_runs_conceded'],
+                features['opponent_avg_mid_runs_conceded'],
+                features['opponent_avg_death_runs_conceded'],
+                features['team_last5_avg_runs'],
+                features['opponent_last5_avg_conceded'],
+                features['team_win_rate_vs_opponent'],
+                features['attack_vs_defense'],
+                features['venue_vs_team'],
+                features['recent_vs_average']
+            ]
+            
+            return predict_score(*args)
+
         score_predict_btn.click(
-            predict_score,
-            inputs=[batting_team, bowling_team, venue, innings, toss_winner, toss_decision,
-                   venue_avg_runs, venue_avg_pp_runs, venue_avg_mid_runs, venue_avg_death_runs,
-                   venue_avg_pp_wickets, venue_avg_mid_wickets, venue_avg_death_wickets,
-                   team_avg_runs, team_avg_pp_runs, team_avg_mid_runs, team_avg_death_runs,
-                   opponent_avg_runs_conceded, opponent_avg_pp_runs_conceded, opponent_avg_mid_runs_conceded, opponent_avg_death_runs_conceded,
-                   team_last5_avg_runs, opponent_last5_avg_conceded, team_win_rate_vs_opponent,
-                   attack_vs_defense, venue_vs_team, recent_vs_average],
+            simplified_predict_score,
+            inputs=[batting_team, bowling_team, venue_score],
             outputs=score_output
         )
 

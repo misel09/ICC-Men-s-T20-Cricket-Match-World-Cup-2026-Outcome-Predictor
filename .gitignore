@@ -1,9 +1,0 @@
-# Add .env to gitignore so credentials are never committed
-.env
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore data folders and large files
-data/
-*.csv
