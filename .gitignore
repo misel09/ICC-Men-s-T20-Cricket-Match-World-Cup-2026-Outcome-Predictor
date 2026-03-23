@@ -1,0 +1,44 @@
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Data and Models (if they should be ignored, usually large files)
+# feature_dataset_v3.csv
+# playing11_dataset.csv
+# score_prediction_training_v3.csv
+# models/*.cbm
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
