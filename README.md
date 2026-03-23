@@ -1,33 +1,79 @@
-# Cricket Match Prediction System
+# 🏏 ICC Men's T20 World Cup Winning Prediction
 
-An interactive web application for predicting cricket match outcomes, playing 11 selections, and score predictions using machine learning models.
+A comprehensive machine learning platform for predicting ICC Men's T20 World Cup outcomes, including match winners, optimal playing 11, and phase-specific score progression (runs and wickets).
 
-## Features
+## 🚀 Overview
 
-- **Match Winner Prediction**: Predict which team will win based on various match features
-- **Score Prediction**: Predict runs and wickets for different phases of the innings (Powerplay, Middle, Death overs)
+This project implements an end-to-end data pipeline from raw match data (JSON) to high-performance predictive models. It features multiple interfaces including a FastAPI backend, a Gradio web UI for "what-if" analysis, and a Streamlit dashboard for data exploration.
 
-## How to Use
+## ✨ Key Features
 
-1. **Match Prediction Tab**:
-   - Enter team names, venue, and various statistical features
-   - Click "Predict Match Winner" to get the predicted winner and probability
+- **🏆 Match Winner Prediction**: Predict the probability of a team winning based on historical performance, head-to-head stats, and venue data.
+- **🏏 Phase-Specific Score Forecasting**: Predict runs and wickets across different innings phases:
+  - **Powerplay** (0-6 overs)
+  - **Middle** (6-15 overs) 
+  - **Death** (15-20 overs)
+- **📋 Playing 11 Optimization**: Recommends the strongest lineup for a given match-up.
+- **🔄 Automated ETL Pipeline**: Watchdog-based ingestion that automatically processes new match data from Cricsheet.
+- **📊 Interactive Dashboards**: Real-time visualization of team and player statistics.
 
-2. **Score Prediction Tab**:
-   - Enter batting/bowling teams, venue, and performance statistics
-   - Click "Predict Scores" to get predictions for different innings phases
+## 🛠️ Tech Stack
 
-## Models
+- **ML Framework**: [CatBoost](https://catboost.ai/) (Gradient Boosting)
+- **APIs & UI**: FastAPI, Gradio, Streamlit
+- **Data Engine**: PostgreSQL, SQLAlchemy, Pandas, NumPy
+- **Utilities**: RapidFuzz (Name matching), Watchdog (File monitoring), Docker
 
-The application uses pre-trained CatBoost models for predictions:
-- Match outcome prediction
-- Score prediction across different overs phases
+## 📁 Project Structure
 
-## Data Requirements
+```text
+├── models/                     # Pre-trained .cbm model binaries
+├── backend/                    # Streamlit dashboards and DB inspection
+├── data/                       # Raw Cricsheet JSON match data
+├── etl.py                      # Main ETL logic (JSON -> PostgreSQL)
+├── match_names.py              # Fuzzy matching for player/team names
+├── build_features.py           # Feature engineering for match prediction
+├── build_score_context.py      # Feature engineering for score prediction
+├── app.py                      # FastAPI backend entry point
+├── gradio_app.py               # Gradio web interface
+└── run_pipeline.bat            # Windows automation script
+```
 
-The predictions require various cricket statistics as input. In a real application, these would be fetched from a database or API, but here they're entered manually for demonstration.
+## 🚀 Getting Started
+
+### 1. Installation
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Environment Setup
+Create a `.env` file in the root directory with your PostgreSQL credentials:
+```env
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=cricket_db
+```
+
+### 3. Running the Pipeline
+To ingest data and update features:
 ```bash
 ./run_pipeline.bat
 ```
 
-This processes cricket data and updates the database for model training.
+### 4. Launching the Apps
+- **Gradio UI**: `python gradio_app.py`
+- **FastAPI Backend**: `python app.py`
+- **Streamlit Dashboard**: `streamlit run backend/streamlit_app.py`
+
+## 🧠 Model Architecture
+
+The system uses a suite of specialized CatBoost models:
+- `cricket_match_predictor.cbm`: Core classification model.
+- `pp_runs_model.cbm` / `pp_wickets_model.cbm`: Powerplay dynamics.
+- `mid_runs_model.cbm` / `mid_wickets_model.cbm`: Middle-overs strategy.
+- `death_runs_model.cbm` / `death_wickets_model.cbm`: Death-overs finishing.
+
+---
+*Developed for the ICC Men's T20 World Cup Prediction Challenge.*
